@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Imóveis</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Imobiliária</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="imoveis.html" class="active">Imóveis</a>
+      <a href="vender.html">Avaliar imóvel</a>
+    </nav>
+  </header>
+  <main>
+    <section class="search-section">
+      <form id="searchForm">
+        <input type="text" id="searchInput" placeholder="Pesquisar localização ou tipologia" />
+        <select id="countySelect">
+          <option value="">Todos os concelhos</option>
+        </select>
+        <select id="typologySelect">
+          <option value="">Todas as tipologias</option>
+        </select>
+        <button type="submit">Pesquisar</button>
+      </form>
+    </section>
+    <section id="listing" class="listing"></section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Imobiliária</p>
+  </footer>
+  <script src="scripts.js"></script>
+  <script>
+    // Load data from JSON file and populate counties and typologies
+    let propertiesData = [];
+    function populateFilters(data) {
+      const countySelect = document.getElementById('countySelect');
+      const typologySelect = document.getElementById('typologySelect');
+      const counties = new Set();
+      const typologies = new Set();
+      data.forEach(p => {
+        if (p.location && p.location.county) counties.add(p.location.county);
+        if (p.typology) typologies.add(p.typology);
+      });
+      counties.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c;
+        opt.textContent = c;
+        countySelect.appendChild(opt);
+      });
+      typologies.forEach(t => {
+        const opt = document.createElement('option');
+        opt.value = t;
+        opt.textContent = t;
+        typologySelect.appendChild(opt);
+      });
+    }
+    function renderProperties(list) {
+      const container = document.getElementById('listing');
+      container.innerHTML = '';
+      if (list.length === 0) {
+        container.innerHTML = '<p>Não foram encontrados imóveis.</p>';
+        return;
+      }
+      list.forEach(p => {
+        const card = document.createElement('div');
+        card.className = 'property-card';
+        const imgSrc = (p.media && p.media.length > 0 && p.media[0].url) ? p.media[0].url : 'https://via.placeholder.com/300x200?text=Sem+imagem';
+        card.innerHTML = `
+          <a href="property.html?slug=${encodeURIComponent(p.slug)}">
+            <img src="${imgSrc}" alt="${p.title}" />
+            <h3>${p.title}</h3>
+            <p class="price">${Number(p.price).toLocaleString('pt-PT',{ style:'currency', currency:'EUR' })}</p>
+            <p class="location">${p.location.county}, ${p.location.district}</p>
+          </a>`;
+        container.appendChild(card);
+      });
+    }
+    function applyFilters() {
+      const q = document.getElementById('searchInput').value.trim().toLowerCase();
+      const county = document.getElementById('countySelect').value;
+      const typology = document.getElementById('typologySelect').value;
+      let filtered = propertiesData;
+      if (county) filtered = filtered.filter(p => p.location && p.location.county === county);
+      if (typology) filtered = filtered.filter(p => p.typology === typology);
+      if (q) filtered = filtered.filter(p => p.title.toLowerCase().includes(q) || (p.location.county && p.location.county.toLowerCase().includes(q)) || (p.location.district && p.location.district.toLowerCase().includes(q)));
+      renderProperties(filtered);
+    }
+    fetch('data/properties.json')
+      .then(res => res.json())
+      .then(data => {
+        propertiesData = data;
+        populateFilters(data);
+        // fill from query params
+        const params = getQueryParams();
+        document.getElementById('searchInput').value = params.q || '';
+        document.getElementById('countySelect').value = params.county || '';
+        document.getElementById('typologySelect').value = params.typology || '';
+        applyFilters();
+      });
+    document.getElementById('searchForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const qVal = document.getElementById('searchInput').value.trim();
+      const cVal = document.getElementById('countySelect').value;
+      const tVal = document.getElementById('typologySelect').value;
+      const newParams = new URLSearchParams();
+      if (qVal) newParams.set('q', qVal);
+      if (cVal) newParams.set('county', cVal);
+      if (tVal) newParams.set('typology', tVal);
+      history.pushState(null, '', window.location.pathname + (newParams.toString() ? '?' + newParams.toString() : ''));
+      applyFilters();
+    });
+  </script>
+</body>
+</html>
