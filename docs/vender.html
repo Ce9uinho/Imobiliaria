@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Avalie o seu imóvel</title>
   <link rel="stylesheet" href="styles.css"/>
@@ -11,6 +11,8 @@
     .block{display:block;margin:.75rem 0 .25rem}
     .status{margin:.5rem 0;color:#0c4a6e}
     .card{background:#fff;border:1px solid #eee;border-radius:12px;padding:1rem;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+    .muted{color:#6b7280}
+    #debug{white-space:pre-wrap;background:#0b1020;color:#cde3ff;padding:.75rem;border-radius:10px;font-family:ui-monospace,monospace;font-size:.9rem}
   </style>
 </head>
 <body>
@@ -24,43 +26,40 @@
   </nav>
 </header>
 
-<main id="evaluation-page" class="container">
+<main class="container">
   <section class="hero">
     <h2>Avalie o seu imóvel em segundos</h2>
-    <p>Estimativa automática baseada nos teus comparáveis — sem sair do site.</p>
+    <p>Estimativa automática baseada nos teus comparáveis. IA de fotos quando disponível.</p>
   </section>
 
   <section class="evaluation-form">
     <h3>Detalhes do imóvel</h3>
     <form id="valuationForm">
-      <input type="text" id="address" placeholder="Morada (ex.: Lisboa, Porto…)" required />
+      <input type="text" id="address" placeholder="Morada (ex.: Lisboa, Porto…)" required/>
       <select id="typology" required>
         <option value="">Tipologia</option>
-        <option value="T0">T0</option><option value="T1">T1</option>
-        <option value="T2">T2</option><option value="T3">T3</option>
-        <option value="T4">T4</option><option value="Moradia">Moradia</option>
-        <option value="Terreno">Terreno</option>
+        <option>T0</option><option>T1</option><option>T2</option>
+        <option>T3</option><option>T4</option><option>Moradia</option>
       </select>
-      <input type="number" id="areaUseful" placeholder="Área útil (m²)" required />
-      <input type="number" id="yearBuilt" placeholder="Ano de construção" />
-
+      <input type="number" id="areaUseful" placeholder="Área útil (m²)" required/>
+      <input type="number" id="yearBuilt" placeholder="Ano de construção"/>
       <div class="features-checkboxes">
-        <label><input type="checkbox" value="garagem" /> Garagem</label>
-        <label><input type="checkbox" value="elevador" /> Elevador</label>
-        <label><input type="checkbox" value="varanda" /> Varanda</label>
-        <label><input type="checkbox" value="jardim" /> Jardim</label>
-        <label><input type="checkbox" value="suite" /> Suite</label>
+        <label><input type="checkbox" value="garagem"/> Garagem</label>
+        <label><input type="checkbox" value="elevador"/> Elevador</label>
+        <label><input type="checkbox" value="varanda"/> Varanda</label>
+        <label><input type="checkbox" value="jardim"/> Jardim</label>
+        <label><input type="checkbox" value="suite"/> Suite</label>
       </div>
 
-      <label class="block">Fotos do imóvel (até 12):</label>
-      <input type="file" id="photos" accept="image/*" multiple />
+      <label class="block">Fotos do imóvel (até 6):</label>
+      <input type="file" id="photos" accept="image/*" multiple/>
       <div id="photoPreview" class="thumbs"></div>
 
       <h3>Contacto</h3>
-      <input type="text" id="ownerName" placeholder="O seu nome" required />
-      <input type="email" id="ownerEmail" placeholder="Email" required />
-      <input type="tel" id="ownerPhone" placeholder="Telefone" />
-      <label class="gdpr"><input type="checkbox" id="ownerConsent" required /> Concordo com o tratamento dos meus dados.</label>
+      <input type="text" id="ownerName" placeholder="O seu nome" required/>
+      <input type="email" id="ownerEmail" placeholder="Email" required/>
+      <input type="tel" id="ownerPhone" placeholder="Telefone"/>
+      <label class="gdpr"><input type="checkbox" id="ownerConsent" required/> Concordo com o tratamento dos meus dados.</label>
 
       <button type="submit">Obter avaliação</button>
       <p id="valuationStatus" class="status"></p>
@@ -72,341 +71,191 @@
     <p><strong id="estMain"></strong></p>
     <p>Intervalo provável: <span id="estRange"></span></p>
     <p class="muted">
-      Baseado em <span id="estComps"></span> comparáveis, ajustes e análise (heurística) das fotos.
-      Considera também o desconto típico de anúncios inflacionados.
+      Baseado em <span id="estComps"></span> comparáveis, ajustes e (se disponível) análise de fotos no teu dispositivo.
     </p>
+    <div id="aiReport" class="card" style="margin-top:.75rem; display:none">
+      <h4>Relatório da análise</h4>
+      <p id="aiReportTxt" class="muted"></p>
+    </div>
   </section>
 
-  <section class="faq">
-    <h3>Perguntas frequentes</h3>
-    <details><summary>De onde vêm os dados?</summary><p>Da tua base `data/properties.json` servida pelo GitHub Pages.</p></details>
-    <details><summary>As fotos são analisadas?</summary><p>Nesta versão, uma heurística simples pelos nomes dos ficheiros (ex.: “quarto-precisa-obras.jpg”).</p></details>
+  <section>
+    <h3>Debug</h3>
+    <div id="debug">–</div>
   </section>
 </main>
 
 <footer><p>&copy; 2025 Imobiliária</p></footer>
 
+<!-- ===== Script com fallback garantido ===== -->
 <script>
-const fmtEUR = n => Number(n).toLocaleString('pt-PT',{style:'currency',currency:'EUR'});
+window.addEventListener('DOMContentLoaded', () => {
+  const $ = s => document.querySelector(s);
+  const log = (m) => { const el = $('#debug'); el.textContent += (el.textContent==='–'?'': '\\n') + m; };
+  const setStatus = (t) => { const el = $('#valuationStatus'); if (el) el.textContent = t||''; };
+  const fmtEUR = n => Number(n).toLocaleString('pt-PT',{style:'currency',currency:'EUR'});
+  const INFLATION_DISCOUNT = 0.10;
 
-// Preview das fotos
-document.getElementById('photos').addEventListener('change', (e) => {
-  const preview = document.getElementById('photoPreview');
-  preview.innerHTML = '';
-  const files = Array.from(e.target.files).slice(0,12);
-  files.forEach(f => {
-    const img = document.createElement('img');
-    img.alt = f.name; img.title = f.name;
-    const fr = new FileReader();
-    fr.onload = () => img.src = fr.result;
-    fr.readAsDataURL(f);
-    preview.appendChild(img);
-  });
-});
-
-function getCheckedFeatures(){
-  return Array.from(document.querySelectorAll('.features-checkboxes input:checked')).map(i=>i.value);
-}
-
-async function estimateLocal(input){
-  // Lê os teus comparáveis (docs/data/properties.json)
-  const res = await fetch('data/properties.json');
-  const props = await res.json();
-
-  const area = Number(input.areaUseful||0);
-  if (!area) throw new Error('Área inválida');
-
-  // 1) comparáveis por tipologia e área (±30%)
-  let comps = props.filter(p =>
-    p && Number(p.area)>0 && Number(p.price)>0 &&
-    (!input.typology || p.typology === input.typology) &&
-    p.area >= area*0.7 && p.area <= area*1.3
-  );
-
-  // 2) heurística de localização muito simples
-  const key = (input.address||'').toLowerCase();
-  if (key) {
-    const hit = s => (s||'').toLowerCase().includes(key);
-    const loc = comps.filter(p => hit(p.title) || hit(p.description) || hit(p.location?.city));
-    if (loc.length >= 4) comps = loc;
-  }
-
-  // 3) se faltarem comps, alarga
-  if (comps.length < 5) comps = props.filter(p => !input.typology || p.typology === input.typology);
-  if (comps.length < 5) comps = props.filter(p => Number(p.area)>0 && Number(p.price)>0);
-
-  // 4) ppm e quartis
-  const ppms = comps.map(p => p.price / p.area).sort((a,b)=>a-b);
-  const pick = q => ppms[Math.max(0, Math.min(ppms.length-1, Math.floor(ppms.length*q)))];
-  const q1=pick(0.25), med=pick(0.50), q3=pick(0.75);
-
-  // 5) ajustes: inflação -10% + ano + features + condição pelas fotos (nomes)
-  let adj = 1 - 0.10; // anúncios tendem a estar inflacionados
-  if (Number(input.yearBuilt) >= 2010) adj += 0.05;
-  const f = new Set((input.features||[]).map(s=>s.toLowerCase()));
-  if (f.has('elevador')) adj += 0.03;
-  if (f.has('garagem'))  adj += 0.04;
-  if (f.has('varanda'))  adj += 0.02;
-  if (f.has('jardim'))   adj += 0.03;
-  if (f.has('suite'))    adj += 0.02;
-
-  let condAdj = 0;
-  const photoNames = (input.photoNames||[]).map(n=>n.toLowerCase());
-  if (photoNames.some(n => /obra|degrad|ruina|humid|mofo/.test(n))) condAdj -= 0.15;
-  adj += condAdj;
-
-  const est  = med * area * adj;
-  const low  = q1*0.95 * area * adj;
-  const high = q3*1.05 * area * adj;
-
-  return { estimate: Math.round(est), low: Math.round(low), high: Math.round(high), compsCount: comps.length };
-}
-
-// Submissão do formulário
-document.getElementById('valuationForm').addEventListener('submit', async (e)=>{
-  e.preventDefault();
-  const status = document.getElementById('valuationStatus');
-  const result = document.getElementById('valuationResult');
-  status.textContent = 'A calcular…';
-  result.style.display = 'none';
-
-  const files = Array.from(document.getElementById('photos').files||[]).slice(0,12);
-  const input = {
-    address: document.getElementById('address').value,
-    typology: document.getElementById('typology').value,
-    areaUseful: document.getElementById('areaUseful').value,
-    yearBuilt: document.getElementById('yearBuilt').value,
-    features: getCheckedFeatures(),
-    photoNames: files.map(f=>f.name) // heurística por nome
-  };
-
-  try{
-    const data = await estimateLocal(input); // só com os teus dados (sem API externa)
-    document.getElementById('estMain').textContent  = fmtEUR(data.estimate);
-    document.getElementById('estRange').textContent = `${fmtEUR(data.low)} – ${fmtEUR(data.high)}`;
-    document.getElementById('estComps').textContent = data.compsCount ?? '—';
-    status.textContent = '';
-    result.style.display = 'block';
-  }catch(err){
-    console.error(err);
-    status.textContent = 'Não foi possível calcular agora. Tenta novamente.';
-  }
-});
-<script type="module">
-/* ======= GRÁTIS: análise de fotos no browser com transformers.js (CLIP) ======= */
-import { pipeline } from "https://cdn.jsdelivr.net/npm/@xenova/transformers@2.15.0";
-
-const fmtEUR = n => Number(n).toLocaleString('pt-PT',{style:'currency',currency:'EUR'});
-
-// Etiquetas que queremos “detectar” nas fotos (zero-shot)
-const LABELS = [
-  { text: "mold, mildew, damp, humidity stain",    baseDeduct: 0.07, reason: "Humidade/bolor" },
-  { text: "water leak, water stain, leakage",      baseDeduct: 0.06, reason: "Infiltrações/manchas de água" },
-  { text: "peeling paint, flaking paint",          baseDeduct: 0.04, reason: "Tinta a descascar" },
-  { text: "crack, cracks in wall or ceiling",      baseDeduct: 0.05, reason: "Fissuras visíveis" },
-  { text: "rust, corrosion",                        baseDeduct: 0.03, reason: "Ferrugem/corrosão" }
-];
-const MAX_IMAGE_DEDUCT = 0.25;     // tecto de dedução por fotos
-const INFLATION_DISCOUNT = 0.10;   // −10% por inflação dos anúncios
-
-let classifier; // pipeline zero-shot lazy
-async function ensureModel() {
-  if (!classifier) {
-    setStatus("A carregar modelo de IA (primeira vez pode demorar)...");
-    // Modelo pequeno e rápido suficiente para zero-shot
-    classifier = await pipeline("zero-shot-image-classification", "Xenova/clip-vit-base-patch32");
-  }
-}
-
-function setStatus(msg) {
-  const el = document.getElementById('valuationStatus');
-  if (el) el.textContent = msg || '';
-}
-
-// Converte File para ImageBitmap/HTMLImageElement
-function fileToImage(file) {
-  return new Promise((resolve, reject) => {
-    const fr = new FileReader();
-    fr.onload = () => {
-      const img = new Image();
-      img.onload = () => resolve(img);
-      img.onerror = reject;
-      img.src = fr.result;
-    };
-    fr.onerror = reject;
-    fr.readAsDataURL(file);
-  });
-}
-
-// Analisa até N fotos com CLIP zero-shot
-async function analyzePhotos(files, maxPhotos = 6) {
-  if (!files.length) return { imageDeduct: 0, reasons: ["• Nenhuma foto enviada: sem ajustes por condição."] };
-
-  await ensureModel();
-
-  const reasons = [];
-  let totalDeduct = 0;
-
-  const subset = files.slice(0, maxPhotos);
-  let analyzed = 0;
-  for (const f of subset) {
-    analyzed++;
-    setStatus(`A analisar fotos (${analyzed}/${subset.length})…`);
-
-    const image = await fileToImage(f);
-    // Para cada foto, pedimos probabilidade para cada label
-    const labels = LABELS.map(l => l.text);
-    const results = await classifier(image, labels); // [{label, score},...]
-
-    // Mapeamos label->dedução ponderada pela confiança
-    results.forEach((r, idx) => {
-      const rule = LABELS[idx];
-      const weight = Math.max(0.5, Math.min(1, r.score)); // 0.5–1.0
-      const d = rule.baseDeduct * weight;
-      if (r.score >= 0.35) { // limiar conservador
-        reasons.push(`• ${rule.reason}: -${(d*100).toFixed(0)}% (conf.: ${(r.score*100|0)}%)`);
-        totalDeduct += d;
-      }
+  // Preview de fotos
+  $('#photos')?.addEventListener('change', (e)=>{
+    const preview = $('#photoPreview'); if (!preview) return;
+    preview.innerHTML = '';
+    Array.from(e.target.files||[]).slice(0,6).forEach(f=>{
+      const img = document.createElement('img'); img.alt=f.name; img.title=f.name;
+      const fr = new FileReader(); fr.onload = ()=> img.src = fr.result; fr.readAsDataURL(f);
+      preview.appendChild(img);
     });
-  }
-
-  totalDeduct = Math.min(totalDeduct, MAX_IMAGE_DEDUCT);
-  if (!reasons.length) reasons.push("• Não foram detectados sinais claros de humidade/obras.");
-
-  return { imageDeduct: totalDeduct, reasons };
-}
-
-// Carrega e pré-visualiza fotos (já tens isto, mantemos)
-document.getElementById('photos')?.addEventListener('change', (e) => {
-  const preview = document.getElementById('photoPreview');
-  if (!preview) return;
-  preview.innerHTML = '';
-  const files = Array.from(e.target.files || []).slice(0,12);
-  files.forEach(f => {
-    const img = document.createElement('img');
-    img.alt = f.name; img.title = f.name;
-    const fr = new FileReader();
-    fr.onload = () => img.src = fr.result;
-    fr.readAsDataURL(f);
-    preview.appendChild(img);
   });
-});
 
-// Estimativa local (com os teus dados)
-async function estimateLocal(input, imageDeduct, imageReasons) {
-  const res = await fetch('data/properties.json');
-  const props = await res.json();
-
-  const area = Number(input.areaUseful||0);
-  if (!area) throw new Error('Área inválida');
-
-  let comps = props.filter(p =>
-    p && Number(p.area)>0 && Number(p.price)>0 &&
-    (!input.typology || p.typology === input.typology) &&
-    p.area >= area*0.7 && p.area <= area*1.3
-  );
-
-  const key = (input.address||'').toLowerCase();
-  if (key) {
-    const hit = s => (s||'').toLowerCase().includes(key);
-    const loc = comps.filter(p => hit(p.title) || hit(p.description) || hit(p.location?.city));
-    if (loc.length >= 4) comps = loc;
+  function getCheckedFeatures(){
+    return Array.from(document.querySelectorAll('.features-checkboxes input:checked')).map(i=>i.value);
   }
 
-  if (comps.length < 5) comps = props.filter(p => !input.typology || p.typology === input.typology);
-  if (comps.length < 5) comps = props.filter(p => Number(p.area)>0 && Number(p.price)>0);
+  async function estimateLocal(input, imageAdj = {deduct:0, reasons:[]}) {
+    log('A carregar dados: docs/data/properties.json');
+    const res = await fetch('data/properties.json?bust=' + Date.now());
+    if (!res.ok) throw new Error('Falha a ler dados ('+res.status+')');
+    const props = await res.json();
+    log('Total de imóveis carregados: ' + props.length);
 
-  const ppms = comps.map(p => p.price / p.area).sort((a,b)=>a-b);
-  const pick = q => ppms[Math.max(0, Math.min(ppms.length-1, Math.floor(ppms.length*q)))];
-  const q1=pick(0.25), med=pick(0.50), q3=pick(0.75);
+    const area = Number(input.areaUseful||0);
+    if (!area) throw new Error('Área inválida');
 
-  // Ajustes: inflação + ano + features + dedução por fotos (capado)
-  let adj = 1 - INFLATION_DISCOUNT;
-  if (Number(input.yearBuilt) >= 2010) adj += 0.05;
-  const f = new Set((input.features||[]).map(s=>s.toLowerCase()));
-  if (f.has('elevador')) adj += 0.03;
-  if (f.has('garagem'))  adj += 0.04;
-  if (f.has('varanda'))  adj += 0.02;
-  if (f.has('jardim'))   adj += 0.03;
-  if (f.has('suite'))    adj += 0.02;
+    let comps = props.filter(p =>
+      p && Number(p.area)>0 && Number(p.price)>0 &&
+      (!input.typology || p.typology === input.typology) &&
+      p.area >= area*0.7 && p.area <= area*1.3
+    );
+    log('Comps após tipologia+área: ' + comps.length);
 
-  adj = Math.max(0.5, adj - (imageDeduct||0));
-
-  const est  = med * area * adj;
-  const low  = q1*0.95 * area * adj;
-  const high = q3*1.05 * area * adj;
-
-  // Monta relatório
-  const report = [];
-  if (imageReasons?.length) report.push(...imageReasons);
-  report.push(`• Ajuste por inflação de anúncios: -${(INFLATION_DISCOUNT*100)}%`);
-  if (Number(input.yearBuilt) >= 2010) report.push('• Imóvel mais recente (≥2010): +5%');
-  if (f.size) report.push(`• Características: ${[...f].join(', ')}.`);
-
-  return {
-    estimate: Math.round(est),
-    low: Math.round(low),
-    high: Math.round(high),
-    compsCount: comps.length,
-    report
-  };
-}
-
-function getCheckedFeatures(){
-  return Array.from(document.querySelectorAll('.features-checkboxes input:checked')).map(i=>i.value);
-}
-
-// Submissão do formulário: análise de fotos + estimação
-document.getElementById('valuationForm')?.addEventListener('submit', async (e)=>{
-  e.preventDefault();
-  const status = document.getElementById('valuationStatus');
-  const result = document.getElementById('valuationResult');
-  setStatus('A analisar fotos e a calcular…');
-  result.style.display = 'none';
-
-  const files = Array.from(document.getElementById('photos')?.files || []).slice(0,12);
-
-  try {
-    // 1) IA local nas fotos (grátis)
-    const { imageDeduct, reasons } = await analyzePhotos(files);
-
-    // 2) Estimativa com dados locais
-    const payload = {
-      address: document.getElementById('address').value,
-      typology: document.getElementById('typology').value,
-      areaUseful: document.getElementById('areaUseful').value,
-      yearBuilt: document.getElementById('yearBuilt').value,
-      features: getCheckedFeatures()
-    };
-    const data = await estimateLocal(payload, imageDeduct, reasons);
-
-    // 3) Output
-    document.getElementById('estMain').textContent  = fmtEUR(data.estimate);
-    document.getElementById('estRange').textContent = `${fmtEUR(data.low)} – ${fmtEUR(data.high)}`;
-    document.getElementById('estComps').textContent = data.compsCount ?? '—';
-
-    // relatório
-    const repHtml = (data.report || []).join('<br>');
-    let repBox = document.getElementById('aiReport');
-    if (!repBox) {
-      const div = document.createElement('div');
-      div.id = 'aiReport';
-      div.className = 'card';
-      div.style.marginTop = '0.75rem';
-      div.innerHTML = `<h4>Relatório da análise</h4><p class="muted">${repHtml}</p>`;
-      result.appendChild(div);
-    } else {
-      repBox.innerHTML = `<h4>Relatório da análise</h4><p class="muted">${repHtml}</p>`;
+    const key = (input.address||'').toLowerCase();
+    if (key){
+      const hit = s => (s||'').toLowerCase().includes(key);
+      const loc = comps.filter(p => hit(p.title)||hit(p.description)||hit(p.location?.city));
+      if (loc.length >= 4) { comps = loc; log('Heurística de localização aplicada.'); }
     }
+    if (comps.length < 5) { comps = props.filter(p=>!input.typology || p.typology===input.typology); log('Alargado por tipologia: '+comps.length); }
+    if (comps.length < 5) { comps = props.filter(p=>Number(p.area)>0 && Number(p.price)>0); log('Fallback a todos: '+comps.length); }
 
-    setStatus('');
-    result.style.display = 'block';
-  } catch (err) {
-    console.error(err);
-    setStatus('Falhou a análise. Tenta novamente.');
+    const ppms = comps.map(p => p.price / p.area).sort((a,b)=>a-b);
+    const pick = q => ppms[Math.max(0, Math.min(ppms.length-1, Math.floor(ppms.length*q)))];
+    const q1=pick(0.25), med=pick(0.50), q3=pick(0.75);
+
+    let adj = 1 - INFLATION_DISCOUNT;
+    if (Number(input.yearBuilt) >= 2010) adj += 0.05;
+    const f = new Set((input.features||[]).map(s=>s.toLowerCase()));
+    if (f.has('elevador')) adj += 0.03;
+    if (f.has('garagem'))  adj += 0.04;
+    if (f.has('varanda'))  adj += 0.02;
+    if (f.has('jardim'))   adj += 0.03;
+    if (f.has('suite'))    adj += 0.02;
+
+    const imgDeduct = Math.min(0.25, imageAdj.deduct||0);
+    adj = Math.max(0.5, adj - imgDeduct);
+
+    const est = med * area * adj;
+    const low = q1*0.95 * area * adj;
+    const high= q3*1.05 * area * adj;
+
+    log(`Ajuste final: ${adj.toFixed(3)} (incl. fotos: -${(imgDeduct*100).toFixed(0)}%)`);
+    return {
+      estimate: Math.round(est),
+      low: Math.round(low),
+      high: Math.round(high),
+      compsCount: comps.length,
+      report: [
+        ...(imageAdj.reasons?.length ? imageAdj.reasons : ['• IA de fotos indisponível ou sem indícios.']),
+        `• Ajuste por inflação de anúncios: -${(INFLATION_DISCOUNT*100)}%`,
+        ...(Number(input.yearBuilt)>=2010 ? ['• Imóvel mais recente (≥2010): +5%'] : []),
+        ...(f.size ? [`• Características: ${[...f].join(', ')}.`] : [])
+      ]
+    };
   }
+
+  async function analyzePhotosOrFallback(files){
+    // Tenta IA no browser com import dinâmico (se falhar, regressa a 0)
+    if (!files.length) return { deduct:0, reasons:['• Sem fotos: sem ajustes por condição.'] };
+    try {
+      setStatus('A carregar IA de fotos (se demorar, seguimos sem IA)…');
+      const mod = await import('https://cdn.jsdelivr.net/npm/@xenova/transformers@2.15.0');
+      const clf = await mod.pipeline('zero-shot-image-classification', 'Xenova/clip-vit-base-patch32');
+      setStatus('A analisar fotos…');
+
+      const LABELS = [
+        { text: "mold, mildew, damp, humidity stain", base:0.07, reason:"Humidade/bolor" },
+        { text: "water leak, water stain, leakage",   base:0.06, reason:"Infiltrações/manchas de água" },
+        { text: "peeling paint, flaking paint",       base:0.04, reason:"Tinta a descascar" },
+        { text: "crack, cracks in wall or ceiling",   base:0.05, reason:"Fissuras visíveis" }
+      ];
+      const subset = files.slice(0,6);
+      let total=0; const reasons=[];
+      // util: File -> Image
+      const fileToImage = (file)=>new Promise((resolve,reject)=>{
+        const fr = new FileReader();
+        fr.onload = ()=>{ const img=new Image(); img.onload=()=>resolve(img); img.onerror=reject; img.src=fr.result; };
+        fr.onerror=reject; fr.readAsDataURL(file);
+      });
+
+      for (let i=0;i<subset.length;i++){
+        setStatus(`A analisar fotos (${i+1}/${subset.length})…`);
+        const img = await fileToImage(subset[i]);
+        const res = await clf(img, LABELS.map(l=>l.text));
+        res.forEach((r,idx)=>{
+          const w = Math.max(0.5, Math.min(1, r.score));
+          const d = LABELS[idx].base * w;
+          if (r.score >= 0.35) { total += d; reasons.push(`• ${LABELS[idx].reason}: -${(d*100|0)}% (conf.: ${(r.score*100|0)}%)`); }
+        });
+      }
+      total = Math.min(0.25, total);
+      setStatus('');
+      log('IA de fotos OK. Dedução: '+(total*100|0)+'%');
+      return { deduct: total, reasons: reasons.length?reasons:['• Não foram detectados sinais claros de humidade/obras.'] };
+    } catch (e) {
+      log('Falha IA de fotos: ' + (e && (e.message||e)));
+      setStatus('IA de fotos indisponível — cálculo segue sem análise de fotos.');
+      return { deduct:0, reasons:['• IA de fotos indisponível no dispositivo.'] };
+    }
+  }
+
+  // Submissão
+  document.getElementById('valuationForm')?.addEventListener('submit', async (e)=>{
+    e.preventDefault();
+    const result = document.getElementById('valuationResult');
+    const repBox = document.getElementById('aiReport');
+    const repTxt  = document.getElementById('aiReportTxt');
+    setStatus('A processar…'); result.style.display='none'; repBox.style.display='none'; $('#debug').textContent='–';
+
+    try{
+      const files = Array.from(document.getElementById('photos')?.files || []);
+      const imageAdj = await analyzePhotosOrFallback(files);
+
+      const payload = {
+        address: document.getElementById('address').value,
+        typology: document.getElementById('typology').value,
+        areaUseful: document.getElementById('areaUseful').value,
+        yearBuilt: document.getElementById('yearBuilt').value,
+        features: getCheckedFeatures()
+      };
+      const data = await estimateLocal(payload, imageAdj);
+
+      document.getElementById('estMain').textContent  = fmtEUR(data.estimate);
+      document.getElementById('estRange').textContent = `${fmtEUR(data.low)} – ${fmtEUR(data.high)}`;
+      document.getElementById('estComps').textContent = data.compsCount ?? '—';
+
+      repTxt.innerHTML = (data.report || []).join('<br>');
+      repBox.style.display = 'block';
+
+      setStatus('');
+      result.style.display = 'block';
+    }catch(err){
+      console.error(err);
+      log('Erro: ' + (err && (err.message||err)));
+      setStatus('Erro: não foi possível calcular. Verifica a área (m²) e tenta outra vez.');
+    }
+  });
+
+  log('Pronto. Se clicares em "Obter avaliação" vês aqui o log dos passos.');
 });
 </script>
-
 </body>
 </html>
