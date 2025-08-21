@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imobiliária — Pesquisar Imóveis</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Imobiliária</h1>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/imoveis.html">Imóveis</a>
+        <a href="/vender.html">Avaliar imóvel</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h2>Encontre a sua nova casa</h2>
+        <form id="searchForm" action="/imoveis.html" method="get">
+          <input type="text" id="searchInput" name="q" placeholder="Pesquisar localização ou tipologia" />
+          <button type="submit">Pesquisar</button>
+        </form>
+      </section>
+      <section id="results" class="results"></section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Imobiliária</p>
+    </footer>
+    <script src="/scripts.js"></script>
+    <script>
+      // Preload some listings on the home page
+      fetch('/api/properties')
+        .then(res => res.json())
+        .then(data => {
+          const container = document.getElementById('results');
+          container.innerHTML = '';
+          data.slice(0, 4).forEach(prop => {
+            const card = document.createElement('div');
+            card.className = 'property-card';
+            card.innerHTML = `
+              <a href="/property.html?slug=${encodeURIComponent(prop.slug)}">
+                <img src="${prop.media[0]?.url || '/images/placeholder.png'}" alt="${prop.title}" />
+                <h3>${prop.title}</h3>
+                <p class="price">${prop.price.toLocaleString('pt-PT', { style: 'currency', currency: 'EUR' })}</p>
+                <p class="location">${prop.location.county}, ${prop.location.district}</p>
+              </a>`;
+            container.appendChild(card);
+          });
+        })
+        .catch(err => console.error(err));
+    </script>
+  </body>
+</html>
