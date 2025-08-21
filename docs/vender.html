@@ -1,84 +1,198 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Avalie o seu imóvel</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Imobiliária</h1>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="imoveis.html">Imóveis</a>
-        <a href="vender.html" class="active">Avaliar imóvel</a>
-      </nav>
-    </header>
-    <main id="evaluation-page">
-      <section class="hero">
-        <h2>Avalie o seu imóvel gratuitamente em 48h</h2>
-        <p>Receba uma estimativa profissional com base em imóveis comparáveis e procura real na sua zona.</p>
-      </section>
-      <section class="evaluation-form">
-        <h3>Detalhes do imóvel</h3>
-        <form id="valuationForm">
-          <input type="text" id="address" placeholder="Morada do imóvel" required />
-          <select id="typology" required>
-            <option value="">Tipologia</option>
-            <option value="T0">T0</option>
-            <option value="T1">T1</option>
-            <option value="T2">T2</option>
-            <option value="T3">T3</option>
-            <option value="T4">T4</option>
-            <option value="Moradia">Moradia</option>
-            <option value="Terreno">Terreno</option>
-          </select>
-          <input type="number" id="areaUseful" placeholder="Área útil (m²)" required />
-          <input type="number" id="yearBuilt" placeholder="Ano de construção" />
-          <div class="features-checkboxes">
-            <label><input type="checkbox" value="garagem" /> Garagem</label>
-            <label><input type="checkbox" value="elevador" /> Elevador</label>
-            <label><input type="checkbox" value="varanda" /> Varanda</label>
-            <label><input type="checkbox" value="jardim" /> Jardim</label>
-            <label><input type="checkbox" value="suite" /> Suite</label>
-          </div>
-          <h3>Contacto</h3>
-          <input type="text" id="ownerName" placeholder="O seu nome" required />
-          <input type="email" id="ownerEmail" placeholder="Email" required />
-          <input type="tel" id="ownerPhone" placeholder="Telefone" />
-          <label class="gdpr"><input type="checkbox" id="ownerConsent" required /> Concordo com o tratamento dos meus dados.</label>
-          <button type="submit">Obter avaliação</button>
-          <p id="valuationStatus" class="status"></p>
-        </form>
-      </section>
-      <section class="how-it-works">
-        <h3>Como funciona</h3>
-        <ol>
-          <li>Submeta os dados do seu imóvel.</li>
-          <li>Um consultor analisa comparativos na sua zona.</li>
-          <li>Recebe a estimativa em 48h.</li>
-          <li>Agende uma reunião para discutir o plano de venda.</li>
-        </ol>
-      </section>
-      <section class="faq">
-        <h3>Perguntas frequentes</h3>
-        <details><summary>Quanto tempo demora a avaliação?</summary><p>A avaliação é enviada por email no prazo máximo de 48 horas.</p></details>
-        <details><summary>Que dados são utilizados para calcular a estimativa?</summary><p>Comparamos o seu imóvel com transações recentes e a procura na sua zona.</p></details>
-        <details><summary>Tenho de vender a minha casa convosco?</summary><p>Não. O serviço é gratuito e sem compromisso.</p></details>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; 2025 Imobiliária</p>
-    </footer>
-    <script src="scripts.js"></script>
-    <script>
-      // Simula envio do formulário sem servidor
-      document.getElementById('valuationForm').addEventListener('submit', function(e) {
-        e.preventDefault();
-        document.getElementById('valuationStatus').textContent = 'Pedido enviado! (Simulação sem servidor)';
-        this.reset();
-      });
-    </script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Avalie o seu imóvel</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <style>
+    .thumbs{display:flex;flex-wrap:wrap;gap:.5rem;margin:.5rem 0}
+    .thumbs img{width:92px;height:92px;object-fit:cover;border-radius:8px;border:1px solid #ddd}
+    .block{display:block;margin:.75rem 0 .25rem}
+    .status{margin:.5rem 0;color:#0c4a6e}
+    .card{background:#fff;border:1px solid #eee;border-radius:12px;padding:1rem;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+  </style>
+</head>
+<body>
+<header>
+  <h1>Imobiliária</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="imoveis.html">Imóveis</a>
+    <a href="vender.html" class="active">Avaliar imóvel</a>
+    <a href="blog.html">Blog</a>
+  </nav>
+</header>
+
+<main id="evaluation-page" class="container">
+  <section class="hero">
+    <h2>Avalie o seu imóvel em segundos</h2>
+    <p>Estimativa automática baseada nos teus comparáveis — sem sair do site.</p>
+  </section>
+
+  <section class="evaluation-form">
+    <h3>Detalhes do imóvel</h3>
+    <form id="valuationForm">
+      <input type="text" id="address" placeholder="Morada (ex.: Lisboa, Porto…)" required />
+      <select id="typology" required>
+        <option value="">Tipologia</option>
+        <option value="T0">T0</option><option value="T1">T1</option>
+        <option value="T2">T2</option><option value="T3">T3</option>
+        <option value="T4">T4</option><option value="Moradia">Moradia</option>
+        <option value="Terreno">Terreno</option>
+      </select>
+      <input type="number" id="areaUseful" placeholder="Área útil (m²)" required />
+      <input type="number" id="yearBuilt" placeholder="Ano de construção" />
+
+      <div class="features-checkboxes">
+        <label><input type="checkbox" value="garagem" /> Garagem</label>
+        <label><input type="checkbox" value="elevador" /> Elevador</label>
+        <label><input type="checkbox" value="varanda" /> Varanda</label>
+        <label><input type="checkbox" value="jardim" /> Jardim</label>
+        <label><input type="checkbox" value="suite" /> Suite</label>
+      </div>
+
+      <label class="block">Fotos do imóvel (até 12):</label>
+      <input type="file" id="photos" accept="image/*" multiple />
+      <div id="photoPreview" class="thumbs"></div>
+
+      <h3>Contacto</h3>
+      <input type="text" id="ownerName" placeholder="O seu nome" required />
+      <input type="email" id="ownerEmail" placeholder="Email" required />
+      <input type="tel" id="ownerPhone" placeholder="Telefone" />
+      <label class="gdpr"><input type="checkbox" id="ownerConsent" required /> Concordo com o tratamento dos meus dados.</label>
+
+      <button type="submit">Obter avaliação</button>
+      <p id="valuationStatus" class="status"></p>
+    </form>
+  </section>
+
+  <section id="valuationResult" class="card" style="display:none">
+    <h4>Estimativa</h4>
+    <p><strong id="estMain"></strong></p>
+    <p>Intervalo provável: <span id="estRange"></span></p>
+    <p class="muted">
+      Baseado em <span id="estComps"></span> comparáveis, ajustes e análise (heurística) das fotos.
+      Considera também o desconto típico de anúncios inflacionados.
+    </p>
+  </section>
+
+  <section class="faq">
+    <h3>Perguntas frequentes</h3>
+    <details><summary>De onde vêm os dados?</summary><p>Da tua base `data/properties.json` servida pelo GitHub Pages.</p></details>
+    <details><summary>As fotos são analisadas?</summary><p>Nesta versão, uma heurística simples pelos nomes dos ficheiros (ex.: “quarto-precisa-obras.jpg”).</p></details>
+  </section>
+</main>
+
+<footer><p>&copy; 2025 Imobiliária</p></footer>
+
+<script>
+const fmtEUR = n => Number(n).toLocaleString('pt-PT',{style:'currency',currency:'EUR'});
+
+// Preview das fotos
+document.getElementById('photos').addEventListener('change', (e) => {
+  const preview = document.getElementById('photoPreview');
+  preview.innerHTML = '';
+  const files = Array.from(e.target.files).slice(0,12);
+  files.forEach(f => {
+    const img = document.createElement('img');
+    img.alt = f.name; img.title = f.name;
+    const fr = new FileReader();
+    fr.onload = () => img.src = fr.result;
+    fr.readAsDataURL(f);
+    preview.appendChild(img);
+  });
+});
+
+function getCheckedFeatures(){
+  return Array.from(document.querySelectorAll('.features-checkboxes input:checked')).map(i=>i.value);
+}
+
+async function estimateLocal(input){
+  // Lê os teus comparáveis (docs/data/properties.json)
+  const res = await fetch('data/properties.json');
+  const props = await res.json();
+
+  const area = Number(input.areaUseful||0);
+  if (!area) throw new Error('Área inválida');
+
+  // 1) comparáveis por tipologia e área (±30%)
+  let comps = props.filter(p =>
+    p && Number(p.area)>0 && Number(p.price)>0 &&
+    (!input.typology || p.typology === input.typology) &&
+    p.area >= area*0.7 && p.area <= area*1.3
+  );
+
+  // 2) heurística de localização muito simples
+  const key = (input.address||'').toLowerCase();
+  if (key) {
+    const hit = s => (s||'').toLowerCase().includes(key);
+    const loc = comps.filter(p => hit(p.title) || hit(p.description) || hit(p.location?.city));
+    if (loc.length >= 4) comps = loc;
+  }
+
+  // 3) se faltarem comps, alarga
+  if (comps.length < 5) comps = props.filter(p => !input.typology || p.typology === input.typology);
+  if (comps.length < 5) comps = props.filter(p => Number(p.area)>0 && Number(p.price)>0);
+
+  // 4) ppm e quartis
+  const ppms = comps.map(p => p.price / p.area).sort((a,b)=>a-b);
+  const pick = q => ppms[Math.max(0, Math.min(ppms.length-1, Math.floor(ppms.length*q)))];
+  const q1=pick(0.25), med=pick(0.50), q3=pick(0.75);
+
+  // 5) ajustes: inflação -10% + ano + features + condição pelas fotos (nomes)
+  let adj = 1 - 0.10; // anúncios tendem a estar inflacionados
+  if (Number(input.yearBuilt) >= 2010) adj += 0.05;
+  const f = new Set((input.features||[]).map(s=>s.toLowerCase()));
+  if (f.has('elevador')) adj += 0.03;
+  if (f.has('garagem'))  adj += 0.04;
+  if (f.has('varanda'))  adj += 0.02;
+  if (f.has('jardim'))   adj += 0.03;
+  if (f.has('suite'))    adj += 0.02;
+
+  let condAdj = 0;
+  const photoNames = (input.photoNames||[]).map(n=>n.toLowerCase());
+  if (photoNames.some(n => /obra|degrad|ruina|humid|mofo/.test(n))) condAdj -= 0.15;
+  adj += condAdj;
+
+  const est  = med * area * adj;
+  const low  = q1*0.95 * area * adj;
+  const high = q3*1.05 * area * adj;
+
+  return { estimate: Math.round(est), low: Math.round(low), high: Math.round(high), compsCount: comps.length };
+}
+
+// Submissão do formulário
+document.getElementById('valuationForm').addEventListener('submit', async (e)=>{
+  e.preventDefault();
+  const status = document.getElementById('valuationStatus');
+  const result = document.getElementById('valuationResult');
+  status.textContent = 'A calcular…';
+  result.style.display = 'none';
+
+  const files = Array.from(document.getElementById('photos').files||[]).slice(0,12);
+  const input = {
+    address: document.getElementById('address').value,
+    typology: document.getElementById('typology').value,
+    areaUseful: document.getElementById('areaUseful').value,
+    yearBuilt: document.getElementById('yearBuilt').value,
+    features: getCheckedFeatures(),
+    photoNames: files.map(f=>f.name) // heurística por nome
+  };
+
+  try{
+    const data = await estimateLocal(input); // só com os teus dados (sem API externa)
+    document.getElementById('estMain').textContent  = fmtEUR(data.estimate);
+    document.getElementById('estRange').textContent = `${fmtEUR(data.low)} – ${fmtEUR(data.high)}`;
+    document.getElementById('estComps').textContent = data.compsCount ?? '—';
+    status.textContent = '';
+    result.style.display = 'block';
+  }catch(err){
+    console.error(err);
+    status.textContent = 'Não foi possível calcular agora. Tenta novamente.';
+  }
+});
+</script>
+
+</body>
 </html>
