@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avalie o seu imóvel</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Imobiliária</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="imoveis.html">Imóveis</a>
+        <a href="vender.html" class="active">Avaliar imóvel</a>
+      </nav>
+    </header>
+    <main id="evaluation-page">
+      <section class="hero">
+        <h2>Avalie o seu imóvel gratuitamente em 48h</h2>
+        <p>Receba uma estimativa profissional com base em imóveis comparáveis e procura real na sua zona.</p>
+      </section>
+      <section class="evaluation-form">
+        <h3>Detalhes do imóvel</h3>
+        <form id="valuationForm">
+          <input type="text" id="address" placeholder="Morada do imóvel" required />
+          <select id="typology" required>
+            <option value="">Tipologia</option>
+            <option value="T0">T0</option>
+            <option value="T1">T1</option>
+            <option value="T2">T2</option>
+            <option value="T3">T3</option>
+            <option value="T4">T4</option>
+            <option value="Moradia">Moradia</option>
+            <option value="Terreno">Terreno</option>
+          </select>
+          <input type="number" id="areaUseful" placeholder="Área útil (m²)" required />
+          <input type="number" id="yearBuilt" placeholder="Ano de construção" />
+          <div class="features-checkboxes">
+            <label><input type="checkbox" value="garagem" /> Garagem</label>
+            <label><input type="checkbox" value="elevador" /> Elevador</label>
+            <label><input type="checkbox" value="varanda" /> Varanda</label>
+            <label><input type="checkbox" value="jardim" /> Jardim</label>
+            <label><input type="checkbox" value="suite" /> Suite</label>
+          </div>
+          <h3>Contacto</h3>
+          <input type="text" id="ownerName" placeholder="O seu nome" required />
+          <input type="email" id="ownerEmail" placeholder="Email" required />
+          <input type="tel" id="ownerPhone" placeholder="Telefone" />
+          <label class="gdpr"><input type="checkbox" id="ownerConsent" required /> Concordo com o tratamento dos meus dados.</label>
+          <button type="submit">Obter avaliação</button>
+          <p id="valuationStatus" class="status"></p>
+        </form>
+      </section>
+      <section class="how-it-works">
+        <h3>Como funciona</h3>
+        <ol>
+          <li>Submeta os dados do seu imóvel.</li>
+          <li>Um consultor analisa comparativos na sua zona.</li>
+          <li>Recebe a estimativa em 48h.</li>
+          <li>Agende uma reunião para discutir o plano de venda.</li>
+        </ol>
+      </section>
+      <section class="faq">
+        <h3>Perguntas frequentes</h3>
+        <details><summary>Quanto tempo demora a avaliação?</summary><p>A avaliação é enviada por email no prazo máximo de 48 horas.</p></details>
+        <details><summary>Que dados são utilizados para calcular a estimativa?</summary><p>Comparamos o seu imóvel com transações recentes e a procura na sua zona.</p></details>
+        <details><summary>Tenho de vender a minha casa convosco?</summary><p>Não. O serviço é gratuito e sem compromisso.</p></details>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Imobiliária</p>
+    </footer>
+    <script src="scripts.js"></script>
+    <script>
+      // Simula envio do formulário sem servidor
+      document.getElementById('valuationForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        document.getElementById('valuationStatus').textContent = 'Pedido enviado! (Simulação sem servidor)';
+        this.reset();
+      });
+    </script>
+  </body>
+</html>
