@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detalhe do Imóvel</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Imobiliária</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="imoveis.html">Imóveis</a>
+      <a href="vender.html">Avaliar imóvel</a>
+    </nav>
+  </header>
+  <main id="property-page">
+    <section id="property-container" class="property-detail"></section>
+    <section id="contact-section" class="contact-section">
+      <h2>Marcar visita ou pedir informações</h2>
+      <form id="leadForm">
+        <input type="text" id="name" placeholder="O seu nome" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="tel" id="phone" placeholder="Telefone" />
+        <textarea id="message" placeholder="Mensagem" rows="4"></textarea>
+        <label class="gdpr">
+          <input type="checkbox" id="consent" required />
+          Concordo com o tratamento dos meus dados para ser contactado.
+        </label>
+        <button type="submit">Enviar pedido</button>
+        <p id="leadStatus" class="status"></p>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Imobiliária</p>
+  </footer>
+  <script src="scripts.js"></script>
+  <script>
+    const params = getQueryParams();
+    const slug = params.slug;
+    if (!slug) {
+      document.getElementById('property-container').innerHTML = '<p>Imóvel não encontrado.</p>';
+    } else {
+      fetch('data/properties.json')
+        .then(res => res.json())
+        .then(data => {
+          const prop = data.find(p => p.slug === slug);
+          if (!prop) {
+            document.getElementById('property-container').innerHTML = '<p>Imóvel não encontrado.</p>';
+            return;
+          }
+          renderProperty(prop);
+        });
+    }
+    function renderProperty(prop) {
+      const container = document.getElementById('property-container');
+      const imagesHtml = (prop.media || []).filter(m => m.type === 'image').map(m => '<img src="'+m.url+'" alt="'+(m.alt || '')+'" />').join('');
+      const featuresHtml = (prop.features || []).map(f => '<span class="chip">'+f.replace('-', ' ')+'</span>').join('');
+      const details = [];
+      if (prop.typology) details.push({ label:'Tipologia', value: prop.typology });
+      if (prop.condition) details.push({ label:'Estado', value: prop.condition });
+      if (prop.areaUseful) details.push({ label:'Área útil', value: prop.areaUseful + ' m²' });
+      if (prop.areaGross) details.push({ label:'Área bruta', value: prop.areaGross + ' m²' });
+      if (prop.lotArea) details.push({ label:'Área do lote', value: prop.lotArea + ' m²' });
+      if (prop.yearBuilt) details.push({ label:'Ano', value: prop.yearBuilt });
+      if (prop.energyCertificate) details.push({ label:'Certificação energética', value: prop.energyCertificate });
+      if (prop.location.county) details.push({ label:'Concelho', value: prop.location.county });
+      if (prop.location.district) details.push({ label:'Distrito', value: prop.location.district });
+      if (prop.location.neighborhood) details.push({ label:'Bairro', value: prop.location.neighborhood });
+      const detailsHtml = details.map(item => '<li><strong>'+item.label+':</strong> '+item.value+'</li>').join('');
+      const imgFallback = imagesHtml || '<img src="https://via.placeholder.com/600x400?text=Sem+imagem" alt="Sem imagem" />';
+      container.innerHTML = `
+        <h2>${prop.title}</h2>
+        <p class="price-big">${Number(prop.price).toLocaleString('pt-PT', { style:'currency', currency:'EUR' })}</p>
+        <div class="gallery">${imgFallback}</div>
+        <ul class="details">${detailsHtml}</ul>
+        <p class="description">${prop.description}</p>
+        <div class="features">${featuresHtml}</div>
+      `;
+    }
+    document.getElementById('leadForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      document.getElementById('leadStatus').textContent = 'Pedido enviado! (Simulação sem servidor)';
+      this.reset();
+    });
+  </script>
+</body>
+</html>
