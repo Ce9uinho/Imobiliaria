@@ -172,7 +172,7 @@ window.addEventListener('DOMContentLoaded', () => {
     };
   }
 
-  // === IA de fotos com conversão para ImageData (fix mobile) ===
+  // === IA de fotos: usa sempre CANVAS como input (fix mobile) ===
   async function analyzePhotosOrFallback(files){
     if (!files.length) return { deduct:0, reasons:['• Sem fotos: sem ajustes por condição.'] };
     try {
@@ -201,15 +201,14 @@ window.addEventListener('DOMContentLoaded', () => {
         setStatus(`A analisar fotos (${i+1}/${subset.length})…`);
         const img = await fileToImage(subset[i]);
 
-        // >>> FIX: converter para ImageData antes de passar ao modelo <<<
+        // >>> FIX: usar CANVAS como input para o modelo (compatível mobile)
         const canvas = document.createElement('canvas');
         canvas.width = img.naturalWidth || img.width;
         canvas.height = img.naturalHeight || img.height;
         const ctx = canvas.getContext('2d');
         ctx.drawImage(img, 0, 0);
-        const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
 
-        const res = await clf(imageData, LABELS.map(l=>l.text));
+        const res = await clf(canvas, LABELS.map(l=>l.text));
         res.forEach((r,idx)=>{
           const w = Math.max(0.5, Math.min(1, r.score));
           const d = LABELS[idx].base * w;
