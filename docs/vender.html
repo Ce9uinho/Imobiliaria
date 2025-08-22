@@ -172,8 +172,8 @@ window.addEventListener('DOMContentLoaded', () => {
     };
   }
 
+  // === IA de fotos com conversão para ImageData (fix mobile) ===
   async function analyzePhotosOrFallback(files){
-    // Tenta IA no browser com import dinâmico (se falhar, regressa a 0)
     if (!files.length) return { deduct:0, reasons:['• Sem fotos: sem ajustes por condição.'] };
     try {
       setStatus('A carregar IA de fotos (se demorar, seguimos sem IA)…');
@@ -185,11 +185,12 @@ window.addEventListener('DOMContentLoaded', () => {
         { text: "mold, mildew, damp, humidity stain", base:0.07, reason:"Humidade/bolor" },
         { text: "water leak, water stain, leakage",   base:0.06, reason:"Infiltrações/manchas de água" },
         { text: "peeling paint, flaking paint",       base:0.04, reason:"Tinta a descascar" },
-        { text: "crack, cracks in wall or ceiling",   base:0.05, reason:"Fissuras visíveis" }
+        { text: "crack, cracks in wall or ceiling",   base:0.05, reason:"Fissuras visíveis" },
+        { text: "rust, corrosion",                    base:0.03, reason:"Ferrugem/corrosão" }
       ];
       const subset = files.slice(0,6);
       let total=0; const reasons=[];
-      // util: File -> Image
+
       const fileToImage = (file)=>new Promise((resolve,reject)=>{
         const fr = new FileReader();
         fr.onload = ()=>{ const img=new Image(); img.onload=()=>resolve(img); img.onerror=reject; img.src=fr.result; };
@@ -199,7 +200,16 @@ window.addEventListener('DOMContentLoaded', () => {
       for (let i=0;i<subset.length;i++){
         setStatus(`A analisar fotos (${i+1}/${subset.length})…`);
         const img = await fileToImage(subset[i]);
-        const res = await clf(img, LABELS.map(l=>l.text));
+
+        // >>> FIX: converter para ImageData antes de passar ao modelo <<<
+        const canvas = document.createElement('canvas');
+        canvas.width = img.naturalWidth || img.width;
+        canvas.height = img.naturalHeight || img.height;
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0);
+        const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+
+        const res = await clf(imageData, LABELS.map(l=>l.text));
         res.forEach((r,idx)=>{
           const w = Math.max(0.5, Math.min(1, r.score));
           const d = LABELS[idx].base * w;
