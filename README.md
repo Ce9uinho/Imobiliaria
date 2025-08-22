@@ -1,19 +1,23 @@
-# CasaPerfeita — pacote completo (regenerado)
+# CasaPerfeita — GitHub-ready (UI preservado)
 
-Gerado em 2025-08-22T22:59:58.708992Z
+Gerado em 2025-08-22T23:19:24.049377Z
 
-## Conteúdo
-- `index.html`, `404.html`
-- `assets/css/app.css`, `assets/js/app.js`, `assets/js/ai.js`, `assets/img/`
-- `data/properties.json` (200 imóveis fictícios com thumbs/urls)
-- `.github/workflows/pages.yml` (minificação + deploy automático)
+## O que inclui
+- `index.html` **original intacto** (UI preservado), com injeção de:
+  - `assets/js/ai.js` (IA de fotos — CLIP zero-shot no browser, input canvas)
+  - `assets/js/patches.js` (helpers seguros em `window.CP_*`)
+- `data/properties.json` com **200 imóveis** (Lisboa/Porto com mais peso)
+- `.github/workflows/pages.yml` para **deploy automático no GitHub Pages**
+- `404.html` básico
 
 ## Publicar no GitHub Pages
-1. Cria um repositório e faz upload **de todo o conteúdo** desta pasta para `main`.
-2. Em **Settings → Pages**, escolhe **Source: GitHub Actions**.
-3. Cada push à `main` publica automaticamente.
+1. Faz upload de **todo o conteúdo** desta pasta para a branch `main` do teu repositório.
+2. Em **Settings → Pages**, define **Source: GitHub Actions**.
+3. Faz um commit: o workflow publica automaticamente.
 
-## Dicas
-- Lê os dados com `fetch('data/properties.json?v=' + Date.now())` (cache busting).
-- Usa `showPropertyDetails(prop, kind)` para modal de detalhes.
-- IA de fotos: `aiAnalyzePhotos(files, setStatus)` (usa canvas; funciona em mobile).
+## Usar os patches
+- Modal de detalhe: `window.CP_showPropertyDetails(prop, kind)`
+- Exemplo de resposta do chatbot (preço correto): `window.CP_chatbotExample(props, 'comprar'|'arrendar')`
+- IA de fotos: `window.CP_aiAnalyzePhotos(files, setStatus)`
+
+> Mantivemos o teu UI exatamente como estava. Qualquer conflito com o teu JS é evitado com o namespace `CP_`.

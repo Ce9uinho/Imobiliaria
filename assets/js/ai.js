@@ -1,15 +1,15 @@
 
 // === AI de fotos no browser (CLIP zero-shot) ===
-const AI_LABELS = [
+const CP_AI_LABELS = [
   { text: "mold, mildew, damp, humidity stain", base:0.07, reason:"Humidade/bolor" },
   { text: "water leak, water stain, leakage",   base:0.06, reason:"Infiltrações/manchas de água" },
   { text: "peeling paint, flaking paint",       base:0.04, reason:"Tinta a descascar" },
   { text: "crack, cracks in wall or ceiling",   base:0.05, reason:"Fissuras visíveis" },
   { text: "rust, corrosion",                    base:0.03, reason:"Ferrugem/corrosão" }
 ];
-const AI_MAX_IMAGE_DEDUCT = 0.25;
+const CP_AI_MAX_IMAGE_DEDUCT = 0.25;
 
-async function aiAnalyzePhotos(files, setStatus){
+window.CP_aiAnalyzePhotos = async function(files, setStatus){
   if (!files || !files.length) return { deduct:0, reasons:['• Sem fotos: sem ajustes por condição.'] };
   try {
     setStatus?.('A carregar IA (1ª vez pode demorar)...');
@@ -21,21 +21,21 @@ async function aiAnalyzePhotos(files, setStatus){
     let total = 0, reasons = [];
     for (let i=0;i<subset.length;i++){
       setStatus?.(`A analisar fotos (${i+1}/${subset.length})...`);
-      const img = await fileToImage(subset[i]);
+      const img = await CP_fileToImage(subset[i]);
       const canvas = document.createElement('canvas');
       canvas.width = img.naturalWidth || img.width;
       canvas.height = img.naturalHeight || img.height;
       const ctx = canvas.getContext('2d');
       ctx.drawImage(img, 0, 0);
 
-      const res = await clf(canvas, AI_LABELS.map(l=>l.text));
+      const res = await clf(canvas, CP_AI_LABELS.map(l=>l.text));
       res.forEach((r, idx)=>{
         const w = Math.max(0.5, Math.min(1, r.score));
-        const d = AI_LABELS[idx].base * w;
-        if (r.score >= 0.35) { total += d; reasons.push(`• ${AI_LABELS[idx].reason}: -${(d*100|0)}% (conf.: ${(r.score*100|0)}%)`); }
+        const d = CP_AI_LABELS[idx].base * w;
+        if (r.score >= 0.35) { total += d; reasons.push(`• ${CP_AI_LABELS[idx].reason}: -${(d*100|0)}% (conf.: ${(r.score*100|0)}%)`); }
       });
     }
-    total = Math.min(AI_MAX_IMAGE_DEDUCT, total);
+    total = Math.min(CP_AI_MAX_IMAGE_DEDUCT, total);
     setStatus?.('');
     if (!reasons.length) reasons.push('• Não foram detectados sinais claros de humidade/obras.');
     return { deduct: total, reasons };
@@ -45,7 +45,7 @@ async function aiAnalyzePhotos(files, setStatus){
   }
 }
 
-function fileToImage(file){
+function CP_fileToImage(file){
   return new Promise((resolve,reject)=>{
     const fr = new FileReader();
     fr.onload = ()=>{ const img = new Image(); img.onload=()=>resolve(img); img.onerror=reject; img.src=fr.result; };
