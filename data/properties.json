@@ -1,0 +1,7075 @@
+[
+  {
+    "id": 1,
+    "slug": "t3-em-lisboa-1",
+    "title": "T3 em Lisboa",
+    "summary": "T3 com 5 quartos em Lisboa.",
+    "description": "Imóvel renovado com 69 m², localizado em Lisboa, Lisboa. Ano 2017.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.72936344372193,
+      "lng": -9.14333379265786
+    },
+    "typology": "T3",
+    "area": 69,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "condition": "Renovado",
+    "energy": "E",
+    "floor": 1,
+    "parking_spots": 1,
+    "condo_fee": 100,
+    "yearBuilt": 2017,
+    "price": 330264,
+    "features": [
+      "garagem",
+      "vista rio"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-1-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-1-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "t2-em-porto-2",
+    "title": "T2 em Porto",
+    "summary": "T2 com 1 quartos em Porto.",
+    "description": "Imóvel renovado com 110 m², localizado em Porto, Porto. Ano 2013.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.166508289320454,
+      "lng": -8.647629357791873
+    },
+    "typology": "T2",
+    "area": 110,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "A",
+    "floor": 0,
+    "parking_spots": 0,
+    "condo_fee": 80,
+    "yearBuilt": 2013,
+    "price": 380958,
+    "features": [
+      "jardim",
+      "vista rio"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-2-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-2-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "moradia-em-aveiro-3",
+    "title": "Moradia em Aveiro",
+    "summary": "Moradia com 3 quartos em Aveiro.",
+    "description": "Imóvel bom com 240 m², localizado em Aveiro, Aveiro. Ano 2004.",
+    "location": {
+      "city": "Aveiro",
+      "district": "Aveiro",
+      "lat": 40.64951185538352,
+      "lng": -8.646216570302544
+    },
+    "typology": "Moradia",
+    "area": 240,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "condition": "Bom",
+    "energy": "A+",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 2004,
+    "price": 705670,
+    "features": [
+      "varanda",
+      "jardim",
+      "cozinha equipada",
+      "ar condicionado",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro-3-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro-3-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "t0-em-faro-4",
+    "title": "T0 em Faro",
+    "summary": "T0 com 0 quartos em Faro.",
+    "description": "Imóvel a precisar de obras com 162 m², localizado em Faro, Faro. Ano 2024.",
+    "location": {
+      "city": "Faro",
+      "district": "Faro",
+      "lat": 37.00988939899856,
+      "lng": -7.9432098947443635
+    },
+    "typology": "T0",
+    "area": 162,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "F",
+    "floor": 1,
+    "parking_spots": 1,
+    "condo_fee": 45,
+    "yearBuilt": 2024,
+    "price": 367058,
+    "features": [
+      "suite",
+      "roupeiros",
+      "ar condicionado",
+      "vista rio",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro-4-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro-4-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "t2-em-porto-5",
+    "title": "T2 em Porto",
+    "summary": "T2 com 1 quartos em Porto.",
+    "description": "Imóvel usado com 111 m², localizado em Porto, Porto. Ano 2023.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.15266457386171,
+      "lng": -8.633213699180885
+    },
+    "typology": "T2",
+    "area": 111,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "E",
+    "floor": 10,
+    "parking_spots": 1,
+    "condo_fee": 60,
+    "yearBuilt": 2023,
+    "price": 391414,
+    "features": [
+      "ar condicionado",
+      "vista rio",
+      "suite"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-5-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-5-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "t2-em-lisboa-6",
+    "title": "T2 em Lisboa",
+    "summary": "T2 com 5 quartos em Lisboa.",
+    "description": "Imóvel a precisar de obras com 119 m², localizado em Lisboa, Lisboa. Ano 1989.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.73573413188968,
+      "lng": -9.15141917982917
+    },
+    "typology": "T2",
+    "area": 119,
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "condition": "A precisar de obras",
+    "energy": "A",
+    "floor": 4,
+    "parking_spots": 1,
+    "condo_fee": 60,
+    "yearBuilt": 1989,
+    "price": 438306,
+    "features": [
+      "varanda",
+      "jardim",
+      "ar condicionado",
+      "vista rio"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-6-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-6-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "moradia-em-lisboa-7",
+    "title": "Moradia em Lisboa",
+    "summary": "Moradia com 2 quartos em Lisboa.",
+    "description": "Imóvel usado com 234 m², localizado em Lisboa, Lisboa. Ano 1996.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.702443118219676,
+      "lng": -9.121276360802879
+    },
+    "typology": "Moradia",
+    "area": 234,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "F",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1996,
+    "price": 1316194,
+    "features": [
+      "cozinha equipada",
+      "ar condicionado",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-7-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-7-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "moradia-em-porto-8",
+    "title": "Moradia em Porto",
+    "summary": "Moradia com 1 quartos em Porto.",
+    "description": "Imóvel bom com 148 m², localizado em Porto, Porto. Ano 2006.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.1611464887944,
+      "lng": -8.620678672467768
+    },
+    "typology": "Moradia",
+    "area": 148,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "E",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 2006,
+    "price": 619435,
+    "features": [
+      "ar condicionado",
+      "varanda",
+      "vista rio",
+      "cozinha equipada",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-8-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-8-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "moradia-em-vora-9",
+    "title": "Moradia em Évora",
+    "summary": "Moradia com 4 quartos em Évora.",
+    "description": "Imóvel bom com 224 m², localizado em Évora, Évora. Ano 1981.",
+    "location": {
+      "city": "Évora",
+      "district": "Évora",
+      "lat": 38.58594034214941,
+      "lng": -7.926151222471078
+    },
+    "typology": "Moradia",
+    "area": 224,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "condition": "Bom",
+    "energy": "C",
+    "floor": 0,
+    "parking_spots": 0,
+    "condo_fee": 0,
+    "yearBuilt": 1981,
+    "price": 496359,
+    "features": [
+      "elevador",
+      "jardim",
+      "vista rio"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora-9-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora-9-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "t1-em-lisboa-10",
+    "title": "T1 em Lisboa",
+    "summary": "T1 com 0 quartos em Lisboa.",
+    "description": "Imóvel usado com 247 m², localizado em Lisboa, Lisboa. Ano 2002.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.725776844690856,
+      "lng": -9.130400101391908
+    },
+    "typology": "T1",
+    "area": 247,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "D",
+    "floor": 9,
+    "parking_spots": 1,
+    "condo_fee": 60,
+    "yearBuilt": 2002,
+    "price": 960095,
+    "features": [
+      "elevador",
+      "ar condicionado",
+      "garagem",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-10-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-10-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "t1-em-lisboa-11",
+    "title": "T1 em Lisboa",
+    "summary": "T1 com 0 quartos em Lisboa.",
+    "description": "Imóvel usado com 197 m², localizado em Lisboa, Lisboa. Ano 1995.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.714291106854574,
+      "lng": -9.130503498697662
+    },
+    "typology": "T1",
+    "area": 197,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "B-",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 35,
+    "yearBuilt": 1995,
+    "price": 821965,
+    "features": [
+      "cozinha equipada",
+      "vista rio",
+      "elevador",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-11-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-11-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "t3-em-lisboa-12",
+    "title": "T3 em Lisboa",
+    "summary": "T3 com 5 quartos em Lisboa.",
+    "description": "Imóvel usado com 96 m², localizado em Lisboa, Lisboa. Ano 2023.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.74012654534165,
+      "lng": -9.135577332622553
+    },
+    "typology": "T3",
+    "area": 96,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "condition": "Usado",
+    "energy": "A+",
+    "floor": 2,
+    "parking_spots": 1,
+    "condo_fee": 25,
+    "yearBuilt": 2023,
+    "price": 472401,
+    "features": [
+      "ar condicionado",
+      "cozinha equipada",
+      "vista rio",
+      "jardim",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-12-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-12-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "t4-em-aveiro-13",
+    "title": "T4 em Aveiro",
+    "summary": "T4 com 4 quartos em Aveiro.",
+    "description": "Imóvel usado com 95 m², localizado em Aveiro, Aveiro. Ano 1985.",
+    "location": {
+      "city": "Aveiro",
+      "district": "Aveiro",
+      "lat": 40.640933187635056,
+      "lng": -8.665427532769392
+    },
+    "typology": "T4",
+    "area": 95,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "B",
+    "floor": 1,
+    "parking_spots": 1,
+    "condo_fee": 80,
+    "yearBuilt": 1985,
+    "price": 258046,
+    "features": [
+      "cozinha equipada",
+      "jardim",
+      "suite"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro-13-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro-13-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "t4-em-porto-14",
+    "title": "T4 em Porto",
+    "summary": "T4 com 4 quartos em Porto.",
+    "description": "Imóvel a precisar de obras com 76 m², localizado em Porto, Porto. Ano 1990.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.141079033796316,
+      "lng": -8.638972435199303
+    },
+    "typology": "T4",
+    "area": 76,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "condition": "A precisar de obras",
+    "energy": "A+",
+    "floor": 1,
+    "parking_spots": 1,
+    "condo_fee": 80,
+    "yearBuilt": 1990,
+    "price": 237606,
+    "features": [
+      "roupeiros",
+      "cozinha equipada",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-14-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-14-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "t4-em-lisboa-15",
+    "title": "T4 em Lisboa",
+    "summary": "T4 com 3 quartos em Lisboa.",
+    "description": "Imóvel renovado com 53 m², localizado em Lisboa, Lisboa. Ano 2019.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.70263441967389,
+      "lng": -9.148161636049734
+    },
+    "typology": "T4",
+    "area": 53,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "C",
+    "floor": 5,
+    "parking_spots": 2,
+    "condo_fee": 35,
+    "yearBuilt": 2019,
+    "price": 275617,
+    "features": [
+      "elevador",
+      "vista rio",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-15-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-15-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "t1-em-leiria-16",
+    "title": "T1 em Leiria",
+    "summary": "T1 com 0 quartos em Leiria.",
+    "description": "Imóvel bom com 134 m², localizado em Leiria, Leiria. Ano 1993.",
+    "location": {
+      "city": "Leiria",
+      "district": "Leiria",
+      "lat": 39.76187960301103,
+      "lng": -8.798288437813921
+    },
+    "typology": "T1",
+    "area": 134,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "B",
+    "floor": 4,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1993,
+    "price": 234212,
+    "features": [
+      "vista rio",
+      "ar condicionado",
+      "roupeiros",
+      "elevador",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria-16-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria-16-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "t3-em-aveiro-17",
+    "title": "T3 em Aveiro",
+    "summary": "T3 com 3 quartos em Aveiro.",
+    "description": "Imóvel usado com 59 m², localizado em Aveiro, Aveiro. Ano 2013.",
+    "location": {
+      "city": "Aveiro",
+      "district": "Aveiro",
+      "lat": 40.63822304381974,
+      "lng": -8.641045910837272
+    },
+    "typology": "T3",
+    "area": 59,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "D",
+    "floor": 5,
+    "parking_spots": 0,
+    "condo_fee": 60,
+    "yearBuilt": 2013,
+    "price": 140960,
+    "features": [
+      "vista rio",
+      "cozinha equipada",
+      "suite",
+      "varanda",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro-17-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro-17-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "t4-em-aveiro-18",
+    "title": "T4 em Aveiro",
+    "summary": "T4 com 1 quartos em Aveiro.",
+    "description": "Imóvel devoluto com 205 m², localizado em Aveiro, Aveiro. Ano 1986.",
+    "location": {
+      "city": "Aveiro",
+      "district": "Aveiro",
+      "lat": 40.6359212310469,
+      "lng": -8.659032847628561
+    },
+    "typology": "T4",
+    "area": 205,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Devoluto",
+    "energy": "A",
+    "floor": 4,
+    "parking_spots": 1,
+    "condo_fee": 80,
+    "yearBuilt": 1986,
+    "price": 400713,
+    "features": [
+      "ar condicionado",
+      "jardim",
+      "vista rio",
+      "garagem",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro-18-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro-18-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "t4-em-porto-19",
+    "title": "T4 em Porto",
+    "summary": "T4 com 3 quartos em Porto.",
+    "description": "Imóvel usado com 62 m², localizado em Porto, Porto. Ano 2016.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.14184816647142,
+      "lng": -8.6180382527151
+    },
+    "typology": "T4",
+    "area": 62,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "condition": "Usado",
+    "energy": "B",
+    "floor": 5,
+    "parking_spots": 1,
+    "condo_fee": 100,
+    "yearBuilt": 2016,
+    "price": 234559,
+    "features": [
+      "cozinha equipada",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-19-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-19-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "t2-em-coimbra-20",
+    "title": "T2 em Coimbra",
+    "summary": "T2 com 1 quartos em Coimbra.",
+    "description": "Imóvel renovado com 233 m², localizado em Coimbra, Coimbra. Ano 1982.",
+    "location": {
+      "city": "Coimbra",
+      "district": "Coimbra",
+      "lat": 40.20467283305232,
+      "lng": -8.4042388200219
+    },
+    "typology": "T2",
+    "area": 233,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "B",
+    "floor": 6,
+    "parking_spots": 2,
+    "condo_fee": 0,
+    "yearBuilt": 1982,
+    "price": 615162,
+    "features": [
+      "ar condicionado",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra-20-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra-20-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "t4-em-porto-21",
+    "title": "T4 em Porto",
+    "summary": "T4 com 5 quartos em Porto.",
+    "description": "Imóvel bom com 61 m², localizado em Porto, Porto. Ano 1989.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.166773960272636,
+      "lng": -8.624414120908986
+    },
+    "typology": "T4",
+    "area": 61,
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "condition": "Bom",
+    "energy": "B",
+    "floor": 7,
+    "parking_spots": 0,
+    "condo_fee": 100,
+    "yearBuilt": 1989,
+    "price": 221616,
+    "features": [
+      "cozinha equipada",
+      "ar condicionado",
+      "varanda",
+      "jardim",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-21-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-21-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "t3-em-set-bal-22",
+    "title": "T3 em Setúbal",
+    "summary": "T3 com 1 quartos em Setúbal.",
+    "description": "Imóvel bom com 251 m², localizado em Setúbal, Setúbal. Ano 2007.",
+    "location": {
+      "city": "Setúbal",
+      "district": "Setúbal",
+      "lat": 38.50794432777755,
+      "lng": -8.902530134988572
+    },
+    "typology": "T3",
+    "area": 251,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "F",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 80,
+    "yearBuilt": 2007,
+    "price": 759795,
+    "features": [
+      "garagem",
+      "elevador",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal-22-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal-22-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "t4-em-porto-23",
+    "title": "T4 em Porto",
+    "summary": "T4 com 4 quartos em Porto.",
+    "description": "Imóvel a precisar de obras com 233 m², localizado em Porto, Porto. Ano 1999.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.1761582319237,
+      "lng": -8.61472239441358
+    },
+    "typology": "T4",
+    "area": 233,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "condition": "A precisar de obras",
+    "energy": "C",
+    "floor": 3,
+    "parking_spots": 2,
+    "condo_fee": 80,
+    "yearBuilt": 1999,
+    "price": 783662,
+    "features": [
+      "ar condicionado",
+      "varanda",
+      "roupeiros",
+      "suite",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-23-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-23-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "t4-em-vora-24",
+    "title": "T4 em Évora",
+    "summary": "T4 com 2 quartos em Évora.",
+    "description": "Imóvel usado com 38 m², localizado em Évora, Évora. Ano 1977.",
+    "location": {
+      "city": "Évora",
+      "district": "Évora",
+      "lat": 38.5726006858354,
+      "lng": -7.910683112966228
+    },
+    "typology": "T4",
+    "area": 38,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "A",
+    "floor": 7,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1977,
+    "price": 74294,
+    "features": [
+      "roupeiros",
+      "ar condicionado",
+      "varanda",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora-24-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora-24-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "t2-em-braga-25",
+    "title": "T2 em Braga",
+    "summary": "T2 com 3 quartos em Braga.",
+    "description": "Imóvel usado com 76 m², localizado em Braga, Braga. Ano 1976.",
+    "location": {
+      "city": "Braga",
+      "district": "Braga",
+      "lat": 41.532641534696474,
+      "lng": -8.430176376951083
+    },
+    "typology": "T2",
+    "area": 76,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "F",
+    "floor": 4,
+    "parking_spots": 1,
+    "condo_fee": 25,
+    "yearBuilt": 1976,
+    "price": 186527,
+    "features": [
+      "vista rio",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga-25-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga-25-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "slug": "t2-em-porto-26",
+    "title": "T2 em Porto",
+    "summary": "T2 com 3 quartos em Porto.",
+    "description": "Imóvel bom com 194 m², localizado em Porto, Porto. Ano 2024.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.17433374983807,
+      "lng": -8.64339439698849
+    },
+    "typology": "T2",
+    "area": 194,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "condition": "Bom",
+    "energy": "F",
+    "floor": 1,
+    "parking_spots": 1,
+    "condo_fee": 80,
+    "yearBuilt": 2024,
+    "price": 705635,
+    "features": [
+      "suite",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-26-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-26-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "slug": "t2-em-lisboa-27",
+    "title": "T2 em Lisboa",
+    "summary": "T2 com 2 quartos em Lisboa.",
+    "description": "Imóvel a precisar de obras com 180 m², localizado em Lisboa, Lisboa. Ano 2019.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.71787081847894,
+      "lng": -9.154291691274107
+    },
+    "typology": "T2",
+    "area": 180,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "B",
+    "floor": 3,
+    "parking_spots": 1,
+    "condo_fee": 25,
+    "yearBuilt": 2019,
+    "price": 705628,
+    "features": [
+      "varanda",
+      "jardim",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-27-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-27-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "slug": "t0-em-porto-28",
+    "title": "T0 em Porto",
+    "summary": "T0 com 0 quartos em Porto.",
+    "description": "Imóvel renovado com 242 m², localizado em Porto, Porto. Ano 2009.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.14945056034893,
+      "lng": -8.64346794035114
+    },
+    "typology": "T0",
+    "area": 242,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "C",
+    "floor": 7,
+    "parking_spots": 2,
+    "condo_fee": 35,
+    "yearBuilt": 2009,
+    "price": 784980,
+    "features": [
+      "roupeiros",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-28-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-28-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "slug": "t0-em-lisboa-29",
+    "title": "T0 em Lisboa",
+    "summary": "T0 com 0 quartos em Lisboa.",
+    "description": "Imóvel renovado com 98 m², localizado em Lisboa, Lisboa. Ano 2018.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.71237615880573,
+      "lng": -9.139264878889378
+    },
+    "typology": "T0",
+    "area": 98,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "B-",
+    "floor": 1,
+    "parking_spots": 1,
+    "condo_fee": 60,
+    "yearBuilt": 2018,
+    "price": 454980,
+    "features": [
+      "varanda",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-29-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-29-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "slug": "t0-em-lisboa-30",
+    "title": "T0 em Lisboa",
+    "summary": "T0 com 0 quartos em Lisboa.",
+    "description": "Imóvel devoluto com 245 m², localizado em Lisboa, Lisboa. Ano 2012.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.72257535644681,
+      "lng": -9.141032022612773
+    },
+    "typology": "T0",
+    "area": 245,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Devoluto",
+    "energy": "A+",
+    "floor": 11,
+    "parking_spots": 1,
+    "condo_fee": 35,
+    "yearBuilt": 2012,
+    "price": 775973,
+    "features": [
+      "ar condicionado",
+      "garagem",
+      "roupeiros",
+      "elevador",
+      "suite"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-30-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-30-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "slug": "moradia-em-faro-31",
+    "title": "Moradia em Faro",
+    "summary": "Moradia com 2 quartos em Faro.",
+    "description": "Imóvel bom com 258 m², localizado em Faro, Faro. Ano 2007.",
+    "location": {
+      "city": "Faro",
+      "district": "Faro",
+      "lat": 37.014816214368615,
+      "lng": -7.915102525706279
+    },
+    "typology": "Moradia",
+    "area": 258,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "condition": "Bom",
+    "energy": "B-",
+    "floor": 0,
+    "parking_spots": 2,
+    "condo_fee": 0,
+    "yearBuilt": 2007,
+    "price": 925370,
+    "features": [
+      "cozinha equipada",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro-31-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro-31-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "slug": "t4-em-faro-32",
+    "title": "T4 em Faro",
+    "summary": "T4 com 4 quartos em Faro.",
+    "description": "Imóvel usado com 152 m², localizado em Faro, Faro. Ano 1985.",
+    "location": {
+      "city": "Faro",
+      "district": "Faro",
+      "lat": 37.03354764751617,
+      "lng": -7.932718749564362
+    },
+    "typology": "T4",
+    "area": 152,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "condition": "Usado",
+    "energy": "C",
+    "floor": 1,
+    "parking_spots": 0,
+    "condo_fee": 80,
+    "yearBuilt": 1985,
+    "price": 487031,
+    "features": [
+      "garagem",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro-32-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro-32-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "slug": "t3-em-porto-33",
+    "title": "T3 em Porto",
+    "summary": "T3 com 2 quartos em Porto.",
+    "description": "Imóvel usado com 140 m², localizado em Porto, Porto. Ano 2005.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.173021086341166,
+      "lng": -8.632860359026928
+    },
+    "typology": "T3",
+    "area": 140,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "C",
+    "floor": 10,
+    "parking_spots": 1,
+    "condo_fee": 25,
+    "yearBuilt": 2005,
+    "price": 516553,
+    "features": [
+      "garagem",
+      "vista rio",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-33-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-33-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "slug": "t3-em-faro-34",
+    "title": "T3 em Faro",
+    "summary": "T3 com 1 quartos em Faro.",
+    "description": "Imóvel a precisar de obras com 72 m², localizado em Faro, Faro. Ano 1995.",
+    "location": {
+      "city": "Faro",
+      "district": "Faro",
+      "lat": 37.03257700159792,
+      "lng": -7.947996255522599
+    },
+    "typology": "T3",
+    "area": 72,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "A+",
+    "floor": 11,
+    "parking_spots": 1,
+    "condo_fee": 100,
+    "yearBuilt": 1995,
+    "price": 178961,
+    "features": [
+      "elevador",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro-34-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro-34-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "slug": "t4-em-lisboa-35",
+    "title": "T4 em Lisboa",
+    "summary": "T4 com 3 quartos em Lisboa.",
+    "description": "Imóvel a precisar de obras com 167 m², localizado em Lisboa, Lisboa. Ano 2014.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.739996072359794,
+      "lng": -9.15463564004902
+    },
+    "typology": "T4",
+    "area": 167,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "condition": "A precisar de obras",
+    "energy": "D",
+    "floor": 10,
+    "parking_spots": 2,
+    "condo_fee": 0,
+    "yearBuilt": 2014,
+    "price": 705639,
+    "features": [
+      "ar condicionado",
+      "suite",
+      "vista rio"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-35-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-35-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "slug": "t2-em-faro-36",
+    "title": "T2 em Faro",
+    "summary": "T2 com 2 quartos em Faro.",
+    "description": "Imóvel usado com 72 m², localizado em Faro, Faro. Ano 1977.",
+    "location": {
+      "city": "Faro",
+      "district": "Faro",
+      "lat": 37.01578998514418,
+      "lng": -7.932532868542653
+    },
+    "typology": "T2",
+    "area": 72,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "condition": "Usado",
+    "energy": "B-",
+    "floor": 3,
+    "parking_spots": 1,
+    "condo_fee": 100,
+    "yearBuilt": 1977,
+    "price": 212192,
+    "features": [
+      "jardim",
+      "ar condicionado",
+      "roupeiros",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro-36-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro-36-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "slug": "t2-em-porto-37",
+    "title": "T2 em Porto",
+    "summary": "T2 com 5 quartos em Porto.",
+    "description": "Imóvel a precisar de obras com 120 m², localizado em Porto, Porto. Ano 2016.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.16868588916991,
+      "lng": -8.642415619383064
+    },
+    "typology": "T2",
+    "area": 120,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "condition": "A precisar de obras",
+    "energy": "F",
+    "floor": 6,
+    "parking_spots": 1,
+    "condo_fee": 45,
+    "yearBuilt": 2016,
+    "price": 361707,
+    "features": [
+      "ar condicionado",
+      "vista rio",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-37-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-37-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "slug": "moradia-em-lisboa-38",
+    "title": "Moradia em Lisboa",
+    "summary": "Moradia com 4 quartos em Lisboa.",
+    "description": "Imóvel usado com 229 m², localizado em Lisboa, Lisboa. Ano 1987.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.736163504648594,
+      "lng": -9.14392413334326
+    },
+    "typology": "Moradia",
+    "area": 229,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "condition": "Usado",
+    "energy": "B-",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1987,
+    "price": 1154608,
+    "features": [
+      "roupeiros",
+      "ar condicionado",
+      "vista rio",
+      "cozinha equipada",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-38-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-38-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "slug": "t1-em-coimbra-39",
+    "title": "T1 em Coimbra",
+    "summary": "T1 com 0 quartos em Coimbra.",
+    "description": "Imóvel usado com 114 m², localizado em Coimbra, Coimbra. Ano 1975.",
+    "location": {
+      "city": "Coimbra",
+      "district": "Coimbra",
+      "lat": 40.20921203746239,
+      "lng": -8.428880676936544
+    },
+    "typology": "T1",
+    "area": 114,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "A+",
+    "floor": 2,
+    "parking_spots": 2,
+    "condo_fee": 25,
+    "yearBuilt": 1975,
+    "price": 232861,
+    "features": [
+      "cozinha equipada",
+      "varanda",
+      "elevador",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra-39-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra-39-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "slug": "t1-em-vora-40",
+    "title": "T1 em Évora",
+    "summary": "T1 com 0 quartos em Évora.",
+    "description": "Imóvel usado com 258 m², localizado em Évora, Évora. Ano 1983.",
+    "location": {
+      "city": "Évora",
+      "district": "Évora",
+      "lat": 38.583884429231034,
+      "lng": -7.909574732303769
+    },
+    "typology": "T1",
+    "area": 258,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "B-",
+    "floor": 11,
+    "parking_spots": 0,
+    "condo_fee": 100,
+    "yearBuilt": 1983,
+    "price": 446315,
+    "features": [
+      "suite",
+      "elevador",
+      "cozinha equipada",
+      "garagem",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora-40-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora-40-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "slug": "t0-em-lisboa-41",
+    "title": "T0 em Lisboa",
+    "summary": "T0 com 0 quartos em Lisboa.",
+    "description": "Imóvel devoluto com 114 m², localizado em Lisboa, Lisboa. Ano 2018.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.723793286245346,
+      "lng": -9.133692352563328
+    },
+    "typology": "T0",
+    "area": 114,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Devoluto",
+    "energy": "B",
+    "floor": 11,
+    "parking_spots": 1,
+    "condo_fee": 35,
+    "yearBuilt": 2018,
+    "price": 382323,
+    "features": [
+      "vista rio",
+      "cozinha equipada",
+      "varanda",
+      "suite",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-41-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-41-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "slug": "t0-em-lisboa-42",
+    "title": "T0 em Lisboa",
+    "summary": "T0 com 0 quartos em Lisboa.",
+    "description": "Imóvel usado com 248 m², localizado em Lisboa, Lisboa. Ano 1979.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.713496329627716,
+      "lng": -9.15092329867244
+    },
+    "typology": "T0",
+    "area": 248,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "A+",
+    "floor": 11,
+    "parking_spots": 0,
+    "condo_fee": 60,
+    "yearBuilt": 1979,
+    "price": 1039420,
+    "features": [
+      "varanda",
+      "ar condicionado",
+      "vista rio",
+      "suite"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-42-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-42-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "slug": "t0-em-porto-43",
+    "title": "T0 em Porto",
+    "summary": "T0 com 0 quartos em Porto.",
+    "description": "Imóvel bom com 203 m², localizado em Porto, Porto. Ano 2004.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.15936901490785,
+      "lng": -8.639394499629722
+    },
+    "typology": "T0",
+    "area": 203,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "A+",
+    "floor": 7,
+    "parking_spots": 1,
+    "condo_fee": 25,
+    "yearBuilt": 2004,
+    "price": 628729,
+    "features": [
+      "jardim",
+      "vista rio",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-43-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-43-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "slug": "moradia-em-braga-44",
+    "title": "Moradia em Braga",
+    "summary": "Moradia com 5 quartos em Braga.",
+    "description": "Imóvel usado com 191 m², localizado em Braga, Braga. Ano 1997.",
+    "location": {
+      "city": "Braga",
+      "district": "Braga",
+      "lat": 41.55765496814147,
+      "lng": -8.415440234474335
+    },
+    "typology": "Moradia",
+    "area": 191,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "D",
+    "floor": 0,
+    "parking_spots": 0,
+    "condo_fee": 0,
+    "yearBuilt": 1997,
+    "price": 484143,
+    "features": [
+      "jardim",
+      "suite",
+      "garagem",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga-44-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga-44-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "slug": "moradia-em-leiria-45",
+    "title": "Moradia em Leiria",
+    "summary": "Moradia com 4 quartos em Leiria.",
+    "description": "Imóvel bom com 186 m², localizado em Leiria, Leiria. Ano 2007.",
+    "location": {
+      "city": "Leiria",
+      "district": "Leiria",
+      "lat": 39.73695481590474,
+      "lng": -8.810387885129195
+    },
+    "typology": "Moradia",
+    "area": 186,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "condition": "Bom",
+    "energy": "B",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 2007,
+    "price": 432955,
+    "features": [
+      "elevador",
+      "varanda",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria-45-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria-45-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "slug": "t0-em-braga-46",
+    "title": "T0 em Braga",
+    "summary": "T0 com 0 quartos em Braga.",
+    "description": "Imóvel a precisar de obras com 120 m², localizado em Braga, Braga. Ano 1999.",
+    "location": {
+      "city": "Braga",
+      "district": "Braga",
+      "lat": 41.53403380456728,
+      "lng": -8.430455745398676
+    },
+    "typology": "T0",
+    "area": 120,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "D",
+    "floor": 3,
+    "parking_spots": 1,
+    "condo_fee": 45,
+    "yearBuilt": 1999,
+    "price": 213752,
+    "features": [
+      "vista rio",
+      "cozinha equipada",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga-46-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga-46-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "slug": "t4-em-coimbra-47",
+    "title": "T4 em Coimbra",
+    "summary": "T4 com 5 quartos em Coimbra.",
+    "description": "Imóvel bom com 57 m², localizado em Coimbra, Coimbra. Ano 2003.",
+    "location": {
+      "city": "Coimbra",
+      "district": "Coimbra",
+      "lat": 40.21939522265466,
+      "lng": -8.403276924499366
+    },
+    "typology": "T4",
+    "area": 57,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "condition": "Bom",
+    "energy": "E",
+    "floor": 12,
+    "parking_spots": 1,
+    "condo_fee": 80,
+    "yearBuilt": 2003,
+    "price": 146153,
+    "features": [
+      "cozinha equipada",
+      "garagem",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra-47-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra-47-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "slug": "t0-em-porto-48",
+    "title": "T0 em Porto",
+    "summary": "T0 com 0 quartos em Porto.",
+    "description": "Imóvel devoluto com 161 m², localizado em Porto, Porto. Ano 2021.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.14394350849084,
+      "lng": -8.635015923833631
+    },
+    "typology": "T0",
+    "area": 161,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Devoluto",
+    "energy": "D",
+    "floor": 2,
+    "parking_spots": 0,
+    "condo_fee": 60,
+    "yearBuilt": 2021,
+    "price": 391989,
+    "features": [
+      "cozinha equipada",
+      "ar condicionado",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-48-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-48-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "slug": "t3-em-lisboa-49",
+    "title": "T3 em Lisboa",
+    "summary": "T3 com 5 quartos em Lisboa.",
+    "description": "Imóvel bom com 230 m², localizado em Lisboa, Lisboa. Ano 2008.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.73831850100506,
+      "lng": -9.126260282025122
+    },
+    "typology": "T3",
+    "area": 230,
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "condition": "Bom",
+    "energy": "B",
+    "floor": 9,
+    "parking_spots": 2,
+    "condo_fee": 25,
+    "yearBuilt": 2008,
+    "price": 1022698,
+    "features": [
+      "garagem",
+      "vista rio",
+      "ar condicionado",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-49-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-49-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "slug": "t3-em-coimbra-50",
+    "title": "T3 em Coimbra",
+    "summary": "T3 com 2 quartos em Coimbra.",
+    "description": "Imóvel bom com 123 m², localizado em Coimbra, Coimbra. Ano 1996.",
+    "location": {
+      "city": "Coimbra",
+      "district": "Coimbra",
+      "lat": 40.20314277335486,
+      "lng": -8.421396631038336
+    },
+    "typology": "T3",
+    "area": 123,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "condition": "Bom",
+    "energy": "B",
+    "floor": 11,
+    "parking_spots": 0,
+    "condo_fee": 45,
+    "yearBuilt": 1996,
+    "price": 302215,
+    "features": [
+      "jardim",
+      "vista rio"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra-50-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra-50-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "slug": "moradia-em-lisboa-51",
+    "title": "Moradia em Lisboa",
+    "summary": "Moradia com 2 quartos em Lisboa.",
+    "description": "Imóvel a precisar de obras com 158 m², localizado em Lisboa, Lisboa. Ano 1990.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.72247228630244,
+      "lng": -9.12825730114594
+    },
+    "typology": "Moradia",
+    "area": 158,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "C",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1990,
+    "price": 758053,
+    "features": [
+      "cozinha equipada",
+      "garagem",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-51-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-51-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "slug": "moradia-em-set-bal-52",
+    "title": "Moradia em Setúbal",
+    "summary": "Moradia com 5 quartos em Setúbal.",
+    "description": "Imóvel renovado com 190 m², localizado em Setúbal, Setúbal. Ano 1984.",
+    "location": {
+      "city": "Setúbal",
+      "district": "Setúbal",
+      "lat": 38.519801860041426,
+      "lng": -8.869766546110604
+    },
+    "typology": "Moradia",
+    "area": 190,
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "condition": "Renovado",
+    "energy": "A+",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1984,
+    "price": 640303,
+    "features": [
+      "varanda",
+      "cozinha equipada",
+      "garagem",
+      "vista rio",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal-52-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal-52-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "slug": "t3-em-lisboa-53",
+    "title": "T3 em Lisboa",
+    "summary": "T3 com 5 quartos em Lisboa.",
+    "description": "Imóvel renovado com 55 m², localizado em Lisboa, Lisboa. Ano 1996.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.70351026837958,
+      "lng": -9.138425670954398
+    },
+    "typology": "T3",
+    "area": 55,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "condition": "Renovado",
+    "energy": "A+",
+    "floor": 0,
+    "parking_spots": 0,
+    "condo_fee": 45,
+    "yearBuilt": 1996,
+    "price": 277003,
+    "features": [
+      "jardim",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-53-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-53-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "slug": "t3-em-porto-54",
+    "title": "T3 em Porto",
+    "summary": "T3 com 2 quartos em Porto.",
+    "description": "Imóvel usado com 171 m², localizado em Porto, Porto. Ano 1982.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.153505015844935,
+      "lng": -8.630615472462946
+    },
+    "typology": "T3",
+    "area": 171,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "B",
+    "floor": 2,
+    "parking_spots": 0,
+    "condo_fee": 80,
+    "yearBuilt": 1982,
+    "price": 627430,
+    "features": [
+      "cozinha equipada",
+      "ar condicionado",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-54-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-54-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "slug": "moradia-em-faro-55",
+    "title": "Moradia em Faro",
+    "summary": "Moradia com 1 quartos em Faro.",
+    "description": "Imóvel a precisar de obras com 303 m², localizado em Faro, Faro. Ano 2005.",
+    "location": {
+      "city": "Faro",
+      "district": "Faro",
+      "lat": 37.01338318582814,
+      "lng": -7.930913784723598
+    },
+    "typology": "Moradia",
+    "area": 303,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "D",
+    "floor": 0,
+    "parking_spots": 0,
+    "condo_fee": 0,
+    "yearBuilt": 2005,
+    "price": 895013,
+    "features": [
+      "jardim",
+      "cozinha equipada",
+      "varanda",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro-55-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro-55-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "slug": "t3-em-vora-56",
+    "title": "T3 em Évora",
+    "summary": "T3 com 2 quartos em Évora.",
+    "description": "Imóvel usado com 64 m², localizado em Évora, Évora. Ano 2000.",
+    "location": {
+      "city": "Évora",
+      "district": "Évora",
+      "lat": 38.56184246519656,
+      "lng": -7.925316361968674
+    },
+    "typology": "T3",
+    "area": 64,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "condition": "Usado",
+    "energy": "B",
+    "floor": 7,
+    "parking_spots": 2,
+    "condo_fee": 0,
+    "yearBuilt": 2000,
+    "price": 124409,
+    "features": [
+      "ar condicionado",
+      "cozinha equipada",
+      "elevador",
+      "varanda",
+      "vista rio"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora-56-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora-56-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "slug": "moradia-em-lisboa-57",
+    "title": "Moradia em Lisboa",
+    "summary": "Moradia com 3 quartos em Lisboa.",
+    "description": "Imóvel usado com 260 m², localizado em Lisboa, Lisboa. Ano 2022.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.710717801471226,
+      "lng": -9.156614534973098
+    },
+    "typology": "Moradia",
+    "area": 260,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "condition": "Usado",
+    "energy": "A",
+    "floor": 0,
+    "parking_spots": 2,
+    "condo_fee": 0,
+    "yearBuilt": 2022,
+    "price": 1470062,
+    "features": [
+      "roupeiros",
+      "varanda",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-57-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-57-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "slug": "t3-em-porto-58",
+    "title": "T3 em Porto",
+    "summary": "T3 com 5 quartos em Porto.",
+    "description": "Imóvel bom com 177 m², localizado em Porto, Porto. Ano 2008.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.161247465908495,
+      "lng": -8.648437217250054
+    },
+    "typology": "T3",
+    "area": 177,
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "condition": "Bom",
+    "energy": "C",
+    "floor": 8,
+    "parking_spots": 0,
+    "condo_fee": 100,
+    "yearBuilt": 2008,
+    "price": 652857,
+    "features": [
+      "garagem",
+      "vista rio",
+      "varanda",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-58-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-58-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "slug": "t3-em-faro-59",
+    "title": "T3 em Faro",
+    "summary": "T3 com 5 quartos em Faro.",
+    "description": "Imóvel bom com 234 m², localizado em Faro, Faro. Ano 1976.",
+    "location": {
+      "city": "Faro",
+      "district": "Faro",
+      "lat": 37.03792861995302,
+      "lng": -7.925987499848164
+    },
+    "typology": "T3",
+    "area": 234,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "E",
+    "floor": 9,
+    "parking_spots": 1,
+    "condo_fee": 45,
+    "yearBuilt": 1976,
+    "price": 718911,
+    "features": [
+      "garagem",
+      "suite",
+      "cozinha equipada",
+      "vista rio",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro-59-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro-59-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "slug": "t3-em-lisboa-60",
+    "title": "T3 em Lisboa",
+    "summary": "T3 com 1 quartos em Lisboa.",
+    "description": "Imóvel renovado com 41 m², localizado em Lisboa, Lisboa. Ano 1986.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.703014751147485,
+      "lng": -9.122965817315773
+    },
+    "typology": "T3",
+    "area": 41,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "D",
+    "floor": 9,
+    "parking_spots": 0,
+    "condo_fee": 25,
+    "yearBuilt": 1986,
+    "price": 188688,
+    "features": [
+      "jardim",
+      "garagem",
+      "roupeiros",
+      "ar condicionado",
+      "vista rio"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-60-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-60-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "slug": "t1-em-porto-61",
+    "title": "T1 em Porto",
+    "summary": "T1 com 0 quartos em Porto.",
+    "description": "Imóvel usado com 186 m², localizado em Porto, Porto. Ano 1994.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.144279576684944,
+      "lng": -8.615870764287093
+    },
+    "typology": "T1",
+    "area": 186,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "E",
+    "floor": 0,
+    "parking_spots": 2,
+    "condo_fee": 80,
+    "yearBuilt": 1994,
+    "price": 635284,
+    "features": [
+      "varanda",
+      "elevador",
+      "jardim",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-61-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-61-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "slug": "t3-em-porto-62",
+    "title": "T3 em Porto",
+    "summary": "T3 com 4 quartos em Porto.",
+    "description": "Imóvel a precisar de obras com 147 m², localizado em Porto, Porto. Ano 1986.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.15922525212891,
+      "lng": -8.616417828220946
+    },
+    "typology": "T3",
+    "area": 147,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "condition": "A precisar de obras",
+    "energy": "B-",
+    "floor": 1,
+    "parking_spots": 0,
+    "condo_fee": 100,
+    "yearBuilt": 1986,
+    "price": 452038,
+    "features": [
+      "ar condicionado",
+      "cozinha equipada",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-62-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-62-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "slug": "t4-em-porto-63",
+    "title": "T4 em Porto",
+    "summary": "T4 com 4 quartos em Porto.",
+    "description": "Imóvel bom com 194 m², localizado em Porto, Porto. Ano 1976.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.139041700599016,
+      "lng": -8.613659422649969
+    },
+    "typology": "T4",
+    "area": 194,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "B",
+    "floor": 0,
+    "parking_spots": 0,
+    "condo_fee": 0,
+    "yearBuilt": 1976,
+    "price": 733572,
+    "features": [
+      "varanda",
+      "roupeiros",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-63-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-63-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "slug": "t2-em-porto-64",
+    "title": "T2 em Porto",
+    "summary": "T2 com 2 quartos em Porto.",
+    "description": "Imóvel bom com 35 m², localizado em Porto, Porto. Ano 2000.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.16205740835194,
+      "lng": -8.632070901217025
+    },
+    "typology": "T2",
+    "area": 35,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "F",
+    "floor": 2,
+    "parking_spots": 2,
+    "condo_fee": 0,
+    "yearBuilt": 2000,
+    "price": 125503,
+    "features": [
+      "elevador",
+      "roupeiros",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-64-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-64-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "slug": "moradia-em-lisboa-65",
+    "title": "Moradia em Lisboa",
+    "summary": "Moradia com 4 quartos em Lisboa.",
+    "description": "Imóvel bom com 185 m², localizado em Lisboa, Lisboa. Ano 1992.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.735546593209165,
+      "lng": -9.147769183700872
+    },
+    "typology": "Moradia",
+    "area": 185,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "A",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1992,
+    "price": 962384,
+    "features": [
+      "elevador",
+      "roupeiros",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-65-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-65-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "slug": "t3-em-braga-66",
+    "title": "T3 em Braga",
+    "summary": "T3 com 2 quartos em Braga.",
+    "description": "Imóvel a precisar de obras com 222 m², localizado em Braga, Braga. Ano 1997.",
+    "location": {
+      "city": "Braga",
+      "district": "Braga",
+      "lat": 41.55040275047156,
+      "lng": -8.43748915781388
+    },
+    "typology": "T3",
+    "area": 222,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "condition": "A precisar de obras",
+    "energy": "F",
+    "floor": 6,
+    "parking_spots": 0,
+    "condo_fee": 35,
+    "yearBuilt": 1997,
+    "price": 443736,
+    "features": [
+      "elevador",
+      "garagem",
+      "roupeiros",
+      "suite"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga-66-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga-66-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "slug": "t4-em-vora-67",
+    "title": "T4 em Évora",
+    "summary": "T4 com 5 quartos em Évora.",
+    "description": "Imóvel a precisar de obras com 255 m², localizado em Évora, Évora. Ano 1986.",
+    "location": {
+      "city": "Évora",
+      "district": "Évora",
+      "lat": 38.574562248256456,
+      "lng": -7.900244087659434
+    },
+    "typology": "T4",
+    "area": 255,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "condition": "A precisar de obras",
+    "energy": "E",
+    "floor": 4,
+    "parking_spots": 1,
+    "condo_fee": 60,
+    "yearBuilt": 1986,
+    "price": 466731,
+    "features": [
+      "cozinha equipada",
+      "garagem",
+      "ar condicionado",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora-67-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora-67-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "slug": "t1-em-braga-68",
+    "title": "T1 em Braga",
+    "summary": "T1 com 0 quartos em Braga.",
+    "description": "Imóvel a precisar de obras com 165 m², localizado em Braga, Braga. Ano 2023.",
+    "location": {
+      "city": "Braga",
+      "district": "Braga",
+      "lat": 41.53293950485304,
+      "lng": -8.40666722563303
+    },
+    "typology": "T1",
+    "area": 165,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "A",
+    "floor": 11,
+    "parking_spots": 2,
+    "condo_fee": 60,
+    "yearBuilt": 2023,
+    "price": 317796,
+    "features": [
+      "garagem",
+      "cozinha equipada",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga-68-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga-68-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "slug": "t3-em-porto-69",
+    "title": "T3 em Porto",
+    "summary": "T3 com 1 quartos em Porto.",
+    "description": "Imóvel usado com 46 m², localizado em Porto, Porto. Ano 2023.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.15558911834681,
+      "lng": -8.62852788077441
+    },
+    "typology": "T3",
+    "area": 46,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "E",
+    "floor": 3,
+    "parking_spots": 2,
+    "condo_fee": 60,
+    "yearBuilt": 2023,
+    "price": 172883,
+    "features": [
+      "cozinha equipada",
+      "roupeiros",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-69-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-69-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "slug": "t0-em-coimbra-70",
+    "title": "T0 em Coimbra",
+    "summary": "T0 com 0 quartos em Coimbra.",
+    "description": "Imóvel usado com 84 m², localizado em Coimbra, Coimbra. Ano 2002.",
+    "location": {
+      "city": "Coimbra",
+      "district": "Coimbra",
+      "lat": 40.21967590234938,
+      "lng": -8.400088024066042
+    },
+    "typology": "T0",
+    "area": 84,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "A",
+    "floor": 3,
+    "parking_spots": 0,
+    "condo_fee": 80,
+    "yearBuilt": 2002,
+    "price": 176301,
+    "features": [
+      "garagem",
+      "ar condicionado",
+      "elevador",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra-70-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra-70-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "slug": "t4-em-lisboa-71",
+    "title": "T4 em Lisboa",
+    "summary": "T4 com 5 quartos em Lisboa.",
+    "description": "Imóvel renovado com 188 m², localizado em Lisboa, Lisboa. Ano 2009.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.70766371707878,
+      "lng": -9.137379214761117
+    },
+    "typology": "T4",
+    "area": 188,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "A",
+    "floor": 2,
+    "parking_spots": 0,
+    "condo_fee": 100,
+    "yearBuilt": 2009,
+    "price": 939750,
+    "features": [
+      "jardim",
+      "elevador",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-71-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-71-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "slug": "moradia-em-faro-72",
+    "title": "Moradia em Faro",
+    "summary": "Moradia com 4 quartos em Faro.",
+    "description": "Imóvel bom com 287 m², localizado em Faro, Faro. Ano 1988.",
+    "location": {
+      "city": "Faro",
+      "district": "Faro",
+      "lat": 37.02025753131056,
+      "lng": -7.9274964421133856
+    },
+    "typology": "Moradia",
+    "area": 287,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "condition": "Bom",
+    "energy": "B-",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1988,
+    "price": 959520,
+    "features": [
+      "elevador",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro-72-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro-72-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "slug": "t3-em-faro-73",
+    "title": "T3 em Faro",
+    "summary": "T3 com 1 quartos em Faro.",
+    "description": "Imóvel bom com 43 m², localizado em Faro, Faro. Ano 1998.",
+    "location": {
+      "city": "Faro",
+      "district": "Faro",
+      "lat": 37.032897863176295,
+      "lng": -7.939684760923048
+    },
+    "typology": "T3",
+    "area": 43,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "A+",
+    "floor": 8,
+    "parking_spots": 1,
+    "condo_fee": 35,
+    "yearBuilt": 1998,
+    "price": 131926,
+    "features": [
+      "vista rio",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro-73-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro-73-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "slug": "t3-em-viseu-74",
+    "title": "T3 em Viseu",
+    "summary": "T3 com 4 quartos em Viseu.",
+    "description": "Imóvel bom com 209 m², localizado em Viseu, Viseu. Ano 1980.",
+    "location": {
+      "city": "Viseu",
+      "district": "Viseu",
+      "lat": 40.67010268497906,
+      "lng": -7.93133870086582
+    },
+    "typology": "T3",
+    "area": 209,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "condition": "Bom",
+    "energy": "B",
+    "floor": 6,
+    "parking_spots": 1,
+    "condo_fee": 35,
+    "yearBuilt": 1980,
+    "price": 433104,
+    "features": [
+      "vista rio",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu-74-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu-74-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "slug": "t1-em-porto-75",
+    "title": "T1 em Porto",
+    "summary": "T1 com 0 quartos em Porto.",
+    "description": "Imóvel a precisar de obras com 136 m², localizado em Porto, Porto. Ano 2003.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.14777033788075,
+      "lng": -8.64796858683587
+    },
+    "typology": "T1",
+    "area": 136,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "A+",
+    "floor": 2,
+    "parking_spots": 1,
+    "condo_fee": 45,
+    "yearBuilt": 2003,
+    "price": 378163,
+    "features": [
+      "ar condicionado",
+      "suite",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-75-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-75-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "slug": "t1-em-lisboa-76",
+    "title": "T1 em Lisboa",
+    "summary": "T1 com 0 quartos em Lisboa.",
+    "description": "Imóvel a precisar de obras com 132 m², localizado em Lisboa, Lisboa. Ano 2023.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.708856535084124,
+      "lng": -9.135650827015343
+    },
+    "typology": "T1",
+    "area": 132,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "B",
+    "floor": 8,
+    "parking_spots": 2,
+    "condo_fee": 45,
+    "yearBuilt": 2023,
+    "price": 519026,
+    "features": [
+      "cozinha equipada",
+      "jardim",
+      "vista rio",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-76-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-76-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "slug": "t0-em-porto-77",
+    "title": "T0 em Porto",
+    "summary": "T0 com 0 quartos em Porto.",
+    "description": "Imóvel bom com 101 m², localizado em Porto, Porto. Ano 1990.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.148414493234085,
+      "lng": -8.619535306888832
+    },
+    "typology": "T0",
+    "area": 101,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "D",
+    "floor": 10,
+    "parking_spots": 1,
+    "condo_fee": 45,
+    "yearBuilt": 1990,
+    "price": 338004,
+    "features": [
+      "suite",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-77-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-77-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "slug": "t2-em-lisboa-78",
+    "title": "T2 em Lisboa",
+    "summary": "T2 com 1 quartos em Lisboa.",
+    "description": "Imóvel usado com 64 m², localizado em Lisboa, Lisboa. Ano 2009.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.702624184557635,
+      "lng": -9.138702350603985
+    },
+    "typology": "T2",
+    "area": 64,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "F",
+    "floor": 5,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 2009,
+    "price": 285777,
+    "features": [
+      "ar condicionado",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-78-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-78-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "slug": "t1-em-porto-79",
+    "title": "T1 em Porto",
+    "summary": "T1 com 0 quartos em Porto.",
+    "description": "Imóvel bom com 216 m², localizado em Porto, Porto. Ano 1999.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.174200996670514,
+      "lng": -8.6230060814553
+    },
+    "typology": "T1",
+    "area": 216,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "A+",
+    "floor": 8,
+    "parking_spots": 2,
+    "condo_fee": 60,
+    "yearBuilt": 1999,
+    "price": 729654,
+    "features": [
+      "roupeiros",
+      "elevador",
+      "cozinha equipada",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-79-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-79-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "slug": "moradia-em-porto-80",
+    "title": "Moradia em Porto",
+    "summary": "Moradia com 2 quartos em Porto.",
+    "description": "Imóvel devoluto com 153 m², localizado em Porto, Porto. Ano 2008.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.14945847982251,
+      "lng": -8.633022480545442
+    },
+    "typology": "Moradia",
+    "area": 153,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "condition": "Devoluto",
+    "energy": "E",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 2008,
+    "price": 462869,
+    "features": [
+      "jardim",
+      "suite",
+      "roupeiros",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-80-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-80-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "slug": "t3-em-porto-81",
+    "title": "T3 em Porto",
+    "summary": "T3 com 2 quartos em Porto.",
+    "description": "Imóvel bom com 102 m², localizado em Porto, Porto. Ano 1981.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.1616466217385,
+      "lng": -8.645150066082284
+    },
+    "typology": "T3",
+    "area": 102,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "condition": "Bom",
+    "energy": "B-",
+    "floor": 2,
+    "parking_spots": 2,
+    "condo_fee": 45,
+    "yearBuilt": 1981,
+    "price": 374037,
+    "features": [
+      "cozinha equipada",
+      "ar condicionado",
+      "jardim",
+      "suite",
+      "vista rio"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-81-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-81-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "slug": "t3-em-lisboa-82",
+    "title": "T3 em Lisboa",
+    "summary": "T3 com 3 quartos em Lisboa.",
+    "description": "Imóvel usado com 61 m², localizado em Lisboa, Lisboa. Ano 1989.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.71880701967674,
+      "lng": -9.145075857066711
+    },
+    "typology": "T3",
+    "area": 61,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "condition": "Usado",
+    "energy": "F",
+    "floor": 1,
+    "parking_spots": 1,
+    "condo_fee": 35,
+    "yearBuilt": 1989,
+    "price": 269567,
+    "features": [
+      "garagem",
+      "jardim",
+      "vista rio",
+      "roupeiros",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-82-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-82-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "slug": "t1-em-lisboa-83",
+    "title": "T1 em Lisboa",
+    "summary": "T1 com 0 quartos em Lisboa.",
+    "description": "Imóvel bom com 175 m², localizado em Lisboa, Lisboa. Ano 2022.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.726789842688795,
+      "lng": -9.12049134438837
+    },
+    "typology": "T1",
+    "area": 175,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "E",
+    "floor": 7,
+    "parking_spots": 0,
+    "condo_fee": 80,
+    "yearBuilt": 2022,
+    "price": 810079,
+    "features": [
+      "vista rio",
+      "ar condicionado",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-83-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-83-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "slug": "t2-em-porto-84",
+    "title": "T2 em Porto",
+    "summary": "T2 com 4 quartos em Porto.",
+    "description": "Imóvel bom com 140 m², localizado em Porto, Porto. Ano 1981.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.17713163168842,
+      "lng": -8.61786366491913
+    },
+    "typology": "T2",
+    "area": 140,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "condition": "Bom",
+    "energy": "A+",
+    "floor": 10,
+    "parking_spots": 0,
+    "condo_fee": 45,
+    "yearBuilt": 1981,
+    "price": 483894,
+    "features": [
+      "elevador",
+      "suite",
+      "cozinha equipada",
+      "ar condicionado",
+      "vista rio"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-84-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-84-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "slug": "t3-em-porto-85",
+    "title": "T3 em Porto",
+    "summary": "T3 com 3 quartos em Porto.",
+    "description": "Imóvel usado com 146 m², localizado em Porto, Porto. Ano 1990.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.1541252195265,
+      "lng": -8.641013586235966
+    },
+    "typology": "T3",
+    "area": 146,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "condition": "Usado",
+    "energy": "A+",
+    "floor": 2,
+    "parking_spots": 1,
+    "condo_fee": 100,
+    "yearBuilt": 1990,
+    "price": 478666,
+    "features": [
+      "roupeiros",
+      "ar condicionado",
+      "jardim",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-85-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-85-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "slug": "t1-em-braga-86",
+    "title": "T1 em Braga",
+    "summary": "T1 com 0 quartos em Braga.",
+    "description": "Imóvel a precisar de obras com 152 m², localizado em Braga, Braga. Ano 1988.",
+    "location": {
+      "city": "Braga",
+      "district": "Braga",
+      "lat": 41.55955525453206,
+      "lng": -8.408233784603944
+    },
+    "typology": "T1",
+    "area": 152,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "C",
+    "floor": 3,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1988,
+    "price": 290655,
+    "features": [
+      "jardim",
+      "suite",
+      "elevador",
+      "garagem",
+      "vista rio"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga-86-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga-86-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "slug": "t0-em-lisboa-87",
+    "title": "T0 em Lisboa",
+    "summary": "T0 com 0 quartos em Lisboa.",
+    "description": "Imóvel bom com 66 m², localizado em Lisboa, Lisboa. Ano 1999.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.716250446894094,
+      "lng": -9.136674864740934
+    },
+    "typology": "T0",
+    "area": 66,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "A+",
+    "floor": 6,
+    "parking_spots": 1,
+    "condo_fee": 35,
+    "yearBuilt": 1999,
+    "price": 274604,
+    "features": [
+      "cozinha equipada",
+      "garagem",
+      "ar condicionado",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-87-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-87-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "slug": "t3-em-faro-88",
+    "title": "T3 em Faro",
+    "summary": "T3 com 2 quartos em Faro.",
+    "description": "Imóvel a precisar de obras com 201 m², localizado em Faro, Faro. Ano 1976.",
+    "location": {
+      "city": "Faro",
+      "district": "Faro",
+      "lat": 37.004448665297424,
+      "lng": -7.944596162584187
+    },
+    "typology": "T3",
+    "area": 201,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "E",
+    "floor": 2,
+    "parking_spots": 1,
+    "condo_fee": 35,
+    "yearBuilt": 1976,
+    "price": 483915,
+    "features": [
+      "jardim",
+      "elevador",
+      "suite",
+      "vista rio",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro-88-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro-88-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "slug": "t4-em-lisboa-89",
+    "title": "T4 em Lisboa",
+    "summary": "T4 com 1 quartos em Lisboa.",
+    "description": "Imóvel devoluto com 232 m², localizado em Lisboa, Lisboa. Ano 2024.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.70458486095909,
+      "lng": -9.13272395355669
+    },
+    "typology": "T4",
+    "area": 232,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Devoluto",
+    "energy": "B-",
+    "floor": 4,
+    "parking_spots": 1,
+    "condo_fee": 45,
+    "yearBuilt": 2024,
+    "price": 968878,
+    "features": [
+      "roupeiros",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-89-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-89-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "slug": "t0-em-lisboa-90",
+    "title": "T0 em Lisboa",
+    "summary": "T0 com 0 quartos em Lisboa.",
+    "description": "Imóvel a precisar de obras com 199 m², localizado em Lisboa, Lisboa. Ano 1984.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.74072218966272,
+      "lng": -9.134248423334343
+    },
+    "typology": "T0",
+    "area": 199,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "F",
+    "floor": 8,
+    "parking_spots": 0,
+    "condo_fee": 60,
+    "yearBuilt": 1984,
+    "price": 707761,
+    "features": [
+      "roupeiros",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-90-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-90-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "slug": "t0-em-lisboa-91",
+    "title": "T0 em Lisboa",
+    "summary": "T0 com 0 quartos em Lisboa.",
+    "description": "Imóvel devoluto com 180 m², localizado em Lisboa, Lisboa. Ano 2003.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.70525758409507,
+      "lng": -9.147131467132068
+    },
+    "typology": "T0",
+    "area": 180,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Devoluto",
+    "energy": "E",
+    "floor": 1,
+    "parking_spots": 1,
+    "condo_fee": 45,
+    "yearBuilt": 2003,
+    "price": 560048,
+    "features": [
+      "jardim",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-91-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-91-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "slug": "t3-em-lisboa-92",
+    "title": "T3 em Lisboa",
+    "summary": "T3 com 2 quartos em Lisboa.",
+    "description": "Imóvel bom com 191 m², localizado em Lisboa, Lisboa. Ano 2020.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.72728398348197,
+      "lng": -9.150119353080262
+    },
+    "typology": "T3",
+    "area": 191,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "B",
+    "floor": 8,
+    "parking_spots": 2,
+    "condo_fee": 45,
+    "yearBuilt": 2020,
+    "price": 900160,
+    "features": [
+      "cozinha equipada",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-92-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-92-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "slug": "t2-em-lisboa-93",
+    "title": "T2 em Lisboa",
+    "summary": "T2 com 5 quartos em Lisboa.",
+    "description": "Imóvel usado com 87 m², localizado em Lisboa, Lisboa. Ano 2004.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.7192455216709,
+      "lng": -9.143391521493964
+    },
+    "typology": "T2",
+    "area": 87,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "condition": "Usado",
+    "energy": "C",
+    "floor": 6,
+    "parking_spots": 2,
+    "condo_fee": 80,
+    "yearBuilt": 2004,
+    "price": 391542,
+    "features": [
+      "ar condicionado",
+      "jardim",
+      "cozinha equipada",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-93-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-93-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "slug": "t4-em-lisboa-94",
+    "title": "T4 em Lisboa",
+    "summary": "T4 com 4 quartos em Lisboa.",
+    "description": "Imóvel usado com 250 m², localizado em Lisboa, Lisboa. Ano 2010.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.73723414729599,
+      "lng": -9.158676117838692
+    },
+    "typology": "T4",
+    "area": 250,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "F",
+    "floor": 8,
+    "parking_spots": 1,
+    "condo_fee": 60,
+    "yearBuilt": 2010,
+    "price": 1289997,
+    "features": [
+      "elevador",
+      "vista rio"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-94-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-94-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "slug": "t3-em-lisboa-95",
+    "title": "T3 em Lisboa",
+    "summary": "T3 com 4 quartos em Lisboa.",
+    "description": "Imóvel usado com 221 m², localizado em Lisboa, Lisboa. Ano 1993.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.71398370872951,
+      "lng": -9.137871435140308
+    },
+    "typology": "T3",
+    "area": 221,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "condition": "Usado",
+    "energy": "E",
+    "floor": 5,
+    "parking_spots": 1,
+    "condo_fee": 35,
+    "yearBuilt": 1993,
+    "price": 1066776,
+    "features": [
+      "suite",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-95-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-95-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "slug": "moradia-em-coimbra-96",
+    "title": "Moradia em Coimbra",
+    "summary": "Moradia com 1 quartos em Coimbra.",
+    "description": "Imóvel usado com 253 m², localizado em Coimbra, Coimbra. Ano 2021.",
+    "location": {
+      "city": "Coimbra",
+      "district": "Coimbra",
+      "lat": 40.19692650821516,
+      "lng": -8.410017666355603
+    },
+    "typology": "Moradia",
+    "area": 253,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "B-",
+    "floor": 0,
+    "parking_spots": 2,
+    "condo_fee": 0,
+    "yearBuilt": 2021,
+    "price": 689783,
+    "features": [
+      "elevador",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra-96-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra-96-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "slug": "t0-em-braga-97",
+    "title": "T0 em Braga",
+    "summary": "T0 com 0 quartos em Braga.",
+    "description": "Imóvel a precisar de obras com 81 m², localizado em Braga, Braga. Ano 2007.",
+    "location": {
+      "city": "Braga",
+      "district": "Braga",
+      "lat": 41.529337236522935,
+      "lng": -8.433684084666533
+    },
+    "typology": "T0",
+    "area": 81,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "B",
+    "floor": 5,
+    "parking_spots": 1,
+    "condo_fee": 25,
+    "yearBuilt": 2007,
+    "price": 149746,
+    "features": [
+      "jardim",
+      "elevador",
+      "cozinha equipada",
+      "varanda",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga-97-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga-97-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "slug": "t4-em-porto-98",
+    "title": "T4 em Porto",
+    "summary": "T4 com 5 quartos em Porto.",
+    "description": "Imóvel usado com 188 m², localizado em Porto, Porto. Ano 2010.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.13852038260214,
+      "lng": -8.632827221959882
+    },
+    "typology": "T4",
+    "area": 188,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "condition": "Usado",
+    "energy": "A+",
+    "floor": 11,
+    "parking_spots": 2,
+    "condo_fee": 80,
+    "yearBuilt": 2010,
+    "price": 718004,
+    "features": [
+      "roupeiros",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-98-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-98-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "slug": "t3-em-lisboa-99",
+    "title": "T3 em Lisboa",
+    "summary": "T3 com 3 quartos em Lisboa.",
+    "description": "Imóvel bom com 157 m², localizado em Lisboa, Lisboa. Ano 2016.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.723136880365374,
+      "lng": -9.120206223844239
+    },
+    "typology": "T3",
+    "area": 157,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "condition": "Bom",
+    "energy": "A+",
+    "floor": 2,
+    "parking_spots": 0,
+    "condo_fee": 35,
+    "yearBuilt": 2016,
+    "price": 732497,
+    "features": [
+      "cozinha equipada",
+      "suite",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-99-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-99-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "slug": "t2-em-porto-100",
+    "title": "T2 em Porto",
+    "summary": "T2 com 3 quartos em Porto.",
+    "description": "Imóvel usado com 198 m², localizado em Porto, Porto. Ano 2004.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.14573859827558,
+      "lng": -8.63361924550358
+    },
+    "typology": "T2",
+    "area": 198,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "condition": "Usado",
+    "energy": "B",
+    "floor": 1,
+    "parking_spots": 1,
+    "condo_fee": 45,
+    "yearBuilt": 2004,
+    "price": 674794,
+    "features": [
+      "vista rio",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-100-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-100-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "slug": "moradia-em-porto-101",
+    "title": "Moradia em Porto",
+    "summary": "Moradia com 5 quartos em Porto.",
+    "description": "Imóvel usado com 231 m², localizado em Porto, Porto. Ano 1996.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.164216715177865,
+      "lng": -8.638761882026653
+    },
+    "typology": "Moradia",
+    "area": 231,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "condition": "Usado",
+    "energy": "D",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1996,
+    "price": 969989,
+    "features": [
+      "elevador",
+      "jardim",
+      "garagem",
+      "vista rio"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-101-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-101-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "slug": "t2-em-lisboa-102",
+    "title": "T2 em Lisboa",
+    "summary": "T2 com 1 quartos em Lisboa.",
+    "description": "Imóvel renovado com 240 m², localizado em Lisboa, Lisboa. Ano 2014.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.72360006959551,
+      "lng": -9.157323466041428
+    },
+    "typology": "T2",
+    "area": 240,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "E",
+    "floor": 2,
+    "parking_spots": 0,
+    "condo_fee": 25,
+    "yearBuilt": 2014,
+    "price": 1110764,
+    "features": [
+      "cozinha equipada",
+      "jardim",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-102-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-102-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "slug": "t2-em-vora-103",
+    "title": "T2 em Évora",
+    "summary": "T2 com 5 quartos em Évora.",
+    "description": "Imóvel devoluto com 87 m², localizado em Évora, Évora. Ano 2005.",
+    "location": {
+      "city": "Évora",
+      "district": "Évora",
+      "lat": 38.56826428542194,
+      "lng": -7.90710958452095
+    },
+    "typology": "T2",
+    "area": 87,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "condition": "Devoluto",
+    "energy": "A+",
+    "floor": 5,
+    "parking_spots": 0,
+    "condo_fee": 100,
+    "yearBuilt": 2005,
+    "price": 142594,
+    "features": [
+      "jardim",
+      "roupeiros",
+      "garagem",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora-103-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora-103-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "slug": "t0-em-set-bal-104",
+    "title": "T0 em Setúbal",
+    "summary": "T0 com 0 quartos em Setúbal.",
+    "description": "Imóvel usado com 174 m², localizado em Setúbal, Setúbal. Ano 2000.",
+    "location": {
+      "city": "Setúbal",
+      "district": "Setúbal",
+      "lat": 38.50452835850166,
+      "lng": -8.894353912396292
+    },
+    "typology": "T0",
+    "area": 174,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "B",
+    "floor": 6,
+    "parking_spots": 2,
+    "condo_fee": 35,
+    "yearBuilt": 2000,
+    "price": 431051,
+    "features": [
+      "garagem",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal-104-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal-104-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "slug": "t1-em-set-bal-105",
+    "title": "T1 em Setúbal",
+    "summary": "T1 com 0 quartos em Setúbal.",
+    "description": "Imóvel usado com 156 m², localizado em Setúbal, Setúbal. Ano 1990.",
+    "location": {
+      "city": "Setúbal",
+      "district": "Setúbal",
+      "lat": 38.514741188648706,
+      "lng": -8.904227977586837
+    },
+    "typology": "T1",
+    "area": 156,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "E",
+    "floor": 7,
+    "parking_spots": 1,
+    "condo_fee": 45,
+    "yearBuilt": 1990,
+    "price": 390798,
+    "features": [
+      "suite",
+      "ar condicionado",
+      "cozinha equipada",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal-105-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal-105-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "slug": "t3-em-lisboa-106",
+    "title": "T3 em Lisboa",
+    "summary": "T3 com 2 quartos em Lisboa.",
+    "description": "Imóvel bom com 159 m², localizado em Lisboa, Lisboa. Ano 2011.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.741771618987734,
+      "lng": -9.144538494576635
+    },
+    "typology": "T3",
+    "area": 159,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "B-",
+    "floor": 12,
+    "parking_spots": 2,
+    "condo_fee": 80,
+    "yearBuilt": 2011,
+    "price": 725619,
+    "features": [
+      "suite",
+      "elevador",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-106-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-106-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "slug": "t3-em-lisboa-107",
+    "title": "T3 em Lisboa",
+    "summary": "T3 com 1 quartos em Lisboa.",
+    "description": "Imóvel bom com 43 m², localizado em Lisboa, Lisboa. Ano 1991.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.72804219447208,
+      "lng": -9.157096004556903
+    },
+    "typology": "T3",
+    "area": 43,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "E",
+    "floor": 11,
+    "parking_spots": 2,
+    "condo_fee": 35,
+    "yearBuilt": 1991,
+    "price": 194517,
+    "features": [
+      "varanda",
+      "cozinha equipada",
+      "ar condicionado",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-107-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-107-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "slug": "t1-em-coimbra-108",
+    "title": "T1 em Coimbra",
+    "summary": "T1 com 0 quartos em Coimbra.",
+    "description": "Imóvel usado com 240 m², localizado em Coimbra, Coimbra. Ano 2024.",
+    "location": {
+      "city": "Coimbra",
+      "district": "Coimbra",
+      "lat": 40.21785119160938,
+      "lng": -8.397786351712117
+    },
+    "typology": "T1",
+    "area": 240,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "A",
+    "floor": 10,
+    "parking_spots": 1,
+    "condo_fee": 60,
+    "yearBuilt": 2024,
+    "price": 508316,
+    "features": [
+      "vista rio",
+      "garagem",
+      "roupeiros",
+      "jardim",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra-108-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra-108-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "slug": "t1-em-lisboa-109",
+    "title": "T1 em Lisboa",
+    "summary": "T1 com 0 quartos em Lisboa.",
+    "description": "Imóvel usado com 85 m², localizado em Lisboa, Lisboa. Ano 2023.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.731060489332094,
+      "lng": -9.124720466236713
+    },
+    "typology": "T1",
+    "area": 85,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "D",
+    "floor": 8,
+    "parking_spots": 2,
+    "condo_fee": 80,
+    "yearBuilt": 2023,
+    "price": 341044,
+    "features": [
+      "garagem",
+      "varanda",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-109-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-109-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "slug": "moradia-em-porto-110",
+    "title": "Moradia em Porto",
+    "summary": "Moradia com 3 quartos em Porto.",
+    "description": "Imóvel renovado com 164 m², localizado em Porto, Porto. Ano 2007.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.15730207457079,
+      "lng": -8.644558563219697
+    },
+    "typology": "Moradia",
+    "area": 164,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "condition": "Renovado",
+    "energy": "B-",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 2007,
+    "price": 696414,
+    "features": [
+      "garagem",
+      "varanda",
+      "elevador",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-110-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-110-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "slug": "t0-em-leiria-111",
+    "title": "T0 em Leiria",
+    "summary": "T0 com 0 quartos em Leiria.",
+    "description": "Imóvel renovado com 165 m², localizado em Leiria, Leiria. Ano 2004.",
+    "location": {
+      "city": "Leiria",
+      "district": "Leiria",
+      "lat": 39.75749802919231,
+      "lng": -8.820437733815941
+    },
+    "typology": "T0",
+    "area": 165,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "E",
+    "floor": 10,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 2004,
+    "price": 291529,
+    "features": [
+      "suite",
+      "elevador",
+      "jardim",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria-111-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria-111-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "slug": "t4-em-braga-112",
+    "title": "T4 em Braga",
+    "summary": "T4 com 3 quartos em Braga.",
+    "description": "Imóvel a precisar de obras com 199 m², localizado em Braga, Braga. Ano 2014.",
+    "location": {
+      "city": "Braga",
+      "district": "Braga",
+      "lat": 41.53386040180761,
+      "lng": -8.424950796928737
+    },
+    "typology": "T4",
+    "area": 199,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "E",
+    "floor": 4,
+    "parking_spots": 0,
+    "condo_fee": 45,
+    "yearBuilt": 2014,
+    "price": 448300,
+    "features": [
+      "roupeiros",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga-112-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga-112-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "slug": "t0-em-lisboa-113",
+    "title": "T0 em Lisboa",
+    "summary": "T0 com 0 quartos em Lisboa.",
+    "description": "Imóvel usado com 188 m², localizado em Lisboa, Lisboa. Ano 2001.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.71548280163715,
+      "lng": -9.126336462610563
+    },
+    "typology": "T0",
+    "area": 188,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "F",
+    "floor": 6,
+    "parking_spots": 1,
+    "condo_fee": 35,
+    "yearBuilt": 2001,
+    "price": 716594,
+    "features": [
+      "garagem",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-113-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-113-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "slug": "moradia-em-viseu-114",
+    "title": "Moradia em Viseu",
+    "summary": "Moradia com 3 quartos em Viseu.",
+    "description": "Imóvel renovado com 98 m², localizado em Viseu, Viseu. Ano 1975.",
+    "location": {
+      "city": "Viseu",
+      "district": "Viseu",
+      "lat": 40.658727237268366,
+      "lng": -7.911994104651446
+    },
+    "typology": "Moradia",
+    "area": 98,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "condition": "Renovado",
+    "energy": "D",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1975,
+    "price": 225309,
+    "features": [
+      "jardim",
+      "cozinha equipada",
+      "roupeiros",
+      "ar condicionado",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu-114-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu-114-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "slug": "t1-em-lisboa-115",
+    "title": "T1 em Lisboa",
+    "summary": "T1 com 0 quartos em Lisboa.",
+    "description": "Imóvel a precisar de obras com 202 m², localizado em Lisboa, Lisboa. Ano 2020.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.708168689647096,
+      "lng": -9.15466377783385
+    },
+    "typology": "T1",
+    "area": 202,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "D",
+    "floor": 4,
+    "parking_spots": 0,
+    "condo_fee": 100,
+    "yearBuilt": 2020,
+    "price": 752370,
+    "features": [
+      "vista rio",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-115-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-115-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "slug": "t3-em-faro-116",
+    "title": "T3 em Faro",
+    "summary": "T3 com 4 quartos em Faro.",
+    "description": "Imóvel usado com 74 m², localizado em Faro, Faro. Ano 2020.",
+    "location": {
+      "city": "Faro",
+      "district": "Faro",
+      "lat": 37.00063629613107,
+      "lng": -7.9312881777216555
+    },
+    "typology": "T3",
+    "area": 74,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "condition": "Usado",
+    "energy": "A+",
+    "floor": 3,
+    "parking_spots": 0,
+    "condo_fee": 60,
+    "yearBuilt": 2020,
+    "price": 194997,
+    "features": [
+      "elevador",
+      "garagem",
+      "suite"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro-116-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro-116-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "slug": "t4-em-lisboa-117",
+    "title": "T4 em Lisboa",
+    "summary": "T4 com 5 quartos em Lisboa.",
+    "description": "Imóvel usado com 227 m², localizado em Lisboa, Lisboa. Ano 2000.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.727528442757084,
+      "lng": -9.13953650068071
+    },
+    "typology": "T4",
+    "area": 227,
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "condition": "Usado",
+    "energy": "A",
+    "floor": 2,
+    "parking_spots": 1,
+    "condo_fee": 25,
+    "yearBuilt": 2000,
+    "price": 1069352,
+    "features": [
+      "cozinha equipada",
+      "ar condicionado",
+      "jardim",
+      "elevador",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-117-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-117-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "slug": "moradia-em-lisboa-118",
+    "title": "Moradia em Lisboa",
+    "summary": "Moradia com 2 quartos em Lisboa.",
+    "description": "Imóvel a precisar de obras com 273 m², localizado em Lisboa, Lisboa. Ano 2017.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.710424684878106,
+      "lng": -9.121749410266512
+    },
+    "typology": "Moradia",
+    "area": 273,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "condition": "A precisar de obras",
+    "energy": "F",
+    "floor": 0,
+    "parking_spots": 0,
+    "condo_fee": 0,
+    "yearBuilt": 2017,
+    "price": 1233026,
+    "features": [
+      "ar condicionado",
+      "cozinha equipada",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-118-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-118-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "slug": "moradia-em-aveiro-119",
+    "title": "Moradia em Aveiro",
+    "summary": "Moradia com 2 quartos em Aveiro.",
+    "description": "Imóvel usado com 170 m², localizado em Aveiro, Aveiro. Ano 1991.",
+    "location": {
+      "city": "Aveiro",
+      "district": "Aveiro",
+      "lat": 40.6578202234164,
+      "lng": -8.653542749294859
+    },
+    "typology": "Moradia",
+    "area": 170,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "condition": "Usado",
+    "energy": "A",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1991,
+    "price": 437527,
+    "features": [
+      "suite",
+      "varanda",
+      "vista rio"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro-119-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro-119-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "slug": "moradia-em-lisboa-120",
+    "title": "Moradia em Lisboa",
+    "summary": "Moradia com 3 quartos em Lisboa.",
+    "description": "Imóvel renovado com 114 m², localizado em Lisboa, Lisboa. Ano 2008.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.734927838988234,
+      "lng": -9.128958846472758
+    },
+    "typology": "Moradia",
+    "area": 114,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "condition": "Renovado",
+    "energy": "A",
+    "floor": 0,
+    "parking_spots": 0,
+    "condo_fee": 0,
+    "yearBuilt": 2008,
+    "price": 627051,
+    "features": [
+      "roupeiros",
+      "elevador",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-120-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-120-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "slug": "t2-em-lisboa-121",
+    "title": "T2 em Lisboa",
+    "summary": "T2 com 1 quartos em Lisboa.",
+    "description": "Imóvel usado com 59 m², localizado em Lisboa, Lisboa. Ano 2015.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.70336820260131,
+      "lng": -9.131838805708199
+    },
+    "typology": "T2",
+    "area": 59,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "B-",
+    "floor": 1,
+    "parking_spots": 1,
+    "condo_fee": 45,
+    "yearBuilt": 2015,
+    "price": 241567,
+    "features": [
+      "ar condicionado",
+      "vista rio"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-121-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-121-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "slug": "t1-em-faro-122",
+    "title": "T1 em Faro",
+    "summary": "T1 com 0 quartos em Faro.",
+    "description": "Imóvel usado com 185 m², localizado em Faro, Faro. Ano 2004.",
+    "location": {
+      "city": "Faro",
+      "district": "Faro",
+      "lat": 37.03544729628588,
+      "lng": -7.9268050463685995
+    },
+    "typology": "T1",
+    "area": 185,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "D",
+    "floor": 3,
+    "parking_spots": 1,
+    "condo_fee": 25,
+    "yearBuilt": 2004,
+    "price": 469466,
+    "features": [
+      "garagem",
+      "vista rio",
+      "suite",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro-122-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro-122-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "slug": "moradia-em-coimbra-123",
+    "title": "Moradia em Coimbra",
+    "summary": "Moradia com 2 quartos em Coimbra.",
+    "description": "Imóvel bom com 277 m², localizado em Coimbra, Coimbra. Ano 1984.",
+    "location": {
+      "city": "Coimbra",
+      "district": "Coimbra",
+      "lat": 40.1915814190045,
+      "lng": -8.407918899027663
+    },
+    "typology": "Moradia",
+    "area": 277,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "E",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1984,
+    "price": 842801,
+    "features": [
+      "elevador",
+      "suite"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra-123-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra-123-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "slug": "t3-em-lisboa-124",
+    "title": "T3 em Lisboa",
+    "summary": "T3 com 1 quartos em Lisboa.",
+    "description": "Imóvel bom com 93 m², localizado em Lisboa, Lisboa. Ano 1996.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.71730290984373,
+      "lng": -9.142532285126563
+    },
+    "typology": "T3",
+    "area": 93,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "A",
+    "floor": 12,
+    "parking_spots": 1,
+    "condo_fee": 25,
+    "yearBuilt": 1996,
+    "price": 422602,
+    "features": [
+      "cozinha equipada",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-124-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-124-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "slug": "t0-em-braga-125",
+    "title": "T0 em Braga",
+    "summary": "T0 com 0 quartos em Braga.",
+    "description": "Imóvel usado com 150 m², localizado em Braga, Braga. Ano 2013.",
+    "location": {
+      "city": "Braga",
+      "district": "Braga",
+      "lat": 41.531154691070576,
+      "lng": -8.410260406129078
+    },
+    "typology": "T0",
+    "area": 150,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "C",
+    "floor": 5,
+    "parking_spots": 0,
+    "condo_fee": 80,
+    "yearBuilt": 2013,
+    "price": 293458,
+    "features": [
+      "jardim",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga-125-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga-125-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "slug": "t0-em-braga-126",
+    "title": "T0 em Braga",
+    "summary": "T0 com 0 quartos em Braga.",
+    "description": "Imóvel renovado com 97 m², localizado em Braga, Braga. Ano 1984.",
+    "location": {
+      "city": "Braga",
+      "district": "Braga",
+      "lat": 41.53259605546241,
+      "lng": -8.43261062728028
+    },
+    "typology": "T0",
+    "area": 97,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "C",
+    "floor": 6,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1984,
+    "price": 230054,
+    "features": [
+      "garagem",
+      "jardim",
+      "varanda",
+      "elevador",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga-126-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga-126-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "slug": "t1-em-braga-127",
+    "title": "T1 em Braga",
+    "summary": "T1 com 0 quartos em Braga.",
+    "description": "Imóvel usado com 159 m², localizado em Braga, Braga. Ano 1998.",
+    "location": {
+      "city": "Braga",
+      "district": "Braga",
+      "lat": 41.52742575633229,
+      "lng": -8.424815301130664
+    },
+    "typology": "T1",
+    "area": 159,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "A+",
+    "floor": 10,
+    "parking_spots": 0,
+    "condo_fee": 35,
+    "yearBuilt": 1998,
+    "price": 364726,
+    "features": [
+      "garagem",
+      "roupeiros",
+      "ar condicionado",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga-127-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga-127-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "slug": "moradia-em-lisboa-128",
+    "title": "Moradia em Lisboa",
+    "summary": "Moradia com 1 quartos em Lisboa.",
+    "description": "Imóvel renovado com 102 m², localizado em Lisboa, Lisboa. Ano 1997.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.73231230216305,
+      "lng": -9.153993946545828
+    },
+    "typology": "Moradia",
+    "area": 102,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "A+",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1997,
+    "price": 615635,
+    "features": [
+      "suite",
+      "ar condicionado",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-128-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-128-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "slug": "t0-em-porto-129",
+    "title": "T0 em Porto",
+    "summary": "T0 com 0 quartos em Porto.",
+    "description": "Imóvel usado com 100 m², localizado em Porto, Porto. Ano 1983.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.13869578769393,
+      "lng": -8.627822298682737
+    },
+    "typology": "T0",
+    "area": 100,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "C",
+    "floor": 4,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1983,
+    "price": 289829,
+    "features": [
+      "roupeiros",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-129-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-129-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "slug": "t1-em-lisboa-130",
+    "title": "T1 em Lisboa",
+    "summary": "T1 com 0 quartos em Lisboa.",
+    "description": "Imóvel bom com 156 m², localizado em Lisboa, Lisboa. Ano 2005.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.72750981385004,
+      "lng": -9.139352334894069
+    },
+    "typology": "T1",
+    "area": 156,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "B-",
+    "floor": 1,
+    "parking_spots": 0,
+    "condo_fee": 35,
+    "yearBuilt": 2005,
+    "price": 685993,
+    "features": [
+      "vista rio",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-130-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-130-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "slug": "t2-em-lisboa-131",
+    "title": "T2 em Lisboa",
+    "summary": "T2 com 2 quartos em Lisboa.",
+    "description": "Imóvel bom com 48 m², localizado em Lisboa, Lisboa. Ano 1980.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.731499741053646,
+      "lng": -9.147830490169177
+    },
+    "typology": "T2",
+    "area": 48,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "condition": "Bom",
+    "energy": "A",
+    "floor": 9,
+    "parking_spots": 1,
+    "condo_fee": 45,
+    "yearBuilt": 1980,
+    "price": 215380,
+    "features": [
+      "suite",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-131-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-131-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "slug": "t3-em-lisboa-132",
+    "title": "T3 em Lisboa",
+    "summary": "T3 com 1 quartos em Lisboa.",
+    "description": "Imóvel usado com 215 m², localizado em Lisboa, Lisboa. Ano 2007.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.70708615491805,
+      "lng": -9.13078106888519
+    },
+    "typology": "T3",
+    "area": 215,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "E",
+    "floor": 8,
+    "parking_spots": 0,
+    "condo_fee": 0,
+    "yearBuilt": 2007,
+    "price": 919577,
+    "features": [
+      "varanda",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-132-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-132-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "slug": "moradia-em-lisboa-133",
+    "title": "Moradia em Lisboa",
+    "summary": "Moradia com 3 quartos em Lisboa.",
+    "description": "Imóvel renovado com 298 m², localizado em Lisboa, Lisboa. Ano 2008.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.712532042032144,
+      "lng": -9.129529000755554
+    },
+    "typology": "Moradia",
+    "area": 298,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "condition": "Renovado",
+    "energy": "E",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 2008,
+    "price": 1669324,
+    "features": [
+      "jardim",
+      "roupeiros",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-133-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-133-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "slug": "moradia-em-faro-134",
+    "title": "Moradia em Faro",
+    "summary": "Moradia com 4 quartos em Faro.",
+    "description": "Imóvel renovado com 137 m², localizado em Faro, Faro. Ano 1977.",
+    "location": {
+      "city": "Faro",
+      "district": "Faro",
+      "lat": 37.02951185714924,
+      "lng": -7.93300336755998
+    },
+    "typology": "Moradia",
+    "area": 137,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "condition": "Renovado",
+    "energy": "B",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1977,
+    "price": 496064,
+    "features": [
+      "ar condicionado",
+      "cozinha equipada",
+      "elevador",
+      "roupeiros",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro-134-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro-134-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "slug": "moradia-em-lisboa-135",
+    "title": "Moradia em Lisboa",
+    "summary": "Moradia com 1 quartos em Lisboa.",
+    "description": "Imóvel bom com 263 m², localizado em Lisboa, Lisboa. Ano 1980.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.712899685348454,
+      "lng": -9.154844648925542
+    },
+    "typology": "Moradia",
+    "area": 263,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "B-",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1980,
+    "price": 1428784,
+    "features": [
+      "garagem",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-135-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-135-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "slug": "t3-em-porto-136",
+    "title": "T3 em Porto",
+    "summary": "T3 com 1 quartos em Porto.",
+    "description": "Imóvel renovado com 123 m², localizado em Porto, Porto. Ano 2009.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.148909065807494,
+      "lng": -8.634965013705113
+    },
+    "typology": "T3",
+    "area": 123,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "C",
+    "floor": 7,
+    "parking_spots": 2,
+    "condo_fee": 35,
+    "yearBuilt": 2009,
+    "price": 501135,
+    "features": [
+      "roupeiros",
+      "garagem",
+      "ar condicionado",
+      "elevador",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-136-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-136-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "slug": "t0-em-lisboa-137",
+    "title": "T0 em Lisboa",
+    "summary": "T0 com 0 quartos em Lisboa.",
+    "description": "Imóvel renovado com 254 m², localizado em Lisboa, Lisboa. Ano 1982.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.74059839257305,
+      "lng": -9.139693700850698
+    },
+    "typology": "T0",
+    "area": 254,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "B-",
+    "floor": 4,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1982,
+    "price": 1098277,
+    "features": [
+      "ar condicionado",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-137-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-137-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "slug": "t1-em-viseu-138",
+    "title": "T1 em Viseu",
+    "summary": "T1 com 0 quartos em Viseu.",
+    "description": "Imóvel a precisar de obras com 102 m², localizado em Viseu, Viseu. Ano 2019.",
+    "location": {
+      "city": "Viseu",
+      "district": "Viseu",
+      "lat": 40.67266206738932,
+      "lng": -7.911367631721786
+    },
+    "typology": "T1",
+    "area": 102,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "A+",
+    "floor": 4,
+    "parking_spots": 1,
+    "condo_fee": 25,
+    "yearBuilt": 2019,
+    "price": 174030,
+    "features": [
+      "jardim",
+      "vista rio",
+      "garagem",
+      "roupeiros",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu-138-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu-138-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "slug": "t1-em-lisboa-139",
+    "title": "T1 em Lisboa",
+    "summary": "T1 com 0 quartos em Lisboa.",
+    "description": "Imóvel usado com 193 m², localizado em Lisboa, Lisboa. Ano 1998.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.716490090752295,
+      "lng": -9.158013514279212
+    },
+    "typology": "T1",
+    "area": 193,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "A+",
+    "floor": 3,
+    "parking_spots": 0,
+    "condo_fee": 45,
+    "yearBuilt": 1998,
+    "price": 796321,
+    "features": [
+      "vista rio",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-139-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-139-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "slug": "t0-em-braga-140",
+    "title": "T0 em Braga",
+    "summary": "T0 com 0 quartos em Braga.",
+    "description": "Imóvel bom com 193 m², localizado em Braga, Braga. Ano 2012.",
+    "location": {
+      "city": "Braga",
+      "district": "Braga",
+      "lat": 41.52860604296206,
+      "lng": -8.41054841229106
+    },
+    "typology": "T0",
+    "area": 193,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "D",
+    "floor": 1,
+    "parking_spots": 1,
+    "condo_fee": 80,
+    "yearBuilt": 2012,
+    "price": 424367,
+    "features": [
+      "jardim",
+      "suite"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga-140-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga-140-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "slug": "t4-em-lisboa-141",
+    "title": "T4 em Lisboa",
+    "summary": "T4 com 5 quartos em Lisboa.",
+    "description": "Imóvel bom com 226 m², localizado em Lisboa, Lisboa. Ano 1978.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.73053172656701,
+      "lng": -9.14906928536933
+    },
+    "typology": "T4",
+    "area": 226,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "E",
+    "floor": 1,
+    "parking_spots": 1,
+    "condo_fee": 60,
+    "yearBuilt": 1978,
+    "price": 1185763,
+    "features": [
+      "vista rio",
+      "jardim",
+      "suite",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-141-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-141-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "slug": "t0-em-lisboa-142",
+    "title": "T0 em Lisboa",
+    "summary": "T0 com 0 quartos em Lisboa.",
+    "description": "Imóvel a precisar de obras com 174 m², localizado em Lisboa, Lisboa. Ano 1998.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.711549682069226,
+      "lng": -9.137645402168271
+    },
+    "typology": "T0",
+    "area": 174,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "C",
+    "floor": 12,
+    "parking_spots": 1,
+    "condo_fee": 100,
+    "yearBuilt": 1998,
+    "price": 612003,
+    "features": [
+      "varanda",
+      "ar condicionado",
+      "vista rio",
+      "cozinha equipada",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-142-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-142-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "slug": "t2-em-aveiro-143",
+    "title": "T2 em Aveiro",
+    "summary": "T2 com 4 quartos em Aveiro.",
+    "description": "Imóvel usado com 242 m², localizado em Aveiro, Aveiro. Ano 1984.",
+    "location": {
+      "city": "Aveiro",
+      "district": "Aveiro",
+      "lat": 40.6279601660902,
+      "lng": -8.641815295700145
+    },
+    "typology": "T2",
+    "area": 242,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "C",
+    "floor": 2,
+    "parking_spots": 2,
+    "condo_fee": 80,
+    "yearBuilt": 1984,
+    "price": 601886,
+    "features": [
+      "vista rio",
+      "roupeiros",
+      "cozinha equipada",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro-143-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro-143-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "slug": "t4-em-faro-144",
+    "title": "T4 em Faro",
+    "summary": "T4 com 3 quartos em Faro.",
+    "description": "Imóvel a precisar de obras com 246 m², localizado em Faro, Faro. Ano 2007.",
+    "location": {
+      "city": "Faro",
+      "district": "Faro",
+      "lat": 37.03846097293506,
+      "lng": -7.925581661039315
+    },
+    "typology": "T4",
+    "area": 246,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "condition": "A precisar de obras",
+    "energy": "F",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 25,
+    "yearBuilt": 2007,
+    "price": 601772,
+    "features": [
+      "garagem",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro-144-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro-144-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "slug": "moradia-em-braga-145",
+    "title": "Moradia em Braga",
+    "summary": "Moradia com 5 quartos em Braga.",
+    "description": "Imóvel devoluto com 316 m², localizado em Braga, Braga. Ano 1976.",
+    "location": {
+      "city": "Braga",
+      "district": "Braga",
+      "lat": 41.536510418239814,
+      "lng": -8.409430711931364
+    },
+    "typology": "Moradia",
+    "area": 316,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "condition": "Devoluto",
+    "energy": "A",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1976,
+    "price": 724184,
+    "features": [
+      "jardim",
+      "vista rio",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga-145-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga-145-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "slug": "t4-em-braga-146",
+    "title": "T4 em Braga",
+    "summary": "T4 com 1 quartos em Braga.",
+    "description": "Imóvel bom com 244 m², localizado em Braga, Braga. Ano 1977.",
+    "location": {
+      "city": "Braga",
+      "district": "Braga",
+      "lat": 41.55165128947488,
+      "lng": -8.438240689587662
+    },
+    "typology": "T4",
+    "area": 244,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "A+",
+    "floor": 11,
+    "parking_spots": 1,
+    "condo_fee": 100,
+    "yearBuilt": 1977,
+    "price": 648790,
+    "features": [
+      "roupeiros",
+      "suite",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga-146-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga-146-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "slug": "t0-em-braga-147",
+    "title": "T0 em Braga",
+    "summary": "T0 com 0 quartos em Braga.",
+    "description": "Imóvel renovado com 206 m², localizado em Braga, Braga. Ano 1999.",
+    "location": {
+      "city": "Braga",
+      "district": "Braga",
+      "lat": 41.56242987592326,
+      "lng": -8.43218444663622
+    },
+    "typology": "T0",
+    "area": 206,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "C",
+    "floor": 10,
+    "parking_spots": 1,
+    "condo_fee": 100,
+    "yearBuilt": 1999,
+    "price": 474642,
+    "features": [
+      "cozinha equipada",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga-147-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga-147-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "slug": "t3-em-lisboa-148",
+    "title": "T3 em Lisboa",
+    "summary": "T3 com 5 quartos em Lisboa.",
+    "description": "Imóvel renovado com 242 m², localizado em Lisboa, Lisboa. Ano 2024.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.7352409353527,
+      "lng": -9.146864042245198
+    },
+    "typology": "T3",
+    "area": 242,
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "condition": "Renovado",
+    "energy": "A+",
+    "floor": 1,
+    "parking_spots": 0,
+    "condo_fee": 60,
+    "yearBuilt": 2024,
+    "price": 1169820,
+    "features": [
+      "cozinha equipada",
+      "garagem",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-148-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-148-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "slug": "t0-em-faro-149",
+    "title": "T0 em Faro",
+    "summary": "T0 com 0 quartos em Faro.",
+    "description": "Imóvel bom com 188 m², localizado em Faro, Faro. Ano 1994.",
+    "location": {
+      "city": "Faro",
+      "district": "Faro",
+      "lat": 37.030168565647315,
+      "lng": -7.922435908918148
+    },
+    "typology": "T0",
+    "area": 188,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "C",
+    "floor": 8,
+    "parking_spots": 1,
+    "condo_fee": 80,
+    "yearBuilt": 1994,
+    "price": 487411,
+    "features": [
+      "roupeiros",
+      "varanda",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro-149-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro-149-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "slug": "t3-em-coimbra-150",
+    "title": "T3 em Coimbra",
+    "summary": "T3 com 3 quartos em Coimbra.",
+    "description": "Imóvel a precisar de obras com 81 m², localizado em Coimbra, Coimbra. Ano 2005.",
+    "location": {
+      "city": "Coimbra",
+      "district": "Coimbra",
+      "lat": 40.21071987955594,
+      "lng": -8.412545302584782
+    },
+    "typology": "T3",
+    "area": 81,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "condition": "A precisar de obras",
+    "energy": "A+",
+    "floor": 7,
+    "parking_spots": 2,
+    "condo_fee": 80,
+    "yearBuilt": 2005,
+    "price": 173197,
+    "features": [
+      "varanda",
+      "roupeiros",
+      "suite"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra-150-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra-150-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "slug": "t4-em-porto-151",
+    "title": "T4 em Porto",
+    "summary": "T4 com 5 quartos em Porto.",
+    "description": "Imóvel renovado com 140 m², localizado em Porto, Porto. Ano 1991.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.14602390136955,
+      "lng": -8.62134547979259
+    },
+    "typology": "T4",
+    "area": 140,
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "condition": "Renovado",
+    "energy": "C",
+    "floor": 6,
+    "parking_spots": 2,
+    "condo_fee": 60,
+    "yearBuilt": 1991,
+    "price": 555553,
+    "features": [
+      "garagem",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-151-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-151-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "slug": "t1-em-lisboa-152",
+    "title": "T1 em Lisboa",
+    "summary": "T1 com 0 quartos em Lisboa.",
+    "description": "Imóvel usado com 54 m², localizado em Lisboa, Lisboa. Ano 1998.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.7380316516495,
+      "lng": -9.1299841047254
+    },
+    "typology": "T1",
+    "area": 54,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "A+",
+    "floor": 4,
+    "parking_spots": 1,
+    "condo_fee": 100,
+    "yearBuilt": 1998,
+    "price": 222028,
+    "features": [
+      "cozinha equipada",
+      "garagem",
+      "elevador",
+      "jardim",
+      "suite"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-152-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-152-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "slug": "t1-em-lisboa-153",
+    "title": "T1 em Lisboa",
+    "summary": "T1 com 0 quartos em Lisboa.",
+    "description": "Imóvel renovado com 246 m², localizado em Lisboa, Lisboa. Ano 2018.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.7176547988852,
+      "lng": -9.143807695850889
+    },
+    "typology": "T1",
+    "area": 246,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "C",
+    "floor": 12,
+    "parking_spots": 1,
+    "condo_fee": 45,
+    "yearBuilt": 2018,
+    "price": 1096384,
+    "features": [
+      "vista rio",
+      "suite"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-153-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-153-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "slug": "t1-em-porto-154",
+    "title": "T1 em Porto",
+    "summary": "T1 com 0 quartos em Porto.",
+    "description": "Imóvel a precisar de obras com 97 m², localizado em Porto, Porto. Ano 1986.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.15516692901661,
+      "lng": -8.613880722734597
+    },
+    "typology": "T1",
+    "area": 97,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "B-",
+    "floor": 7,
+    "parking_spots": 0,
+    "condo_fee": 35,
+    "yearBuilt": 1986,
+    "price": 276491,
+    "features": [
+      "ar condicionado",
+      "cozinha equipada",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-154-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-154-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "slug": "t4-em-lisboa-155",
+    "title": "T4 em Lisboa",
+    "summary": "T4 com 3 quartos em Lisboa.",
+    "description": "Imóvel usado com 135 m², localizado em Lisboa, Lisboa. Ano 2021.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.71346199128489,
+      "lng": -9.12565664305739
+    },
+    "typology": "T4",
+    "area": 135,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "E",
+    "floor": 10,
+    "parking_spots": 1,
+    "condo_fee": 60,
+    "yearBuilt": 2021,
+    "price": 629292,
+    "features": [
+      "elevador",
+      "jardim",
+      "garagem",
+      "cozinha equipada",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-155-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-155-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "slug": "t1-em-set-bal-156",
+    "title": "T1 em Setúbal",
+    "summary": "T1 com 0 quartos em Setúbal.",
+    "description": "Imóvel a precisar de obras com 133 m², localizado em Setúbal, Setúbal. Ano 1975.",
+    "location": {
+      "city": "Setúbal",
+      "district": "Setúbal",
+      "lat": 38.54425000308277,
+      "lng": -8.891749726328712
+    },
+    "typology": "T1",
+    "area": 133,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "A",
+    "floor": 1,
+    "parking_spots": 2,
+    "condo_fee": 35,
+    "yearBuilt": 1975,
+    "price": 318660,
+    "features": [
+      "varanda",
+      "garagem",
+      "vista rio",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal-156-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal-156-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "slug": "t0-em-lisboa-157",
+    "title": "T0 em Lisboa",
+    "summary": "T0 com 0 quartos em Lisboa.",
+    "description": "Imóvel renovado com 189 m², localizado em Lisboa, Lisboa. Ano 2021.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.730071172555355,
+      "lng": -9.13577676763173
+    },
+    "typology": "T0",
+    "area": 189,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "B",
+    "floor": 2,
+    "parking_spots": 1,
+    "condo_fee": 60,
+    "yearBuilt": 2021,
+    "price": 827712,
+    "features": [
+      "vista rio",
+      "suite",
+      "cozinha equipada",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-157-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-157-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "slug": "t2-em-faro-158",
+    "title": "T2 em Faro",
+    "summary": "T2 com 1 quartos em Faro.",
+    "description": "Imóvel renovado com 221 m², localizado em Faro, Faro. Ano 2010.",
+    "location": {
+      "city": "Faro",
+      "district": "Faro",
+      "lat": 37.03035465853896,
+      "lng": -7.9109958500253015
+    },
+    "typology": "T2",
+    "area": 221,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "C",
+    "floor": 2,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 2010,
+    "price": 688438,
+    "features": [
+      "vista rio",
+      "cozinha equipada",
+      "elevador",
+      "ar condicionado",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro-158-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro-158-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "slug": "t1-em-lisboa-159",
+    "title": "T1 em Lisboa",
+    "summary": "T1 com 0 quartos em Lisboa.",
+    "description": "Imóvel usado com 102 m², localizado em Lisboa, Lisboa. Ano 1978.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.73550473740942,
+      "lng": -9.140557393901954
+    },
+    "typology": "T1",
+    "area": 102,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "B",
+    "floor": 1,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1978,
+    "price": 429921,
+    "features": [
+      "suite",
+      "cozinha equipada",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-159-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-159-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "slug": "t2-em-lisboa-160",
+    "title": "T2 em Lisboa",
+    "summary": "T2 com 5 quartos em Lisboa.",
+    "description": "Imóvel a precisar de obras com 109 m², localizado em Lisboa, Lisboa. Ano 2007.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.71329019764732,
+      "lng": -9.122137199306383
+    },
+    "typology": "T2",
+    "area": 109,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "F",
+    "floor": 8,
+    "parking_spots": 0,
+    "condo_fee": 45,
+    "yearBuilt": 2007,
+    "price": 391008,
+    "features": [
+      "jardim",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-160-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-160-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "slug": "t1-em-porto-161",
+    "title": "T1 em Porto",
+    "summary": "T1 com 0 quartos em Porto.",
+    "description": "Imóvel bom com 146 m², localizado em Porto, Porto. Ano 1997.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.17327021093703,
+      "lng": -8.621273468909374
+    },
+    "typology": "T1",
+    "area": 146,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "B",
+    "floor": 7,
+    "parking_spots": 0,
+    "condo_fee": 80,
+    "yearBuilt": 1997,
+    "price": 465950,
+    "features": [
+      "varanda",
+      "ar condicionado",
+      "roupeiros",
+      "jardim",
+      "suite"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-161-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-161-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "slug": "t4-em-lisboa-162",
+    "title": "T4 em Lisboa",
+    "summary": "T4 com 1 quartos em Lisboa.",
+    "description": "Imóvel bom com 191 m², localizado em Lisboa, Lisboa. Ano 1991.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.71861246927475,
+      "lng": -9.138000309322678
+    },
+    "typology": "T4",
+    "area": 191,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "B",
+    "floor": 10,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1991,
+    "price": 1018425,
+    "features": [
+      "suite",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-162-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-162-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "slug": "moradia-em-lisboa-163",
+    "title": "Moradia em Lisboa",
+    "summary": "Moradia com 2 quartos em Lisboa.",
+    "description": "Imóvel renovado com 315 m², localizado em Lisboa, Lisboa. Ano 2009.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.70285507788922,
+      "lng": -9.146945795580692
+    },
+    "typology": "Moradia",
+    "area": 315,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "B",
+    "floor": 0,
+    "parking_spots": 2,
+    "condo_fee": 0,
+    "yearBuilt": 2009,
+    "price": 1708388,
+    "features": [
+      "elevador",
+      "vista rio",
+      "ar condicionado",
+      "suite"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-163-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-163-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "slug": "t0-em-lisboa-164",
+    "title": "T0 em Lisboa",
+    "summary": "T0 com 0 quartos em Lisboa.",
+    "description": "Imóvel bom com 162 m², localizado em Lisboa, Lisboa. Ano 1976.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.71611174736694,
+      "lng": -9.150493259705572
+    },
+    "typology": "T0",
+    "area": 162,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "E",
+    "floor": 1,
+    "parking_spots": 0,
+    "condo_fee": 45,
+    "yearBuilt": 1976,
+    "price": 706402,
+    "features": [
+      "roupeiros",
+      "elevador",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-164-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-164-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "slug": "t1-em-lisboa-165",
+    "title": "T1 em Lisboa",
+    "summary": "T1 com 0 quartos em Lisboa.",
+    "description": "Imóvel usado com 64 m², localizado em Lisboa, Lisboa. Ano 2002.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.727256485686446,
+      "lng": -9.154755453823126
+    },
+    "typology": "T1",
+    "area": 64,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "A",
+    "floor": 12,
+    "parking_spots": 2,
+    "condo_fee": 60,
+    "yearBuilt": 2002,
+    "price": 279033,
+    "features": [
+      "vista rio",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-165-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-165-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "slug": "t3-em-lisboa-166",
+    "title": "T3 em Lisboa",
+    "summary": "T3 com 2 quartos em Lisboa.",
+    "description": "Imóvel usado com 77 m², localizado em Lisboa, Lisboa. Ano 2009.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.74224555724552,
+      "lng": -9.154576923136045
+    },
+    "typology": "T3",
+    "area": 77,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "condition": "Usado",
+    "energy": "A+",
+    "floor": 11,
+    "parking_spots": 0,
+    "condo_fee": 45,
+    "yearBuilt": 2009,
+    "price": 339179,
+    "features": [
+      "roupeiros",
+      "ar condicionado",
+      "garagem",
+      "suite",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-166-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-166-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "slug": "t4-em-lisboa-167",
+    "title": "T4 em Lisboa",
+    "summary": "T4 com 2 quartos em Lisboa.",
+    "description": "Imóvel a precisar de obras com 73 m², localizado em Lisboa, Lisboa. Ano 2008.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.7402299219037,
+      "lng": -9.131279699866862
+    },
+    "typology": "T4",
+    "area": 73,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "condition": "A precisar de obras",
+    "energy": "F",
+    "floor": 11,
+    "parking_spots": 1,
+    "condo_fee": 100,
+    "yearBuilt": 2008,
+    "price": 295669,
+    "features": [
+      "suite",
+      "garagem",
+      "ar condicionado",
+      "vista rio",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-167-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-167-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "slug": "t4-em-porto-168",
+    "title": "T4 em Porto",
+    "summary": "T4 com 1 quartos em Porto.",
+    "description": "Imóvel bom com 113 m², localizado em Porto, Porto. Ano 1991.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.15087811870635,
+      "lng": -8.638611026417687
+    },
+    "typology": "T4",
+    "area": 113,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "B",
+    "floor": 6,
+    "parking_spots": 1,
+    "condo_fee": 25,
+    "yearBuilt": 1991,
+    "price": 441617,
+    "features": [
+      "ar condicionado",
+      "cozinha equipada",
+      "elevador",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-168-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-168-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "slug": "moradia-em-braga-169",
+    "title": "Moradia em Braga",
+    "summary": "Moradia com 2 quartos em Braga.",
+    "description": "Imóvel usado com 270 m², localizado em Braga, Braga. Ano 1976.",
+    "location": {
+      "city": "Braga",
+      "district": "Braga",
+      "lat": 41.54305911705719,
+      "lng": -8.414431599060965
+    },
+    "typology": "Moradia",
+    "area": 270,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "A+",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1976,
+    "price": 693982,
+    "features": [
+      "ar condicionado",
+      "varanda",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga-169-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga-169-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "slug": "t0-em-aveiro-170",
+    "title": "T0 em Aveiro",
+    "summary": "T0 com 0 quartos em Aveiro.",
+    "description": "Imóvel bom com 89 m², localizado em Aveiro, Aveiro. Ano 2006.",
+    "location": {
+      "city": "Aveiro",
+      "district": "Aveiro",
+      "lat": 40.63993480933261,
+      "lng": -8.639516519647664
+    },
+    "typology": "T0",
+    "area": 89,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "E",
+    "floor": 0,
+    "parking_spots": 0,
+    "condo_fee": 45,
+    "yearBuilt": 2006,
+    "price": 191157,
+    "features": [
+      "roupeiros",
+      "jardim",
+      "suite"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro-170-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro-170-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "slug": "t2-em-porto-171",
+    "title": "T2 em Porto",
+    "summary": "T2 com 3 quartos em Porto.",
+    "description": "Imóvel a precisar de obras com 186 m², localizado em Porto, Porto. Ano 1988.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.13821704677644,
+      "lng": -8.638965720467233
+    },
+    "typology": "T2",
+    "area": 186,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "condition": "A precisar de obras",
+    "energy": "F",
+    "floor": 2,
+    "parking_spots": 1,
+    "condo_fee": 100,
+    "yearBuilt": 1988,
+    "price": 562017,
+    "features": [
+      "garagem",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-171-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-171-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "slug": "t2-em-porto-172",
+    "title": "T2 em Porto",
+    "summary": "T2 com 5 quartos em Porto.",
+    "description": "Imóvel usado com 144 m², localizado em Porto, Porto. Ano 2000.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.14148802789334,
+      "lng": -8.64629884577714
+    },
+    "typology": "T2",
+    "area": 144,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "A+",
+    "floor": 12,
+    "parking_spots": 1,
+    "condo_fee": 60,
+    "yearBuilt": 2000,
+    "price": 509558,
+    "features": [
+      "suite",
+      "ar condicionado",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-172-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-172-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "slug": "t0-em-lisboa-173",
+    "title": "T0 em Lisboa",
+    "summary": "T0 com 0 quartos em Lisboa.",
+    "description": "Imóvel renovado com 115 m², localizado em Lisboa, Lisboa. Ano 2000.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.71109317185766,
+      "lng": -9.130020360800918
+    },
+    "typology": "T0",
+    "area": 115,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "B",
+    "floor": 9,
+    "parking_spots": 2,
+    "condo_fee": 25,
+    "yearBuilt": 2000,
+    "price": 493712,
+    "features": [
+      "jardim",
+      "roupeiros",
+      "vista rio"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-173-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-173-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "slug": "t3-em-porto-174",
+    "title": "T3 em Porto",
+    "summary": "T3 com 2 quartos em Porto.",
+    "description": "Imóvel usado com 127 m², localizado em Porto, Porto. Ano 2017.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.16249106570908,
+      "lng": -8.624321890967009
+    },
+    "typology": "T3",
+    "area": 127,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "E",
+    "floor": 0,
+    "parking_spots": 0,
+    "condo_fee": 25,
+    "yearBuilt": 2017,
+    "price": 468432,
+    "features": [
+      "vista rio",
+      "roupeiros",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-174-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-174-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "slug": "t2-em-lisboa-175",
+    "title": "T2 em Lisboa",
+    "summary": "T2 com 1 quartos em Lisboa.",
+    "description": "Imóvel bom com 191 m², localizado em Lisboa, Lisboa. Ano 1999.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.7306062771583,
+      "lng": -9.153028711284156
+    },
+    "typology": "T2",
+    "area": 191,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "B",
+    "floor": 12,
+    "parking_spots": 1,
+    "condo_fee": 100,
+    "yearBuilt": 1999,
+    "price": 934248,
+    "features": [
+      "vista rio",
+      "varanda",
+      "roupeiros",
+      "cozinha equipada",
+      "suite"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-175-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-175-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "slug": "t4-em-lisboa-176",
+    "title": "T4 em Lisboa",
+    "summary": "T4 com 5 quartos em Lisboa.",
+    "description": "Imóvel bom com 57 m², localizado em Lisboa, Lisboa. Ano 1989.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.72620254922796,
+      "lng": -9.13450265211012
+    },
+    "typology": "T4",
+    "area": 57,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "condition": "Bom",
+    "energy": "F",
+    "floor": 10,
+    "parking_spots": 1,
+    "condo_fee": 25,
+    "yearBuilt": 1989,
+    "price": 302110,
+    "features": [
+      "jardim",
+      "cozinha equipada",
+      "vista rio",
+      "suite"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-176-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-176-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "slug": "moradia-em-porto-177",
+    "title": "Moradia em Porto",
+    "summary": "Moradia com 4 quartos em Porto.",
+    "description": "Imóvel bom com 259 m², localizado em Porto, Porto. Ano 1991.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.17564230993535,
+      "lng": -8.647809703075996
+    },
+    "typology": "Moradia",
+    "area": 259,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "A",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1991,
+    "price": 1046280,
+    "features": [
+      "jardim",
+      "suite",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-177-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-177-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "slug": "t2-em-lisboa-178",
+    "title": "T2 em Lisboa",
+    "summary": "T2 com 3 quartos em Lisboa.",
+    "description": "Imóvel a precisar de obras com 146 m², localizado em Lisboa, Lisboa. Ano 1980.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.723493399976945,
+      "lng": -9.151095130174422
+    },
+    "typology": "T2",
+    "area": 146,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "condition": "A precisar de obras",
+    "energy": "A+",
+    "floor": 9,
+    "parking_spots": 0,
+    "condo_fee": 0,
+    "yearBuilt": 1980,
+    "price": 535264,
+    "features": [
+      "garagem",
+      "vista rio",
+      "suite",
+      "roupeiros",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-178-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-178-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "slug": "t4-em-lisboa-179",
+    "title": "T4 em Lisboa",
+    "summary": "T4 com 2 quartos em Lisboa.",
+    "description": "Imóvel bom com 180 m², localizado em Lisboa, Lisboa. Ano 2012.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.742000303457765,
+      "lng": -9.127937655834684
+    },
+    "typology": "T4",
+    "area": 180,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "B-",
+    "floor": 0,
+    "parking_spots": 0,
+    "condo_fee": 35,
+    "yearBuilt": 2012,
+    "price": 858266,
+    "features": [
+      "vista rio",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-179-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-179-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "slug": "t3-em-braga-180",
+    "title": "T3 em Braga",
+    "summary": "T3 com 5 quartos em Braga.",
+    "description": "Imóvel bom com 105 m², localizado em Braga, Braga. Ano 1977.",
+    "location": {
+      "city": "Braga",
+      "district": "Braga",
+      "lat": 41.529235986893156,
+      "lng": -8.444047756611898
+    },
+    "typology": "T3",
+    "area": 105,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "condition": "Bom",
+    "energy": "F",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1977,
+    "price": 248090,
+    "features": [
+      "roupeiros",
+      "vista rio",
+      "ar condicionado",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga-180-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga-180-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "slug": "t4-em-lisboa-181",
+    "title": "T4 em Lisboa",
+    "summary": "T4 com 1 quartos em Lisboa.",
+    "description": "Imóvel bom com 258 m², localizado em Lisboa, Lisboa. Ano 1996.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.711672963946874,
+      "lng": -9.123273441296558
+    },
+    "typology": "T4",
+    "area": 258,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "C",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 35,
+    "yearBuilt": 1996,
+    "price": 1384426,
+    "features": [
+      "ar condicionado",
+      "cozinha equipada",
+      "jardim",
+      "varanda",
+      "vista rio"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-181-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-181-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "slug": "t1-em-lisboa-182",
+    "title": "T1 em Lisboa",
+    "summary": "T1 com 0 quartos em Lisboa.",
+    "description": "Imóvel bom com 95 m², localizado em Lisboa, Lisboa. Ano 2000.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.73858203909375,
+      "lng": -9.122557385536046
+    },
+    "typology": "T1",
+    "area": 95,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "B",
+    "floor": 9,
+    "parking_spots": 2,
+    "condo_fee": 100,
+    "yearBuilt": 2000,
+    "price": 398219,
+    "features": [
+      "elevador",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-182-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-182-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "slug": "t3-em-coimbra-183",
+    "title": "T3 em Coimbra",
+    "summary": "T3 com 3 quartos em Coimbra.",
+    "description": "Imóvel usado com 36 m², localizado em Coimbra, Coimbra. Ano 2013.",
+    "location": {
+      "city": "Coimbra",
+      "district": "Coimbra",
+      "lat": 40.1903085735582,
+      "lng": -8.415190685195613
+    },
+    "typology": "T3",
+    "area": 36,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "E",
+    "floor": 8,
+    "parking_spots": 1,
+    "condo_fee": 35,
+    "yearBuilt": 2013,
+    "price": 82092,
+    "features": [
+      "ar condicionado",
+      "roupeiros"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra-183-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra-183-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "slug": "moradia-em-coimbra-184",
+    "title": "Moradia em Coimbra",
+    "summary": "Moradia com 2 quartos em Coimbra.",
+    "description": "Imóvel renovado com 224 m², localizado em Coimbra, Coimbra. Ano 1975.",
+    "location": {
+      "city": "Coimbra",
+      "district": "Coimbra",
+      "lat": 40.21798310131627,
+      "lng": -8.429283532893496
+    },
+    "typology": "Moradia",
+    "area": 224,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "condition": "Renovado",
+    "energy": "A",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1975,
+    "price": 717622,
+    "features": [
+      "elevador",
+      "varanda",
+      "roupeiros",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra-184-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra-184-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "slug": "t2-em-lisboa-185",
+    "title": "T2 em Lisboa",
+    "summary": "T2 com 4 quartos em Lisboa.",
+    "description": "Imóvel renovado com 45 m², localizado em Lisboa, Lisboa. Ano 2019.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.72489607970831,
+      "lng": -9.138805818503672
+    },
+    "typology": "T2",
+    "area": 45,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "condition": "Renovado",
+    "energy": "C",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 2019,
+    "price": 199628,
+    "features": [
+      "suite",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-185-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-185-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "slug": "t3-em-set-bal-186",
+    "title": "T3 em Setúbal",
+    "summary": "T3 com 3 quartos em Setúbal.",
+    "description": "Imóvel bom com 183 m², localizado em Setúbal, Setúbal. Ano 1979.",
+    "location": {
+      "city": "Setúbal",
+      "district": "Setúbal",
+      "lat": 38.529621900056895,
+      "lng": -8.889648701888602
+    },
+    "typology": "T3",
+    "area": 183,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "condition": "Bom",
+    "energy": "A",
+    "floor": 3,
+    "parking_spots": 1,
+    "condo_fee": 80,
+    "yearBuilt": 1979,
+    "price": 546102,
+    "features": [
+      "vista rio",
+      "elevador",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal-186-T3/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal-186-T3/480/320"
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "slug": "t0-em-porto-187",
+    "title": "T0 em Porto",
+    "summary": "T0 com 0 quartos em Porto.",
+    "description": "Imóvel renovado com 233 m², localizado em Porto, Porto. Ano 2012.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.15805211339467,
+      "lng": -8.631722482303429
+    },
+    "typology": "T0",
+    "area": 233,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "C",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 25,
+    "yearBuilt": 2012,
+    "price": 790038,
+    "features": [
+      "jardim",
+      "garagem",
+      "ar condicionado",
+      "suite"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-187-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-187-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "slug": "t4-em-porto-188",
+    "title": "T4 em Porto",
+    "summary": "T4 com 2 quartos em Porto.",
+    "description": "Imóvel usado com 76 m², localizado em Porto, Porto. Ano 2004.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.138009687019384,
+      "lng": -8.64568895442337
+    },
+    "typology": "T4",
+    "area": 76,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "condition": "Usado",
+    "energy": "A+",
+    "floor": 1,
+    "parking_spots": 0,
+    "condo_fee": 80,
+    "yearBuilt": 2004,
+    "price": 300152,
+    "features": [
+      "vista rio",
+      "roupeiros",
+      "garagem",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-188-T4/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-188-T4/480/320"
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "slug": "moradia-em-viseu-189",
+    "title": "Moradia em Viseu",
+    "summary": "Moradia com 5 quartos em Viseu.",
+    "description": "Imóvel usado com 114 m², localizado em Viseu, Viseu. Ano 1989.",
+    "location": {
+      "city": "Viseu",
+      "district": "Viseu",
+      "lat": 40.63862996685891,
+      "lng": -7.89626726195845
+    },
+    "typology": "Moradia",
+    "area": 114,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "condition": "Usado",
+    "energy": "B",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1989,
+    "price": 243656,
+    "features": [
+      "elevador",
+      "roupeiros",
+      "varanda",
+      "jardim",
+      "ar condicionado"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu-189-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu-189-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "slug": "t2-em-braga-190",
+    "title": "T2 em Braga",
+    "summary": "T2 com 2 quartos em Braga.",
+    "description": "Imóvel bom com 165 m², localizado em Braga, Braga. Ano 2014.",
+    "location": {
+      "city": "Braga",
+      "district": "Braga",
+      "lat": 41.53744009618566,
+      "lng": -8.440854923372566
+    },
+    "typology": "T2",
+    "area": 165,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "condition": "Bom",
+    "energy": "C",
+    "floor": 11,
+    "parking_spots": 0,
+    "condo_fee": 25,
+    "yearBuilt": 2014,
+    "price": 410172,
+    "features": [
+      "garagem",
+      "suite",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga-190-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga-190-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "slug": "moradia-em-lisboa-191",
+    "title": "Moradia em Lisboa",
+    "summary": "Moradia com 3 quartos em Lisboa.",
+    "description": "Imóvel a precisar de obras com 289 m², localizado em Lisboa, Lisboa. Ano 2017.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.738113816563754,
+      "lng": -9.119540222316056
+    },
+    "typology": "Moradia",
+    "area": 289,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "D",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 2017,
+    "price": 1231944,
+    "features": [
+      "cozinha equipada",
+      "suite",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-191-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-191-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "slug": "moradia-em-porto-192",
+    "title": "Moradia em Porto",
+    "summary": "Moradia com 1 quartos em Porto.",
+    "description": "Imóvel a precisar de obras com 223 m², localizado em Porto, Porto. Ano 2013.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.174839959389274,
+      "lng": -8.614042311073899
+    },
+    "typology": "Moradia",
+    "area": 223,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "B",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 2013,
+    "price": 818907,
+    "features": [
+      "varanda",
+      "jardim",
+      "suite",
+      "cozinha equipada",
+      "elevador"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-192-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-192-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "slug": "t1-em-porto-193",
+    "title": "T1 em Porto",
+    "summary": "T1 com 0 quartos em Porto.",
+    "description": "Imóvel usado com 158 m², localizado em Porto, Porto. Ano 2014.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.13806145538858,
+      "lng": -8.645525735842948
+    },
+    "typology": "T1",
+    "area": 158,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Usado",
+    "energy": "C",
+    "floor": 11,
+    "parking_spots": 1,
+    "condo_fee": 25,
+    "yearBuilt": 2014,
+    "price": 466494,
+    "features": [
+      "suite",
+      "roupeiros",
+      "varanda"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-193-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-193-T1/480/320"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "slug": "moradia-em-faro-194",
+    "title": "Moradia em Faro",
+    "summary": "Moradia com 2 quartos em Faro.",
+    "description": "Imóvel usado com 146 m², localizado em Faro, Faro. Ano 2019.",
+    "location": {
+      "city": "Faro",
+      "district": "Faro",
+      "lat": 37.00213831999081,
+      "lng": -7.92818065355233
+    },
+    "typology": "Moradia",
+    "area": 146,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "condition": "Usado",
+    "energy": "E",
+    "floor": 0,
+    "parking_spots": 2,
+    "condo_fee": 0,
+    "yearBuilt": 2019,
+    "price": 484665,
+    "features": [
+      "roupeiros",
+      "elevador",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro-194-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro-194-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "slug": "moradia-em-lisboa-195",
+    "title": "Moradia em Lisboa",
+    "summary": "Moradia com 4 quartos em Lisboa.",
+    "description": "Imóvel usado com 161 m², localizado em Lisboa, Lisboa. Ano 2000.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.7343215506147,
+      "lng": -9.139286153507152
+    },
+    "typology": "Moradia",
+    "area": 161,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "condition": "Usado",
+    "energy": "A",
+    "floor": 0,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 2000,
+    "price": 792353,
+    "features": [
+      "elevador",
+      "varanda",
+      "ar condicionado",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-195-Moradia/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-195-Moradia/480/320"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "slug": "t0-em-aveiro-196",
+    "title": "T0 em Aveiro",
+    "summary": "T0 com 0 quartos em Aveiro.",
+    "description": "Imóvel bom com 251 m², localizado em Aveiro, Aveiro. Ano 1987.",
+    "location": {
+      "city": "Aveiro",
+      "district": "Aveiro",
+      "lat": 40.654522350036686,
+      "lng": -8.643849464888207
+    },
+    "typology": "T0",
+    "area": 251,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "C",
+    "floor": 11,
+    "parking_spots": 2,
+    "condo_fee": 60,
+    "yearBuilt": 1987,
+    "price": 499984,
+    "features": [
+      "jardim",
+      "garagem"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro-196-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro-196-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "slug": "t2-em-lisboa-197",
+    "title": "T2 em Lisboa",
+    "summary": "T2 com 1 quartos em Lisboa.",
+    "description": "Imóvel renovado com 165 m², localizado em Lisboa, Lisboa. Ano 2022.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.73901180380268,
+      "lng": -9.149931239636993
+    },
+    "typology": "T2",
+    "area": 165,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "Renovado",
+    "energy": "F",
+    "floor": 10,
+    "parking_spots": 1,
+    "condo_fee": 25,
+    "yearBuilt": 2022,
+    "price": 819151,
+    "features": [
+      "jardim",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-197-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-197-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "slug": "t0-em-porto-198",
+    "title": "T0 em Porto",
+    "summary": "T0 com 0 quartos em Porto.",
+    "description": "Imóvel bom com 249 m², localizado em Porto, Porto. Ano 2018.",
+    "location": {
+      "city": "Porto",
+      "district": "Porto",
+      "lat": 41.170584422678566,
+      "lng": -8.644381998943159
+    },
+    "typology": "T0",
+    "area": 249,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "F",
+    "floor": 7,
+    "parking_spots": 0,
+    "condo_fee": 35,
+    "yearBuilt": 2018,
+    "price": 731250,
+    "features": [
+      "roupeiros",
+      "jardim",
+      "garagem",
+      "suite"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto-198-T0/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto-198-T0/480/320"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "slug": "t2-em-lisboa-199",
+    "title": "T2 em Lisboa",
+    "summary": "T2 com 1 quartos em Lisboa.",
+    "description": "Imóvel a precisar de obras com 251 m², localizado em Lisboa, Lisboa. Ano 1990.",
+    "location": {
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "lat": 38.71559492890178,
+      "lng": -9.134422795020509
+    },
+    "typology": "T2",
+    "area": 251,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "condition": "A precisar de obras",
+    "energy": "B",
+    "floor": 3,
+    "parking_spots": 0,
+    "condo_fee": 25,
+    "yearBuilt": 1990,
+    "price": 939301,
+    "features": [
+      "suite",
+      "roupeiros",
+      "varanda",
+      "ar condicionado",
+      "jardim"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa-199-T2/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa-199-T2/480/320"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "slug": "t1-em-viseu-200",
+    "title": "T1 em Viseu",
+    "summary": "T1 com 0 quartos em Viseu.",
+    "description": "Imóvel bom com 183 m², localizado em Viseu, Viseu. Ano 1978.",
+    "location": {
+      "city": "Viseu",
+      "district": "Viseu",
+      "lat": 40.647539658200174,
+      "lng": -7.898444314573116
+    },
+    "typology": "T1",
+    "area": 183,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "condition": "Bom",
+    "energy": "D",
+    "floor": 2,
+    "parking_spots": 1,
+    "condo_fee": 0,
+    "yearBuilt": 1978,
+    "price": 328563,
+    "features": [
+      "ar condicionado",
+      "elevador",
+      "vista rio",
+      "suite",
+      "cozinha equipada"
+    ],
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu-200-T1/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu-200-T1/480/320"
+      }
+    ]
+  }
+]

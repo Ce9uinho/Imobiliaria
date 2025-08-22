@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CasaPerfeita - IA de Avaliação Imobiliária</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body class="font-sans text-gray-800 bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-40 backdrop-filter backdrop-blur-lg bg-opacity-95">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="relative">
+                    <i class="fas fa-home text-blue-600 text-3xl"></i>
+                    <span class="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">AI</span>
+                </div>
+                <div>
+                    <h1 class="text-2xl font-bold gradient-text">CasaPerfeita</h1>
+                    <p class="text-xs text-gray-500 -mt-1">Inteligência Artificial Imobiliária</p>
+                </div>
+            </div>
+            
+            <nav id="mainNav" class="hidden md:flex items-center space-x-8">
+                <a href="#" class="nav-link text-gray-700 hover:text-blue-600 font-medium relative group" data-page="home">
+                    Comprar
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+                </a>
+                <a href="#" class="nav-link text-gray-700 hover:text-blue-600 font-medium relative group" data-page="rent">
+                    Arrendar
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+                </a>
+                <a href="#" class="nav-link text-gray-700 hover:text-blue-600 font-medium relative group" data-page="simulate">
+                    Simular Crédito
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+                </a>
+                <a href="#" class="nav-link text-gray-700 hover:text-blue-600 font-medium relative group" data-page="evaluate">
+                    <span class="text-blue-600 font-bold">Avaliar com IA</span>
+                    <span class="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600"></span>
+                </a>
+                <a href="#" class="nav-link text-gray-700 hover:text-blue-600 font-medium relative group" data-page="about">
+                    Sobre Nós
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+                </a>
+            </nav>
+            
+            <div class="flex items-center space-x-4">
+                <div class="hidden md:flex items-center space-x-2">
+                    <div class="relative">
+                        <button id="loginBtn" class="text-gray-700 hover:text-blue-600 flex items-center space-x-2 px-3 py-2 rounded-lg hover:bg-gray-100 transition">
+                            <i class="fas fa-user-circle text-xl"></i>
+                            <span id="userText">Entrar</span>
+                        </button>
+                        <span id="userPoints" class="absolute -top-2 -right-2 bg-yellow-400 text-xs text-gray-800 px-2 py-1 rounded-full font-bold hidden">0 pts</span>
+                    </div>
+                </div>
+                <button id="advertiseBtn" class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-2 rounded-lg transition btn-primary flex items-center space-x-2">
+                    <i class="fas fa-plus-circle"></i>
+                    <span>Anunciar</span>
+                </button>
+                <button id="mobileMenuBtn" class="md:hidden text-gray-700 p-2">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <nav id="mobileNav" class="hidden md:hidden bg-white border-t shadow-lg">
+            <div class="container mx-auto px-4 py-3 space-y-2">
+                <a href="#" class="block py-3 text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 rounded transition">Comprar</a>
+                <a href="#" class="block py-3 text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 rounded transition">Arrendar</a>
+                <a href="#" class="block py-3 text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 rounded transition">Simular Crédito</a>
+                <a href="#" class="block py-3 text-blue-600 font-bold hover:bg-blue-50 px-3 rounded transition">Avaliar com IA</a>
+                <a href="#" class="block py-3 text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 rounded transition">Sobre Nós</a>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main id="mainContent">
+        <!-- AI Hero Section -->
+        <section class="hero-bg min-h-screen flex items-center relative">
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-50"></div>
+            <div class="container mx-auto px-4 text-center relative z-10">
+                <div class="max-w-4xl mx-auto">
+                    <div class="mb-6">
+                        <span class="bg-blue-600 text-white px-6 py-3 rounded-full text-lg font-bold inline-flex items-center">
+                            <i class="fas fa-brain mr-2"></i>
+                            Powered by Artificial Intelligence
+                        </span>
+                    </div>
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+                        Avalie Qualquer Imóvel com a Nossa IA
+                    </h1>
+                    <p class="text-xl text-white mb-10 max-w-2xl mx-auto">
+                        Tecnologia de ponta que analisa fotos, dados de mercado e características do imóvel para fornecer uma avaliação precisa em segundos.
+                    </p>
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
+                        <button class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition btn-primary flex items-center justify-center" data-page="evaluate">
+                            <i class="fas fa-magic mr-3"></i>
+                            Avaliar Agora
+                        </button>
+                        <button id="showDemoBtn" class="bg-white bg-opacity-20 hover:bg-opacity-30 text-white px-8 py-4 rounded-lg text-lg font-semibold transition backdrop-filter backdrop-blur-sm flex items-center justify-center">
+                            <i class="fas fa-play-circle mr-3"></i>
+                            Ver Demonstração
+                        </button>
+                    </div>
+                </div>
+                <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 scroll-indicator">
+                    <i class="fas fa-chevron-down text-white text-2xl"></i>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Features Section -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Como Funciona a Nossa IA</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        A nossa tecnologia utiliza algoritmos avançados de machine learning para analisar múltiplos fatores e fornecer avaliações precisas.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="ai-feature-card bg-gray-50 p-8 rounded-xl border border-gray-100">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-camera text-blue-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Análise de Imagens</h3>
+                        <p class="text-gray-600">
+                            A nossa IA analisa fotos do imóvel para identificar características, estado de conservação e potenciais problemas.
+                        </p>
+                    </div>
+                    
+                    <div class="ai-feature-card bg-gray-50 p-8 rounded-xl border border-gray-100">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-chart-line text-purple-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Dados de Mercado</h3>
+                        <p class="text-gray-600">
+                            Comparamos com milhares de transações recentes na área para garantir uma avaliação alinhada com o mercado atual.
+                        </p>
+                    </div>
+                    
+                    <div class="ai-feature-card bg-gray-50 p-8 rounded-xl border border-gray-100">
+                        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-brain text-green-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Aprendizado Contínuo</h3>
+                        <p class="text-gray-600">
+                            O nosso sistema melhora constantemente com cada avaliação, tornando-se mais preciso ao longo do tempo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Properties Section -->
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <div class="flex justify-between items-center mb-10">
+                    <div>
+                        <h2 class="text-3xl font-bold mb-2">Imóveis em Destaque</h2>
+                        <p class="text-gray-600">Descubra as melhores oportunidades no mercado</p>
+                    </div>
+                    <div class="flex space-x-2">
+                        <button class="px-4 py-2 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition">Todos</button>
+                        <button class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Apartamentos</button>
+                        <button class="px-4 py-2 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition">Moradias</button>
+                    </div>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Property Card 1 -->
+                    <div class="property-card bg-white rounded-xl overflow-hidden shadow-lg">
+                        <div class="relative">
+                            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Imóvel" class="w-full h-64 object-cover">
+                            <span class="absolute top-4 left-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold">Novo</span>
+                            <button class="absolute top-4 right-4 w-10 h-10 bg-white bg-opacity-80 rounded-full flex items-center justify-center hover:bg-opacity-100 transition">
+                                <i class="far fa-heart text-gray-700"></i>
+                            </button>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-4">
+                                <div>
+                                    <h3 class="text-xl font-bold mb-1">Apartamento T3 Moderno</h3>
+                                    <p class="text-gray-600 flex items-center">
+                                        <i class="fas fa-map-marker-alt mr-2"></i> Lisboa, Campo de Ourique
+                                    </p>
+                                </div>
+                                <div class="text-right">
+                                    <p class="text-2xl font-bold text-blue-600">€450,000</p>
+                                    <p class="text-sm text-gray-500">€3,750/m²</p>
+                                </div>
+                            </div>
+                            <div class="flex space-x-4 mb-4">
+                                <div class="flex items-center text-gray-600">
+                                    <i class="fas fa-bed mr-2"></i>
+                                    <span>3 Quartos</span>
+                                </div>
+                                <div class="flex items-center text-gray-600">
+                                    <i class="fas fa-bath mr-2"></i>
+                                    <span>2 WC</span>
+                                </div>
+                                <div class="flex items-center text-gray-600">
+                                    <i class="fas fa-ruler-combined mr-2"></i>
+                                    <span>120m²</span>
+                                </div>
+                            </div>
+                            <div class="flex space-x-2 mb-4">
+                                <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Ar Condicionado</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Garagem</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Varanda</span>
+                            </div>
+                            <button class="view-details-btn w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">
+                                Ver Detalhes
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Property Card 2 -->
+                    <div class="property-card bg-white rounded-xl overflow-hidden shadow-lg">
+                        <div class="relative">
+                            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Imóvel" class="w-full h-64 object-cover">
+                            <span class="absolute top-4 left-4 bg-green-500 text-white px-3 py-1 rounded-full text-sm font-bold">Destaque</span>
+                            <button class="absolute top-4 right-4 w-10 h-10 bg-white bg-opacity-80 rounded-full flex items-center justify-center hover:bg-opacity-100 transition">
+                                <i class="far fa-heart text-gray-700"></i>
+                            </button>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-4">
+                                <div>
+                                    <h3 class="text-xl font-bold mb-1">Moradia T4 com Piscina</h3>
+                                    <p class="text-gray-600 flex items-center">
+                                        <i class="fas fa-map-marker-alt mr-2"></i> Cascais, Cascais Estoril
+                                    </p>
+                                </div>
+                                <div class="text-right">
+                                    <p class="text-2xl font-bold text-blue-600">€850,000</p>
+                                    <p class="text-sm text-gray-500">€3,400/m²</p>
+                                </div>
+                            </div>
+                            <div class="flex space-x-4 mb-4">
+                                <div class="flex items-center text-gray-600">
+                                    <i class="fas fa-bed mr-2"></i>
+                                    <span>4 Quartos</span>
+                                </div>
+                                <div class="flex items-center text-gray-600">
+                                    <i class="fas fa-bath mr-2"></i>
+                                    <span>3 WC</span>
+                                </div>
+                                <div class="flex items-center text-gray-600">
+                                    <i class="fas fa-ruler-combined mr-2"></i>
+                                    <span>250m²</span>
+                                </div>
+                            </div>
+                            <div class="flex space-x-2 mb-4">
+                                <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Piscina</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Jardim</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Garagem</span>
+                            </div>
+                            <button class="view-details-btn w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">
+                                Ver Detalhes
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Property Card 3 -->
+                    <div class="property-card bg-white rounded-xl overflow-hidden shadow-lg">
+                        <div class="relative">
+                            <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Imóvel" class="w-full h-64 object-cover">
+                            <span class="absolute top-4 left-4 bg-yellow-500 text-white px-3 py-1 rounded-full text-sm font-bold">Oportunidade</span>
+                            <button class="absolute top-4 right-4 w-10 h-10 bg-white bg-opacity-80 rounded-full flex items-center justify-center hover:bg-opacity-100 transition">
+                                <i class="far fa-heart text-gray-700"></i>
+                            </button>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-4">
+                                <div>
+                                    <h3 class="text-xl font-bold mb-1">Apartamento T2 Renovado</h3>
+                                    <p class="text-gray-600 flex items-center">
+                                        <i class="fas fa-map-marker-alt mr-2"></i> Porto, Ribeira
+                                    </p>
+                                </div>
+                                <div class="text-right">
+                                    <p class="text-2xl font-bold text-blue-600">€320,000</p>
+                                    <p class="text-sm text-gray-500">€4,000/m²</p>
+                                </div>
+                            </div>
+                            <div class="flex space-x-4 mb-4">
+                                <div class="flex items-center text-gray-600">
+                                    <i class="fas fa-bed mr-2"></i>
+                                    <span>2 Quartos</span>
+                                </div>
+                                <div class="flex items-center text-gray-600">
+                                    <i class="fas fa-bath mr-2"></i>
+                                    <span>1 WC</span>
+                                </div>
+                                <div class="flex items-center text-gray-600">
+                                    <i class="fas fa-ruler-combined mr-2"></i>
+                                    <span>80m²</span>
+                                </div>
+                            </div>
+                            <div class="flex space-x-2 mb-4">
+                                <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Renovado</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Vista Rio</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Elevador</span>
+                            </div>
+                            <button class="view-details-btn w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">
+                                Ver Detalhes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-12">
+                    <button id="viewAllPropertiesBtn" class="bg-white border border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 rounded-lg font-semibold transition">
+                        Ver Todos os Imóveis
+                    </button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Testimonials Section -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">O Que Dizem os Nossos Clientes</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Milhares de pessoas já utilizaram a nossa tecnologia para avaliar imóveis com precisão.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-gray-50 p-8 rounded-xl">
+                        <div class="flex items-center mb-4">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Cliente" class="w-16 h-16 rounded-full mr-4">
+                            <div>
+                                <h4 class="font-bold">Ana Silva</h4>
+                                <div class="flex text-yellow-400">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 italic">
+                            "A avaliação da IA foi incrivelmente precisa! Vendi o meu apartamento pelo valor exato que foi sugerido, sem precisar de negociar."
+                        </p>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-8 rounded-xl">
+                        <div class="flex items-center mb-4">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Cliente" class="w-16 h-16 rounded-full mr-4">
+                            <div>
+                                <h4 class="font-bold">Carlos Mendes</h4>
+                                <div class="flex text-yellow-400">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 italic">
+                            "Como investidor, uso a CasaPerfeita para analisar oportunidades. A IA identifica detalhes que eu nunca perceberia."
+                        </p>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-8 rounded-xl">
+                        <div class="flex items-center mb-4">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Cliente" class="w-16 h-16 rounded-full mr-4">
+                            <div>
+                                <h4 class="font-bold">Marta Rodrigues</h4>
+                                <div class="flex text-yellow-400">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 italic">
+                            "O processo é tão simples! Tirei algumas fotos, preenchi os dados e em minutos tinha uma avaliação completa. Recomendo!"
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- CTA Section -->
+        <section class="py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Pronto para Avaliar o Seu Imóvel?</h2>
+                <p class="text-xl mb-10 max-w-2xl mx-auto">
+                    Junte-se a milhares de utilizadores que já descobriram o valor real dos seus imóveis com a nossa tecnologia.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <button class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition flex items-center justify-center" data-page="evaluate">
+                        <i class="fas fa-magic mr-3"></i>
+                        Avaliar Agora
+                    </button>
+                    <button id="talkToAgentBtn" class="bg-transparent border-2 border-white hover:bg-white hover:bg-opacity-10 px-8 py-4 rounded-lg text-lg font-semibold transition flex items-center justify-center">
+                        <i class="fas fa-comments mr-3"></i>
+                        Falar com o nosso agente
+                    </button>
+                </div>
+            </div>
+        </section>
+    
+    <!-- Modal Detalhe Imóvel (auto-inserido) -->
+    <div id="propertyModal" class="modal hidden">
+      <div class="modal-content bg-white rounded-xl max-w-3xl mx-auto relative">
+        <button class="close-modal absolute top-3 right-3 bg-gray-100 hover:bg-gray-200 rounded-full p-2" aria-label="Fechar">&times;</button>
+        <div id="propertyModalBody" class="p-0"></div>
+      </div>
+    </div>
+    
+</main>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <i class="fas fa-home text-blue-400 text-3xl"></i>
+                        <h3 class="text-xl font-bold">CasaPerfeita</h3>
+                    </div>
+                    <p class="text-gray-400 mb-4">
+                        A plataforma líder em avaliação imobiliária com inteligência artificial em Portugal.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-linkedin-in text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Links Rápidos</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Comprar Imóveis</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Arrendar Imóveis</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Avaliar com IA</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Simular Crédito</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Anunciar Imóvel</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Suporte</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Central de Ajuda</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">FAQ</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Termos de Serviço</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Política de Privacidade</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Contactos</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Newsletter</h4>
+                    <p class="text-gray-400 mb-4">
+                        Subscreva a nossa newsletter para receber as últimas novidades e oportunidades.
+                    </p>
+                    <form class="flex">
+                        <input type="email" placeholder="O seu email" class="bg-gray-800 text-white px-4 py-2 rounded-l-lg flex-1 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <button type="submit" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-r-lg transition">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 CasaPerfeita. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- AI Evaluation Modal -->
+    <div id="aiEvaluationModal" class="modal hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+        <div class="modal-content bg-white rounded-xl shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+            <div class="p-6 border-b flex justify-between items-center">
+                <h2 class="text-2xl font-bold text-gray-800">Avaliação de Imóvel com IA</h2>
+                <button class="close-modal text-gray-500 hover:text-gray-700">
+                    <i class="fas fa-times text-xl"></i>
+                </button>
+            </div>
+            
+            <div class="p-6">
+                <form id="evaluationForm">
+                    <div class="step-indicator">
+                        <div class="step active">
+                            <div class="step-number">1</div>
+                            <div class="step-title">Informações Básicas</div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-title">Fotos</div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-title">Resultados</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 1: Basic Information -->
+                    <div id="step1" class="step-content">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                            <div class="form-group">
+                                <label class="block text-gray-700 mb-2">Tipo de Imóvel</label>
+                                <select name="propertyType" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none">
+                                    <option value="">Selecione...</option>
+                                    <option value="apartamento">Apartamento</option>
+                                    <option value="casa">Casa</option>
+                                    <option value="moradia">Moradia</option>
+                                    <option value="terreno">Terreno</option>
+                                    <option value="escritorio">Escritório</option>
+                                    <option value="loja">Loja</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="block text-gray-700 mb-2">Endereço</label>
+                                <input type="text" name="address" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none" placeholder="Rua, nº, Bairro">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="block text-gray-700 mb-2">Área (m²)</label>
+                                <input type="number" name="area" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none" placeholder="Ex: 120">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="block text-gray-700 mb-2">Ano de Construção</label>
+                                <input type="number" name="yearBuilt" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none" placeholder="Ex: 2010">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="block text-gray-700 mb-2">Quartos</label>
+                                <select name="bedrooms" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none">
+                                    <option value="">Selecione...</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5+</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="block text-gray-700 mb-2">Casas de Banho</label>
+                                <select name="bathrooms" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none">
+                                    <option value="">Selecione...</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4+</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="block text-gray-700 mb-2">Estado de Conservação</label>
+                                <select name="condition" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none">
+                                    <option value="">Selecione...</option>
+                                    <option value="excelente">Excelente</option>
+                                    <option value="bom">Bom</option>
+                                    <option value="regular">Regular</option>
+                                    <option value="precisa-reparos">Precisa de Reparos</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group md:col-span-2">
+                                <label class="block text-gray-700 mb-2">Características Especiais</label>
+                                <textarea name="features" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none" rows="3" placeholder="Ex: Piscina, Garagem, Ar Condicionado, Vista para o mar..."></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="flex justify-end">
+                            <button type="button" id="nextToPhotosBtn" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition">
+                                Próximo <i class="fas fa-arrow-right ml-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 2: Photos -->
+                    <div id="step2" class="step-content hidden">
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-2">Adicionar Fotos do Imóvel</h3>
+                            <p class="text-gray-600">A nossa IA irá analisar as fotos para fornecer uma avaliação mais precisa.</p>
+                        </div>
+                        
+                        <div id="uploadArea" class="upload-area mb-6">
+                            <i class="fas fa-cloud-upload-alt text-4xl text-gray-400 mb-4"></i>
+                            <p class="text-lg font-medium text-gray-700 mb-2">Arraste e solte as fotos aqui</p>
+                            <p class="text-gray-500 mb-4">ou</p>
+                            <button type="button" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition">
+                                Selecionar Fotos
+                            </button>
+                            <input type="file" id="fileInput" class="hidden" multiple accept="image/*">
+                        </div>
+                        
+                        <div id="photoGrid" class="photo-grid"></div>
+                        
+                        <div class="flex justify-between mt-6">
+                            <button type="button" id="backToInfoBtn" class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-6 py-2 rounded-lg transition">
+                                <i class="fas fa-arrow-left mr-2"></i> Anterior
+                            </button>
+                            <button type="button" id="startEvaluationBtn" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition">
+                                Iniciar Avaliação <i class="fas fa-brain ml-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 3: Results -->
+                    <div id="step3" class="step-content hidden">
+                        <div id="resultsContainer" class="hidden">
+                            <div class="analysis-progress mb-8">
+                                <h3 class="text-xl font-semibold mb-4">A IA está a analisar o seu imóvel...</h3>
+                                <div class="progress-item">
+                                    <div class="progress-header">
+                                        <span id="progressText">A preparar análise...</span>
+                                        <span class="text-sm text-gray-500">0%</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div id="resultsSection" class="hidden">
+                            <h3 class="text-2xl font-bold mb-6">Resultados da Avaliação</h3>
+                            
+                            <div class="results-grid mb-8">
+                                <div class="result-card">
+                                    <h4 class="text-lg font-semibold mb-2">Valor Estimado</h4>
+                                    <div class="text-3xl font-bold price-prediction mb-2" id="estimatedPrice">€0</div>
+                                    <div class="text-sm text-gray-600" id="pricePerSqm">€0/m²</div>
+                                </div>
+                                
+                                <div class="result-card">
+                                    <h4 class="text-lg font-semibold mb-2">Nível de Confiança</h4>
+                                    <div class="flex items-center">
+                                        <div class="flex-1 mr-4">
+                                            <div class="confidence-bar">
+                                                <div class="confidence-fill" id="confidenceBar" style="width: 0%"></div>
+                                            </div>
+                                        </div>
+                                        <span class="text-lg font-bold" id="confidenceLevel">0%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="report-section">
+                                <h4 class="text-lg font-semibold mb-4 flex items-center">
+                                    <i class="fas fa-exclamation-triangle text-yellow-500 mr-2"></i>
+                                    Problemas Detectados
+                                </h4>
+                                <div id="issuesContainer">
+                                    <!-- Os problemas serão inseridos aqui via JavaScript -->
+                                </div>
+                            </div>
+                            
+                            <div class="report-section">
+                                <h4 class="text-lg font-semibold mb-4 flex items-center">
+                                    <i class="fas fa-chart-bar text-blue-500 mr-2"></i>
+                                    Fatores de Valor
+                                </h4>
+                                <div id="factorsContainer">
+                                    <!-- Os fatores serão inseridos aqui via JavaScript -->
+                                </div>
+                            </div>
+                            
+                            <div class="report-section">
+                                <h4 class="text-lg font-semibold mb-4 flex items-center">
+                                    <i class="fas fa-lightbulb text-yellow-500 mr-2"></i>
+                                    Recomendações
+                                </h4>
+                                <div id="recommendationsContainer">
+                                    <!-- As recomendações serão inseridas aqui via JavaScript -->
+                                </div>
+                            </div>
+                            
+                            <div class="report-section">
+                                <h4 class="text-lg font-semibold mb-4 flex items-center">
+                                    <i class="fas fa-balance-scale text-purple-500 mr-2"></i>
+                                    Comparação de Mercado
+                                </h4>
+                                <div class="market-comparison" id="marketComparisonContainer">
+                                    <!-- A comparação será inserida aqui via JavaScript -->
+                                </div>
+                            </div>
+                            
+                            <div id="reportSection" class="hidden mt-8 text-center">
+                                <p class="mb-4">Deseja obter um relatório completo da avaliação?</p>
+                                <div class="action-buttons">
+                                    <button type="button" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition">
+                                        <i class="fas fa-download mr-2"></i> Baixar Relatório Completo
+                                    </button>
+                                    <button type="button" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg transition">
+                                        <i class="fas fa-share-alt mr-2"></i> Compartilhar Resultados
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="flex justify-between mt-8">
+                                <button type="button" id="newEvaluationBtn" class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-6 py-2 rounded-lg transition">
+                                    Nova Avaliação
+                                </button>
+                                <button type="button" id="closeResultsBtn" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition">
+                                    Fechar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Buy Property Modal -->
+    <div id="buyPropertyModal" class="modal hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+        <div class="modal-content bg-white rounded-xl shadow-2xl max-w-6xl w-full max-h-[90vh] overflow-y-auto">
+            <div class="p-6 border-b flex justify-between items-center">
+                <h2 class="text-2xl font-bold text-gray-800">Comprar Imóvel</h2>
+                <button class="close-modal text-gray-500 hover:text-gray-700">
+                    <i class="fas fa-times text-xl"></i>
+                </button>
+            </div>
+            
+            <div class="property-search-container">
+                <div class="search-filters">
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                        <div class="filter-group">
+                            <label class="filter-label">Tipo de Imóvel</label>
+                            <select id="buyPropertyType" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none">
+                                <option value="">Todos</option>
+                                <option value="apartamento">Apartamento</option>
+                                <option value="moradia">Moradia</option>
+                                <option value="casa">Casa</option>
+                            </select>
+                        </div>
+                        
+                        <div class="filter-group">
+                            <label class="filter-label">Localização</label>
+                            <input type="text" id="buyLocation" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none" placeholder="Cidade ou região">
+                        </div>
+                        
+                        <div class="filter-group">
+                            <label class="filter-label">Faixa de Preço</label>
+                            <div class="price-range-inputs">
+                                <input type="number" id="buyMinPrice" class="form-input px-4 py-2 border border-gray-300 rounded-lg focus:outline-none" placeholder="Mínimo">
+                                <span>a</span>
+                                <input type="number" id="buyMaxPrice" class="form-input px-4 py-2 border border-gray-300 rounded-lg focus:outline-none" placeholder="Máximo">
+                            </div>
+                        </div>
+                        
+                        <div class="filter-group">
+                            <label class="filter-label">Quartos</label>
+                            <select id="buyBedrooms" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none">
+                                <option value="">Qualquer</option>
+                                <option value="1">1+</option>
+                                <option value="2">2+</option>
+                                <option value="3">3+</option>
+                                <option value="4">4+</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="flex justify-end mt-4">
+                        <button id="applyBuyFilters" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition">
+                            Aplicar Filtros
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="property-results" id="buyPropertyResults">
+                    <!-- Properties will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Rent Property Modal -->
+    <div id="rentPropertyModal" class="modal hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+        <div class="modal-content bg-white rounded-xl shadow-2xl max-w-6xl w-full max-h-[90vh] overflow-y-auto">
+            <div class="p-6 border-b flex justify-between items-center">
+                <h2 class="text-2xl font-bold text-gray-800">Arrendar Imóvel</h2>
+                <button class="close-modal text-gray-500 hover:text-gray-700">
+                    <i class="fas fa-times text-xl"></i>
+                </button>
+            </div>
+            
+            <div class="property-search-container">
+                <div class="search-filters">
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                        <div class="filter-group">
+                            <label class="filter-label">Tipo de Imóvel</label>
+                            <select id="rentPropertyType" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none">
+                                <option value="">Todos</option>
+                                <option value="apartamento">Apartamento</option>
+                                <option value="moradia">Moradia</option>
+                                <option value="casa">Casa</option>
+                            </select>
+                        </div>
+                        
+                        <div class="filter-group">
+                            <label class="filter-label">Localização</label>
+                            <input type="text" id="rentLocation" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none" placeholder="Cidade ou região">
+                        </div>
+                        
+                        <div class="filter-group">
+                            <label class="filter-label">Faixa de Renda</label>
+                            <div class="price-range-inputs">
+                                <input type="number" id="rentMinPrice" class="form-input px-4 py-2 border border-gray-300 rounded-lg focus:outline-none" placeholder="Mínimo">
+                                <span>a</span>
+                                <input type="number" id="rentMaxPrice" class="form-input px-4 py-2 border border-gray-300 rounded-lg focus:outline-none" placeholder="Máximo">
+                            </div>
+                        </div>
+                        
+                        <div class="filter-group">
+                            <label class="filter-label">Quartos</label>
+                            <select id="rentBedrooms" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none">
+                                <option value="">Qualquer</option>
+                                <option value="1">1+</option>
+                                <option value="2">2+</option>
+                                <option value="3">3+</option>
+                                <option value="4">4+</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="flex justify-end mt-4">
+                        <button id="applyRentFilters" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition">
+                            Aplicar Filtros
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="property-results" id="rentPropertyResults">
+                    <!-- Properties will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Credit Simulator Modal -->
+    <div id="creditSimulatorModal" class="modal hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+        <div class="modal-content bg-white rounded-xl shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+            <div class="p-6 border-b flex justify-between items-center">
+                <h2 class="text-2xl font-bold text-gray-800">Simular Crédito Habitação</h2>
+                <button class="close-modal text-gray-500 hover:text-gray-700">
+                    <i class="fas fa-times text-xl"></i>
+                </button>
+            </div>
+            
+            <div class="p-6">
+                <form id="creditSimulatorForm">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div class="form-group">
+                            <label class="block text-gray-700 mb-2">Valor do Imóvel (€)</label>
+                            <input type="number" id="propertyValue" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none" placeholder="Ex: 300000" value="300000">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="block text-gray-700 mb-2">Entrada (€)</label>
+                            <input type="number" id="downPayment" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none" placeholder="Ex: 60000" value="60000">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="block text-gray-700 mb-2">Prazo (anos)</label>
+                            <select id="loanTerm" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none">
+                                <option value="10">10 anos</option>
+                                <option value="15">15 anos</option>
+                                <option value="20">20 anos</option>
+                                <option value="25">25 anos</option>
+                                <option value="30" selected>30 anos</option>
+                                <option value="40">40 anos</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="block text-gray-700 mb-2">Taxa de Juro Anual (%)</label>
+                            <input type="number" id="interestRate" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none" placeholder="Ex: 3.5" value="3.5" step="0.1">
+                        </div>
+                    </div>
+                    
+                    <div class="flex justify-end mb-6">
+                        <button type="button" id="calculateCredit" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition">
+                            Calcular Prestação
+                        </button>
+                    </div>
+                </form>
+                
+                <div id="creditResults" class="hidden">
+                    <div class="simulator-result">
+                        <h3>Resultados da Simulação</h3>
+                        <div class="simulator-result-item">
+                            <span>Valor Financiado:</span>
+                            <span id="financedAmount">€0</span>
+                        </div>
+                        <div class="simulator-result-item">
+                            <span>Prestação Mensal:</span>
+                            <span id="monthlyPayment">€0</span>
+                        </div>
+                        <div class="simulator-result-item">
+                            <span>Total de Juros:</span>
+                            <span id="totalInterest">€0</span>
+                        </div>
+                        <div class="simulator-result-item">
+                            <span>Total a Pagar:</span>
+                            <span id="totalPayment">€0</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6">
+                        <h3 class="text-lg font-semibold mb-4">Tabela de Amortização (Primeiros 12 meses)</h3>
+                        <div class="amortization-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Mês</th>
+                                        <th>Prestação</th>
+                                        <th>Capital</th>
+                                        <th>Juros</th>
+                                        <th>Saldo Devedor</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="amortizationTableBody">
+                                    <!-- Table rows will be inserted here -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    <div class="flex justify-end mt-6">
+                        <button id="newSimulation" class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-6 py-2 rounded-lg transition mr-2">
+                            Nova Simulação
+                        </button>
+                        <button id="downloadSimulation" class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg transition">
+                            <i class="fas fa-download mr-2"></i> Baixar Relatório
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Property Details Modal -->
+    <div id="propertyDetailsModal" class="modal hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+        <div class="modal-content bg-white rounded-xl shadow-2xl max-w-6xl w-full max-h-[90vh] overflow-y-auto property-details-modal">
+            <div class="p-6 border-b flex justify-between items-center">
+                <h2 id="propertyDetailsTitle" class="text-2xl font-bold text-gray-800">Detalhes do Imóvel</h2>
+                <button class="close-modal text-gray-500 hover:text-gray-700">
+                    <i class="fas fa-times text-xl"></i>
+                </button>
+            </div>
+            
+            <div class="p-6">
+                <div class="property-gallery">
+                    <div class="property-main-image">
+                        <img id="propertyMainImage" src="" alt="Imóvel" class="w-full h-full object-cover">
+                    </div>
+                    <div class="property-thumbnails">
+                        <div class="property-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Foto 1">
+                        </div>
+                        <div class="property-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Foto 2">
+                        </div>
+                        <div class="property-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Foto 3">
+                        </div>
+                        <div class="property-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Foto 4">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+                    <div class="md:col-span-2">
+                        <div class="property-info-section">
+                            <h3>Descrição</h3>
+                            <p id="propertyDescription" class="property-description">
+                                <!-- Descrição será inserida aqui -->
+                            </p>
+                        </div>
+                        
+                        <div class="property-info-section">
+                            <h3>Características</h3>
+                            <div id="propertyFeatures" class="property-features-grid">
+                                <!-- Características serão inseridas aqui -->
+                            </div>
+                        </div>
+                        
+                        <div class="property-info-section">
+                            <h3>Localização</h3>
+                            <div class="property-location-map">
+                                <i class="fas fa-map-marked-alt text-4xl text-gray-400 mb-2"></i>
+                                <p>Mapa interativo</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="bg-gray-50 p-6 rounded-xl">
+                            <h3 class="text-xl font-semibold mb-4">Informações</h3>
+                            <div class="space-y-3">
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Preço</span>
+                                    <span id="propertyPrice" class="font-semibold">€0</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Área</span>
+                                    <span id="propertyArea">0m²</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Quartos</span>
+                                    <span id="propertyBedrooms">0</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Casas de Banho</span>
+                                    <span id="propertyBathrooms">0</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Tipo</span>
+                                    <span id="propertyType">-</span>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-6">
+                                <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg transition mb-3">
+                                    <i class="fas fa-phone mr-2"></i> Contactar Agente
+                                </button>
+                                <button class="w-full bg-gray-200 hover:bg-gray-300 text-gray-800 py-3 rounded-lg transition">
+                                    <i class="fas fa-calendar mr-2"></i> Marcar Visita
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="property-agent-info mt-6">
+                            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Agente" class="agent-avatar">
+                            <div class="agent-details">
+                                <h4>João Santos</h4>
+                                <p>Agente Imobiliário Sénior</p>
+                                <div class="agent-contact">
+                                    <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg">
+                                        <i class="fas fa-phone"></i>
+                                    </button>
+                                    <button class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded-lg">
+                                        <i class="fas fa-envelope"></i>
+                                    </button>
+                                    <button class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded-lg">
+                                        <i class="fab fa-whatsapp"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Chatbot Modal -->
+    <div id="chatbotModal" class="modal hidden fixed bottom-6 right-6 z-50">
+        <div class="modal-content bg-white rounded-xl shadow-2xl chatbot-modal">
+            <div class="chatbot-header">
+                <h3>Agente Virtual</h3>
+                <div class="chatbot-status">
+                    <span class="chatbot-status-dot"></span>
+                    <span>Online</span>
+                </div>
+            </div>
+            <div class="chatbot-body">
+                <div id="chatbotMessages" class="chatbot-messages">
+                    <div class="chatbot-message bot">
+                        <div class="chatbot-message-bubble">
+                            Olá! Sou o agente virtual da CasaPerfeita. Como posso ajudar você hoje?
+                        </div>
+                    </div>
+                </div>
+                <div class="chatbot-input">
+                    <form id="chatbotForm" class="chatbot-input-form">
+                        <input type="text" id="chatbotInput" class="chatbot-input-field" placeholder="Digite sua mensagem...">
+                        <button type="submit" class="chatbot-send-btn">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Saved Properties Panel -->
+    <div id="savedPropertiesPanel" class="saved-properties-panel">
+        <div class="saved-properties-header">
+            <h3>Imóveis Guardados</h3>
+            <button id="closeSavedProperties" class="text-gray-500 hover:text-gray-700">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div id="savedPropertiesList" class="saved-properties-list">
+            <!-- Saved properties will be listed here -->
+        </div>
+    </div>
+    
+    <!-- Back to Top Button -->
+    <button id="backToTopBtn" class="fixed bottom-6 right-6 w-12 h-12 bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-lg flex items-center justify-center transition opacity-0 invisible">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <!-- Saved Properties Toggle Button -->
+    <button id="savedPropertiesToggle" class="fixed bottom-20 right-6 w-12 h-12 bg-purple-600 hover:bg-purple-700 text-white rounded-full shadow-lg flex items-center justify-center transition">
+        <i class="fas fa-heart"></i>
+    </button>
+    
+    <!-- Sticky CTA for Mobile -->
+    <button class="sticky-cta md:hidden bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg flex items-center" data-page="evaluate">
+        <i class="fas fa-brain mr-2"></i>
+        Avaliar Imóvel
+    </button>
+    
+    
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/ai.js"></script>
+</body>
+</html>
