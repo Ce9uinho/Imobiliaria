@@ -1835,6 +1835,7 @@ function conditionBadge(cond) {
   return `<span class="text-xs px-2 py-1 rounded ${cls}">${cond}</span>`;
 }
 
+// Corrigir duplicação de handlers do menu mobile (garantir único)
 document.addEventListener('DOMContentLoaded', () => {
   const mobileMenuBtn = document.getElementById('mobileMenuBtn');
   const mobileNav = document.getElementById('mobileNav');
@@ -1844,9 +1845,11 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+// Mostrar detalhe do imóvel em modal
 function showPropertyDetails(prop, kind) {
   const { url, thumb } = getMedia(prop);
   const priceStr = kind === 'rent' ? `${fmtEUR(prop.price)}/mês` : fmtEUR(prop.price);
+
   const extras = [
     prop.bedrooms ? `${prop.bedrooms} quartos` : null,
     prop.bathrooms ? `${prop.bathrooms} wc` : null,
@@ -1856,11 +1859,13 @@ function showPropertyDetails(prop, kind) {
     prop.parking_spots ? `${prop.parking_spots} estacionamento` : null,
     prop.energy ? `Energia ${prop.energy}` : null,
   ].filter(Boolean).join(' · ');
+
   const fees = [
     (kind === 'buy' && prop.condo_fee > 0) ? `Condomínio: ${fmtEUR(prop.condo_fee)}` : null,
     prop.condition ? `Estado: ${prop.condition}` : null,
     prop.yearBuilt ? `Ano: ${prop.yearBuilt}` : null,
   ].filter(Boolean).join(' | ');
+
   const html = `
     <div class="p-0">
       <img src="${url}" onerror="this.src='${thumb}'" class="w-full h-64 object-cover rounded-t-xl" alt="${prop.title || 'Imóvel'}">
@@ -1881,14 +1886,17 @@ function showPropertyDetails(prop, kind) {
   if (modalBody) modalBody.innerHTML = html;
   const modal = document.querySelector('#propertyModal');
   if (modal) modal.classList.remove('hidden');
+
+  // fechar modal
   modal?.querySelector('.close-modal')?.addEventListener('click', () => modal.classList.add('hidden'));
 }
 
+// Util para ligar botões "Ver detalhes" após render
 function bindDetailButtons(propertiesForSale, propertiesForRent) {
   document.querySelectorAll('.view-details-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
       const id = String(e.currentTarget.dataset.id);
-      const kind = e.currentTarget.dataset.kind;
+      const kind = e.currentTarget.dataset.kind; // 'buy' ou 'rent'
       const list = (kind === 'rent') ? propertiesForRent : propertiesForSale;
       const prop = list.find(p => String(p.id) === id);
       if (prop) showPropertyDetails(prop, kind);
@@ -1896,7 +1904,8 @@ function bindDetailButtons(propertiesForSale, propertiesForRent) {
   });
 }
 
-function chatbotExample(properties, type) {
+// Chatbot preço correto (€/mês só em renda)
+function chatbotExample(properties, type, rentList, saleList) {
   if (!properties?.length) return "Não encontrei resultados para já. Quer tentar com outros filtros?";
   const p = properties[Math.floor(Math.random() * properties.length)];
   const isRent = (type?.toLowerCase() === 'arrendar' || type?.toLowerCase() === 'rent');
@@ -1904,3 +1913,6 @@ function chatbotExample(properties, type) {
   const city = p.location?.city || p.location || '';
   return `Encontrámos ${properties.length} ${type}s. Exemplo: "${p.title}" em ${city} por ${priceStr}. Queres ver mais detalhes?`;
 }
+
+// Ano corrente utilitário
+const CURRENT_YEAR = new Date().getFullYear();
