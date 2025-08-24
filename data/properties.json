@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "title": "T1 em Coimbra",
+    "price": 218183,
+    "location": {
+      "city": "Coimbra"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/test/800/600"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "T2 em Lisboa",
+    "price": 203195,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/test/800/600"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "T3 em Lisboa",
+    "price": 238171,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/test/800/600"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "T4 em Coimbra",
+    "price": 161355,
+    "location": {
+      "city": "Coimbra"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/test/800/600"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "T5 em Coimbra",
+    "price": 166138,
+    "location": {
+      "city": "Coimbra"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/test/800/600"
+      }
+    ]
+  }
+]
