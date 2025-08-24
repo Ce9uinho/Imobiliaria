@@ -1,1 +1,69 @@
-<!DOCTYPE html><html lang='pt'><head><meta charset='utf-8'><title>ImobiLusa</title></head><body><h1>ImobiLusa</h1><p>Versão final branding.</p><script src='assets/js/ai-global.js'></script><script src='assets/js/patches-global.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ImobiLusa — Comprar, Vender e Avaliar Imóveis</title>
+  <meta name="description" content="Explora imóveis e obtém uma estimativa com IA em segundos.">
+  <meta name="theme-color" content="#1F8F5B">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <div class="brand"><span class="logo">ImobiLusa</span><span class="brand-sub">Imobiliário com IA</span></div>
+    <nav class="nav-links"><a href="#comprar">Comprar</a><a href="#avaliar">Avaliar com IA</a></nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-inner">
+    <h1>Encontra a tua casa perfeita em Portugal</h1>
+    <p>Compra, vende ou avalia com a nossa IA — simples e rápido.</p>
+    <div class="cta"><a class="btn btn-primary" href="#comprar">Explorar imóveis</a><a class="btn btn-ghost" href="#avaliar">Avaliar com IA</a></div>
+  </div>
+</section>
+
+<section id="comprar" class="section">
+  <div class="container">
+    <h2 class="section-title">Destaques</h2>
+    <div id="props" class="grid"></div>
+  </div>
+</section>
+
+<section id="avaliar" class="section alt">
+  <div class="container">
+    <h2 class="section-title">Avaliação Rápida com IA</h2>
+    <p class="section-sub">Carrega fotos (opcional). A IA sinaliza humidade, fissuras e outros aspetos e ajusta a estimativa.</p>
+    <div class="eval-box">
+      <div class="eval-row"><input id="ia-fotos" type="file" multiple accept="image/*"><button id="btn-avaliar" class="btn btn-primary">Calcular estimativa</button></div>
+      <div id="ia-status" class="status"></div>
+      <div id="resultado" class="result"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer"><div class="container foot"><p>© 2025 ImobiLusa</p></div></footer>
+
+<script>
+const fmtEUR=n=>Number(n||0).toLocaleString('pt-PT',{style:'currency',currency:'EUR'});
+function safeJoin(parts){return parts.filter(x=>x&&x!=='undefined').join(', ');}
+async function fetchProperties(){const u='data/properties.json?v='+Date.now(); const r=await fetch(u); return r.ok?await r.json():[];}
+function card(p){const img=(p.media&&p.media[0]&&(p.media[0].thumb||p.media[0].url))||'https://picsum.photos/seed/imobilusa/480/320';
+  const loc=safeJoin([p.location&&p.location.parish,p.location&&p.location.city]);
+  return `<article class="card"><div class="card-img" style="background-image:url('${img}')"><span class="badge">${p.typology||'T2'}</span><span class="price">${fmtEUR(p.price)}</span></div><div class="card-body"><h3>${p.title||'Imóvel'}</h3><div class="meta">📍 ${loc||'Portugal'}</div><div class="meta">🛏️ ${p.bedrooms??2} · 🛁 ${p.bathrooms??1} · 📐 ${p.area??80} m²</div><div class="actions"><button class="btn btn-sm" onclick="alert('Detalhes em breve')">Ver detalhes</button></div></div></article>`;}
+async function boot(){const data=await fetchProperties(); document.getElementById('props').innerHTML=data.slice(0,8).map(card).join('');}; boot();
+
+document.getElementById('btn-avaliar').addEventListener('click', async ()=>{
+  const files=document.getElementById('ia-fotos').files; const status=t=>document.getElementById('ia-status').textContent=t||'';
+  let base=250000, result={deduct:0,reasons:['• Sem fotos: sem ajustes por condição.']};
+  if(files&&files.length){ result=await (window.aiAnalyzePhotos?window.aiAnalyzePhotos(files,status):{deduct:0,reasons:['• IA não carregada.']}); }
+  const final=Math.round(base*(1-result.deduct));
+  document.getElementById('resultado').innerHTML=`<div class="report"><h3>Estimativa de mercado</h3><p>Preço base: <b>${fmtEUR(base)}</b></p><p>Ajuste por fotos: -${Math.round(result.deduct*100)}%</p><p>Preço estimado: <b>${fmtEUR(final)}</b></p><div class="reasons">${result.reasons.map(r=>'• '+r).join('<br>')}</div></div>`;
+});
+</script>
+
+<script src="assets/js/ai-global.js"></script>
+<script src="assets/js/patches-global.js"></script>
+</body>
+</html>

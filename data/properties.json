@@ -1,66 +1,3601 @@
 [
   {
     "id": 1,
-    "title": "T1 em Coimbra",
-    "price": 218183,
+    "title": "Moradia em Braga",
+    "typology": "Moradia",
+    "area": 118,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "price": 338307,
     "location": {
-      "city": "Coimbra"
+      "city": "Braga"
     },
     "media": [
       {
-        "url": "https://picsum.photos/seed/test/800/600"
+        "url": "https://picsum.photos/seed/Braga1/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga1/480/320"
       }
     ]
   },
   {
     "id": 2,
-    "title": "T2 em Lisboa",
-    "price": 203195,
+    "title": "T0 em Aveiro",
+    "typology": "T0",
+    "area": 208,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 468930,
     "location": {
-      "city": "Lisboa"
+      "city": "Aveiro"
     },
     "media": [
       {
-        "url": "https://picsum.photos/seed/test/800/600"
+        "url": "https://picsum.photos/seed/Aveiro2/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro2/480/320"
       }
     ]
   },
   {
     "id": 3,
-    "title": "T3 em Lisboa",
-    "price": 238171,
+    "title": "T1 em Leiria",
+    "typology": "T1",
+    "area": 172,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 317693,
     "location": {
-      "city": "Lisboa"
+      "city": "Leiria"
     },
     "media": [
       {
-        "url": "https://picsum.photos/seed/test/800/600"
+        "url": "https://picsum.photos/seed/Leiria3/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria3/480/320"
       }
     ]
   },
   {
     "id": 4,
-    "title": "T4 em Coimbra",
-    "price": 161355,
+    "title": "Moradia em Coimbra",
+    "typology": "Moradia",
+    "area": 215,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "price": 589529,
     "location": {
       "city": "Coimbra"
     },
     "media": [
       {
-        "url": "https://picsum.photos/seed/test/800/600"
+        "url": "https://picsum.photos/seed/Coimbra4/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra4/480/320"
       }
     ]
   },
   {
     "id": 5,
-    "title": "T5 em Coimbra",
-    "price": 166138,
+    "title": "Moradia em Leiria",
+    "typology": "Moradia",
+    "area": 239,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "price": 571217,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria5/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria5/480/320"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "T0 em Leiria",
+    "typology": "T0",
+    "area": 218,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 400937,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria6/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria6/480/320"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "T0 em Lisboa",
+    "typology": "T0",
+    "area": 260,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 977287,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa7/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa7/480/320"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "T1 em Aveiro",
+    "typology": "T1",
+    "area": 61,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 129106,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro8/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro8/480/320"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "T1 em Coimbra",
+    "typology": "T1",
+    "area": 125,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 260487,
     "location": {
       "city": "Coimbra"
     },
     "media": [
       {
-        "url": "https://picsum.photos/seed/test/800/600"
+        "url": "https://picsum.photos/seed/Coimbra9/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra9/480/320"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Moradia em Porto",
+    "typology": "Moradia",
+    "area": 220,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "price": 819417,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto10/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto10/480/320"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Moradia em Viseu",
+    "typology": "Moradia",
+    "area": 296,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "price": 656818,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu11/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu11/480/320"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "T0 em Braga",
+    "typology": "T0",
+    "area": 91,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 190166,
+    "location": {
+      "city": "Braga"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga12/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga12/480/320"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "T1 em Évora",
+    "typology": "T1",
+    "area": 208,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 394089,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora13/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora13/480/320"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "T2 em Leiria",
+    "typology": "T2",
+    "area": 214,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "price": 383456,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria14/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria14/480/320"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Moradia em Aveiro",
+    "typology": "Moradia",
+    "area": 229,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "price": 590769,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro15/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro15/480/320"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Moradia em Lisboa",
+    "typology": "Moradia",
+    "area": 195,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "price": 964891,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa16/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa16/480/320"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "T3 em Porto",
+    "typology": "T3",
+    "area": 201,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "price": 706707,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto17/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto17/480/320"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "T1 em Braga",
+    "typology": "T1",
+    "area": 215,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 486491,
+    "location": {
+      "city": "Braga"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga18/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga18/480/320"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "T3 em Setúbal",
+    "typology": "T3",
+    "area": 251,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "price": 731716,
+    "location": {
+      "city": "Setúbal"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal19/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal19/480/320"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "T3 em Évora",
+    "typology": "T3",
+    "area": 87,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "price": 174075,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora20/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora20/480/320"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "T1 em Évora",
+    "typology": "T1",
+    "area": 233,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 451780,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora21/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora21/480/320"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "T4 em Faro",
+    "typology": "T4",
+    "area": 165,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "price": 469121,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro22/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro22/480/320"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "T0 em Braga",
+    "typology": "T0",
+    "area": 64,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 133101,
+    "location": {
+      "city": "Braga"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga23/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga23/480/320"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "T4 em Aveiro",
+    "typology": "T4",
+    "area": 125,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 327073,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro24/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro24/480/320"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Moradia em Porto",
+    "typology": "Moradia",
+    "area": 189,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "price": 739333,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto25/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto25/480/320"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "T2 em Leiria",
+    "typology": "T2",
+    "area": 195,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "price": 371764,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria26/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria26/480/320"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "T4 em Viseu",
+    "typology": "T4",
+    "area": 176,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "price": 350987,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu27/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu27/480/320"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "T2 em Viseu",
+    "typology": "T2",
+    "area": 183,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "price": 326140,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu28/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu28/480/320"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "T2 em Coimbra",
+    "typology": "T2",
+    "area": 136,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "price": 325129,
+    "location": {
+      "city": "Coimbra"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra29/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra29/480/320"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "T4 em Coimbra",
+    "typology": "T4",
+    "area": 212,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "price": 507205,
+    "location": {
+      "city": "Coimbra"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra30/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra30/480/320"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "T2 em Évora",
+    "typology": "T2",
+    "area": 137,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "price": 265750,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora31/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora31/480/320"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "T3 em Aveiro",
+    "typology": "T3",
+    "area": 173,
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "price": 423606,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro32/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro32/480/320"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "T2 em Braga",
+    "typology": "T2",
+    "area": 231,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 575229,
+    "location": {
+      "city": "Braga"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga33/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga33/480/320"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "T3 em Viseu",
+    "typology": "T3",
+    "area": 115,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 245798,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu34/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu34/480/320"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "T3 em Leiria",
+    "typology": "T3",
+    "area": 64,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "price": 121462,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria35/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria35/480/320"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "T4 em Setúbal",
+    "typology": "T4",
+    "area": 229,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "price": 713647,
+    "location": {
+      "city": "Setúbal"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal36/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal36/480/320"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "T3 em Viseu",
+    "typology": "T3",
+    "area": 153,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "price": 318475,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu37/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu37/480/320"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "T4 em Setúbal",
+    "typology": "T4",
+    "area": 134,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 431319,
+    "location": {
+      "city": "Setúbal"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal38/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal38/480/320"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "T1 em Faro",
+    "typology": "T1",
+    "area": 50,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 125534,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro39/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro39/480/320"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "T2 em Faro",
+    "typology": "T2",
+    "area": 159,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "price": 449006,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro40/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro40/480/320"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "T1 em Leiria",
+    "typology": "T1",
+    "area": 191,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 318046,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria41/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria41/480/320"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "T3 em Leiria",
+    "typology": "T3",
+    "area": 91,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "price": 176989,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria42/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria42/480/320"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "T4 em Faro",
+    "typology": "T4",
+    "area": 67,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "price": 214043,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro43/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro43/480/320"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "T3 em Leiria",
+    "typology": "T3",
+    "area": 180,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "price": 376363,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria44/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria44/480/320"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "T3 em Setúbal",
+    "typology": "T3",
+    "area": 224,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "price": 626287,
+    "location": {
+      "city": "Setúbal"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal45/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal45/480/320"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "T2 em Braga",
+    "typology": "T2",
+    "area": 210,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "price": 460541,
+    "location": {
+      "city": "Braga"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga46/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga46/480/320"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "T0 em Viseu",
+    "typology": "T0",
+    "area": 219,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 366401,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu47/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu47/480/320"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "T0 em Lisboa",
+    "typology": "T0",
+    "area": 147,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 600748,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa48/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa48/480/320"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "T4 em Coimbra",
+    "typology": "T4",
+    "area": 66,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 173080,
+    "location": {
+      "city": "Coimbra"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra49/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra49/480/320"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "T1 em Faro",
+    "typology": "T1",
+    "area": 106,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 284588,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro50/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro50/480/320"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "T4 em Évora",
+    "typology": "T4",
+    "area": 252,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "price": 510463,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora51/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora51/480/320"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "T0 em Leiria",
+    "typology": "T0",
+    "area": 42,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 75331,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria52/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria52/480/320"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "T1 em Porto",
+    "typology": "T1",
+    "area": 80,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 274552,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto53/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto53/480/320"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "T0 em Faro",
+    "typology": "T0",
+    "area": 81,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 206639,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro54/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro54/480/320"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "T4 em Braga",
+    "typology": "T4",
+    "area": 40,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "price": 104338,
+    "location": {
+      "city": "Braga"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga55/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga55/480/320"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "T2 em Lisboa",
+    "typology": "T2",
+    "area": 190,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 772021,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa56/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa56/480/320"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "T3 em Setúbal",
+    "typology": "T3",
+    "area": 217,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "price": 651319,
+    "location": {
+      "city": "Setúbal"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal57/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal57/480/320"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "T4 em Viseu",
+    "typology": "T4",
+    "area": 48,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "price": 105292,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu58/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu58/480/320"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "T1 em Faro",
+    "typology": "T1",
+    "area": 217,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 552942,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro59/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro59/480/320"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "T2 em Setúbal",
+    "typology": "T2",
+    "area": 101,
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "price": 272779,
+    "location": {
+      "city": "Setúbal"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal60/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal60/480/320"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Moradia em Porto",
+    "typology": "Moradia",
+    "area": 205,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "price": 758487,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto61/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto61/480/320"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "T4 em Coimbra",
+    "typology": "T4",
+    "area": 105,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "price": 260493,
+    "location": {
+      "city": "Coimbra"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra62/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra62/480/320"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "T4 em Porto",
+    "typology": "T4",
+    "area": 190,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "price": 692451,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto63/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto63/480/320"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "T4 em Lisboa",
+    "typology": "T4",
+    "area": 134,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "price": 644677,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa64/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa64/480/320"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Moradia em Viseu",
+    "typology": "Moradia",
+    "area": 104,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 216588,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu65/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu65/480/320"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "T1 em Aveiro",
+    "typology": "T1",
+    "area": 60,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 122198,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro66/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro66/480/320"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "T0 em Viseu",
+    "typology": "T0",
+    "area": 98,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 156959,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu67/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu67/480/320"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "T2 em Lisboa",
+    "typology": "T2",
+    "area": 150,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "price": 608740,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa68/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa68/480/320"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "T0 em Setúbal",
+    "typology": "T0",
+    "area": 78,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 205126,
+    "location": {
+      "city": "Setúbal"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal69/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal69/480/320"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "T3 em Porto",
+    "typology": "T3",
+    "area": 163,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "price": 545476,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto70/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto70/480/320"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Moradia em Viseu",
+    "typology": "Moradia",
+    "area": 121,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "price": 288500,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu71/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu71/480/320"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "T4 em Porto",
+    "typology": "T4",
+    "area": 232,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "price": 844973,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto72/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto72/480/320"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "T2 em Lisboa",
+    "typology": "T2",
+    "area": 84,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 377279,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa73/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa73/480/320"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "T1 em Viseu",
+    "typology": "T1",
+    "area": 89,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 154775,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu74/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu74/480/320"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "T4 em Braga",
+    "typology": "T4",
+    "area": 59,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "price": 148229,
+    "location": {
+      "city": "Braga"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga75/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga75/480/320"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "T0 em Leiria",
+    "typology": "T0",
+    "area": 239,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 389119,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria76/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria76/480/320"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "T0 em Lisboa",
+    "typology": "T0",
+    "area": 170,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 715267,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa77/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa77/480/320"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "T2 em Lisboa",
+    "typology": "T2",
+    "area": 68,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "price": 293801,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa78/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa78/480/320"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "T4 em Setúbal",
+    "typology": "T4",
+    "area": 74,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "price": 214681,
+    "location": {
+      "city": "Setúbal"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal79/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal79/480/320"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "T4 em Aveiro",
+    "typology": "T4",
+    "area": 259,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "price": 618090,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro80/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro80/480/320"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "T4 em Faro",
+    "typology": "T4",
+    "area": 57,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 177235,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro81/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro81/480/320"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Moradia em Setúbal",
+    "typology": "Moradia",
+    "area": 231,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "price": 755269,
+    "location": {
+      "city": "Setúbal"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal82/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal82/480/320"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Moradia em Évora",
+    "typology": "Moradia",
+    "area": 216,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "price": 486371,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora83/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora83/480/320"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "T0 em Viseu",
+    "typology": "T0",
+    "area": 222,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 395766,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu84/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu84/480/320"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "T3 em Braga",
+    "typology": "T3",
+    "area": 187,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "price": 427853,
+    "location": {
+      "city": "Braga"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga85/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga85/480/320"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "T2 em Faro",
+    "typology": "T2",
+    "area": 148,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "price": 405752,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro86/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro86/480/320"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "T3 em Braga",
+    "typology": "T3",
+    "area": 226,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "price": 582135,
+    "location": {
+      "city": "Braga"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga87/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga87/480/320"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "T3 em Faro",
+    "typology": "T3",
+    "area": 121,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "price": 359641,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro88/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro88/480/320"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "T4 em Braga",
+    "typology": "T4",
+    "area": 84,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "price": 229480,
+    "location": {
+      "city": "Braga"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga89/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga89/480/320"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "T4 em Coimbra",
+    "typology": "T4",
+    "area": 66,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "price": 168039,
+    "location": {
+      "city": "Coimbra"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra90/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra90/480/320"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "T3 em Porto",
+    "typology": "T3",
+    "area": 154,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "price": 536727,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto91/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto91/480/320"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "T3 em Faro",
+    "typology": "T3",
+    "area": 103,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "price": 313360,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro92/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro92/480/320"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "title": "T1 em Viseu",
+    "typology": "T1",
+    "area": 87,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 154707,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu93/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu93/480/320"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "T3 em Aveiro",
+    "typology": "T3",
+    "area": 129,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "price": 292303,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro94/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro94/480/320"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "T2 em Aveiro",
+    "typology": "T2",
+    "area": 77,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "price": 164583,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro95/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro95/480/320"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "title": "T4 em Setúbal",
+    "typology": "T4",
+    "area": 241,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "price": 727091,
+    "location": {
+      "city": "Setúbal"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal96/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal96/480/320"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "T1 em Porto",
+    "typology": "T1",
+    "area": 145,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 436645,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto97/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto97/480/320"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "T2 em Viseu",
+    "typology": "T2",
+    "area": 252,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "price": 504470,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu98/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu98/480/320"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "T0 em Porto",
+    "typology": "T0",
+    "area": 85,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 242223,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto99/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto99/480/320"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "T3 em Faro",
+    "typology": "T3",
+    "area": 129,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "price": 357554,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro100/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro100/480/320"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "title": "T0 em Aveiro",
+    "typology": "T0",
+    "area": 221,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 426534,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro101/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro101/480/320"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "T3 em Coimbra",
+    "typology": "T3",
+    "area": 259,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "price": 650086,
+    "location": {
+      "city": "Coimbra"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra102/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra102/480/320"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "T1 em Aveiro",
+    "typology": "T1",
+    "area": 164,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 376328,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro103/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro103/480/320"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "T1 em Coimbra",
+    "typology": "T1",
+    "area": 248,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 562937,
+    "location": {
+      "city": "Coimbra"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra104/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra104/480/320"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Moradia em Évora",
+    "typology": "Moradia",
+    "area": 116,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "price": 255885,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora105/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora105/480/320"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "T2 em Leiria",
+    "typology": "T2",
+    "area": 61,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "price": 108217,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria106/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria106/480/320"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Moradia em Leiria",
+    "typology": "Moradia",
+    "area": 123,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "price": 281703,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria107/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria107/480/320"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "title": "T4 em Faro",
+    "typology": "T4",
+    "area": 191,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "price": 562977,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro108/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro108/480/320"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "T1 em Braga",
+    "typology": "T1",
+    "area": 165,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 387531,
+    "location": {
+      "city": "Braga"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga109/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga109/480/320"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Moradia em Lisboa",
+    "typology": "Moradia",
+    "area": 279,
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "price": 1435394,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa110/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa110/480/320"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "title": "T1 em Aveiro",
+    "typology": "T1",
+    "area": 115,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 272566,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro111/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro111/480/320"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "title": "T1 em Leiria",
+    "typology": "T1",
+    "area": 59,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 108087,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria112/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria112/480/320"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "T2 em Porto",
+    "typology": "T2",
+    "area": 110,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "price": 383011,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto113/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto113/480/320"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "T0 em Évora",
+    "typology": "T0",
+    "area": 54,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 91322,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora114/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora114/480/320"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Moradia em Setúbal",
+    "typology": "Moradia",
+    "area": 255,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "price": 862915,
+    "location": {
+      "city": "Setúbal"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal115/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal115/480/320"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "title": "T3 em Porto",
+    "typology": "T3",
+    "area": 237,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "price": 833296,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto116/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto116/480/320"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Moradia em Setúbal",
+    "typology": "Moradia",
+    "area": 175,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 554295,
+    "location": {
+      "city": "Setúbal"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal117/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal117/480/320"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "title": "T1 em Braga",
+    "typology": "T1",
+    "area": 72,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 169749,
+    "location": {
+      "city": "Braga"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga118/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga118/480/320"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "title": "T1 em Setúbal",
+    "typology": "T1",
+    "area": 41,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 114804,
+    "location": {
+      "city": "Setúbal"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal119/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal119/480/320"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "title": "T4 em Setúbal",
+    "typology": "T4",
+    "area": 162,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "price": 471472,
+    "location": {
+      "city": "Setúbal"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal120/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal120/480/320"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "title": "T4 em Porto",
+    "typology": "T4",
+    "area": 50,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "price": 173831,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto121/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto121/480/320"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "title": "T3 em Leiria",
+    "typology": "T3",
+    "area": 154,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "price": 292058,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria122/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria122/480/320"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "title": "T2 em Coimbra",
+    "typology": "T2",
+    "area": 260,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "price": 632517,
+    "location": {
+      "city": "Coimbra"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra123/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra123/480/320"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Moradia em Évora",
+    "typology": "Moradia",
+    "area": 203,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "price": 446634,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora124/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora124/480/320"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "title": "T1 em Braga",
+    "typology": "T1",
+    "area": 211,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 445273,
+    "location": {
+      "city": "Braga"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga125/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga125/480/320"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "title": "T0 em Leiria",
+    "typology": "T0",
+    "area": 66,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 119562,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria126/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria126/480/320"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "title": "T3 em Faro",
+    "typology": "T3",
+    "area": 102,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 292414,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro127/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro127/480/320"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "title": "T0 em Braga",
+    "typology": "T0",
+    "area": 44,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 98629,
+    "location": {
+      "city": "Braga"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga128/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga128/480/320"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "title": "T1 em Évora",
+    "typology": "T1",
+    "area": 136,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 260152,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora129/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora129/480/320"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "title": "T3 em Aveiro",
+    "typology": "T3",
+    "area": 251,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "price": 606619,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro130/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro130/480/320"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "title": "T3 em Faro",
+    "typology": "T3",
+    "area": 232,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "price": 628280,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro131/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro131/480/320"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "title": "T4 em Faro",
+    "typology": "T4",
+    "area": 188,
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "price": 587112,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro132/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro132/480/320"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "title": "T4 em Porto",
+    "typology": "T4",
+    "area": 130,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "price": 515389,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto133/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto133/480/320"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "title": "T4 em Leiria",
+    "typology": "T4",
+    "area": 119,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "price": 264271,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria134/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria134/480/320"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "title": "T4 em Porto",
+    "typology": "T4",
+    "area": 52,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "price": 201008,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto135/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto135/480/320"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "title": "T3 em Setúbal",
+    "typology": "T3",
+    "area": 224,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "price": 596936,
+    "location": {
+      "city": "Setúbal"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal136/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal136/480/320"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "title": "T3 em Porto",
+    "typology": "T3",
+    "area": 205,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 670316,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto137/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto137/480/320"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "title": "T2 em Aveiro",
+    "typology": "T2",
+    "area": 148,
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "price": 358122,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro138/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro138/480/320"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "title": "T2 em Faro",
+    "typology": "T2",
+    "area": 179,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "price": 504657,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro139/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro139/480/320"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "title": "T4 em Aveiro",
+    "typology": "T4",
+    "area": 97,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "price": 235596,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro140/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro140/480/320"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "title": "T2 em Viseu",
+    "typology": "T2",
+    "area": 108,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "price": 219078,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu141/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu141/480/320"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "title": "T2 em Évora",
+    "typology": "T2",
+    "area": 219,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "price": 394304,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora142/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora142/480/320"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "title": "T1 em Lisboa",
+    "typology": "T1",
+    "area": 68,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 293623,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa143/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa143/480/320"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "title": "T2 em Aveiro",
+    "typology": "T2",
+    "area": 211,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 471205,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro144/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro144/480/320"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "title": "Moradia em Aveiro",
+    "typology": "Moradia",
+    "area": 129,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "price": 341870,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro145/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro145/480/320"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "title": "T4 em Braga",
+    "typology": "T4",
+    "area": 158,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "price": 416767,
+    "location": {
+      "city": "Braga"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga146/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga146/480/320"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "title": "T4 em Porto",
+    "typology": "T4",
+    "area": 117,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "price": 442337,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto147/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto147/480/320"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "title": "T4 em Porto",
+    "typology": "T4",
+    "area": 256,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "price": 948215,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto148/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto148/480/320"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "title": "T4 em Aveiro",
+    "typology": "T4",
+    "area": 62,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "price": 156588,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro149/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro149/480/320"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "title": "Moradia em Leiria",
+    "typology": "Moradia",
+    "area": 296,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "price": 662639,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria150/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria150/480/320"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "title": "T2 em Évora",
+    "typology": "T2",
+    "area": 105,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "price": 211588,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora151/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora151/480/320"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "title": "T3 em Braga",
+    "typology": "T3",
+    "area": 174,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "price": 389938,
+    "location": {
+      "city": "Braga"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga152/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga152/480/320"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "title": "T0 em Porto",
+    "typology": "T0",
+    "area": 169,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 526687,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto153/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto153/480/320"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "title": "Moradia em Viseu",
+    "typology": "Moradia",
+    "area": 319,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 715263,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu154/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu154/480/320"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "title": "T3 em Leiria",
+    "typology": "T3",
+    "area": 48,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "price": 100065,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria155/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria155/480/320"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "title": "T3 em Coimbra",
+    "typology": "T3",
+    "area": 174,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "price": 432847,
+    "location": {
+      "city": "Coimbra"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra156/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra156/480/320"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "title": "T2 em Lisboa",
+    "typology": "T2",
+    "area": 131,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "price": 615197,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa157/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa157/480/320"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "title": "T3 em Évora",
+    "typology": "T3",
+    "area": 119,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "price": 239724,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora158/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora158/480/320"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "title": "T1 em Leiria",
+    "typology": "T1",
+    "area": 171,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 301507,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria159/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria159/480/320"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "title": "Moradia em Faro",
+    "typology": "Moradia",
+    "area": 127,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "price": 431384,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro160/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro160/480/320"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "title": "T2 em Leiria",
+    "typology": "T2",
+    "area": 240,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 464081,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria161/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria161/480/320"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "title": "T3 em Viseu",
+    "typology": "T3",
+    "area": 204,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "price": 396117,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu162/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu162/480/320"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "title": "Moradia em Aveiro",
+    "typology": "Moradia",
+    "area": 211,
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "price": 542531,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro163/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro163/480/320"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "title": "T2 em Viseu",
+    "typology": "T2",
+    "area": 47,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 84119,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu164/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu164/480/320"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "title": "T2 em Porto",
+    "typology": "T2",
+    "area": 235,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "price": 729402,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto165/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto165/480/320"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "title": "T1 em Évora",
+    "typology": "T1",
+    "area": 54,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 91631,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora166/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora166/480/320"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "title": "T4 em Porto",
+    "typology": "T4",
+    "area": 43,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 164786,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto167/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto167/480/320"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "title": "T3 em Évora",
+    "typology": "T3",
+    "area": 150,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "price": 316000,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora168/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora168/480/320"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "title": "Moradia em Faro",
+    "typology": "Moradia",
+    "area": 307,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "price": 942137,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro169/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro169/480/320"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "title": "Moradia em Setúbal",
+    "typology": "Moradia",
+    "area": 220,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 737224,
+    "location": {
+      "city": "Setúbal"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal170/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal170/480/320"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "title": "T3 em Setúbal",
+    "typology": "T3",
+    "area": 144,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "price": 429329,
+    "location": {
+      "city": "Setúbal"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Setúbal171/1200/800",
+        "thumb": "https://picsum.photos/seed/Setúbal171/480/320"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "title": "T3 em Évora",
+    "typology": "T3",
+    "area": 139,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "price": 256559,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora172/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora172/480/320"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "title": "Moradia em Leiria",
+    "typology": "Moradia",
+    "area": 163,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "price": 356206,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria173/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria173/480/320"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "title": "T4 em Faro",
+    "typology": "T4",
+    "area": 108,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "price": 315780,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro174/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro174/480/320"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "title": "Moradia em Aveiro",
+    "typology": "Moradia",
+    "area": 256,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "price": 737972,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro175/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro175/480/320"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "title": "T3 em Faro",
+    "typology": "T3",
+    "area": 93,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "price": 280634,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro176/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro176/480/320"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "title": "T3 em Lisboa",
+    "typology": "T3",
+    "area": 260,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "price": 1227750,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa177/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa177/480/320"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "title": "T2 em Coimbra",
+    "typology": "T2",
+    "area": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "price": 484574,
+    "location": {
+      "city": "Coimbra"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra178/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra178/480/320"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "title": "T3 em Lisboa",
+    "typology": "T3",
+    "area": 181,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "price": 818964,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa179/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa179/480/320"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "title": "T1 em Aveiro",
+    "typology": "T1",
+    "area": 96,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 207691,
+    "location": {
+      "city": "Aveiro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Aveiro180/1200/800",
+        "thumb": "https://picsum.photos/seed/Aveiro180/480/320"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "title": "T0 em Lisboa",
+    "typology": "T0",
+    "area": 47,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 200238,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa181/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa181/480/320"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "title": "Moradia em Porto",
+    "typology": "Moradia",
+    "area": 320,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 1192499,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto182/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto182/480/320"
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "title": "T0 em Porto",
+    "typology": "T0",
+    "area": 113,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 328089,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto183/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto183/480/320"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "title": "T4 em Évora",
+    "typology": "T4",
+    "area": 120,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "price": 245439,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora184/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora184/480/320"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "title": "T3 em Lisboa",
+    "typology": "T3",
+    "area": 128,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "price": 612958,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa185/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa185/480/320"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "title": "T0 em Viseu",
+    "typology": "T0",
+    "area": 187,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 298862,
+    "location": {
+      "city": "Viseu"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Viseu186/1200/800",
+        "thumb": "https://picsum.photos/seed/Viseu186/480/320"
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "title": "T1 em Évora",
+    "typology": "T1",
+    "area": 175,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 319508,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora187/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora187/480/320"
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "title": "Moradia em Porto",
+    "typology": "Moradia",
+    "area": 275,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "price": 1174442,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto188/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto188/480/320"
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "title": "T0 em Leiria",
+    "typology": "T0",
+    "area": 98,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 166948,
+    "location": {
+      "city": "Leiria"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Leiria189/1200/800",
+        "thumb": "https://picsum.photos/seed/Leiria189/480/320"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "title": "Moradia em Coimbra",
+    "typology": "Moradia",
+    "area": 296,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "price": 772351,
+    "location": {
+      "city": "Coimbra"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra190/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra190/480/320"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "title": "T4 em Coimbra",
+    "typology": "T4",
+    "area": 196,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 520115,
+    "location": {
+      "city": "Coimbra"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra191/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra191/480/320"
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "title": "T3 em Lisboa",
+    "typology": "T3",
+    "area": 102,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "price": 460132,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa192/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa192/480/320"
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "title": "T2 em Faro",
+    "typology": "T2",
+    "area": 121,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 350244,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro193/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro193/480/320"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "title": "T3 em Lisboa",
+    "typology": "T3",
+    "area": 137,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "price": 621140,
+    "location": {
+      "city": "Lisboa"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Lisboa194/1200/800",
+        "thumb": "https://picsum.photos/seed/Lisboa194/480/320"
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "title": "T2 em Évora",
+    "typology": "T2",
+    "area": 92,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "price": 181106,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora195/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora195/480/320"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "title": "T1 em Porto",
+    "typology": "T1",
+    "area": 212,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 672211,
+    "location": {
+      "city": "Porto"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Porto196/1200/800",
+        "thumb": "https://picsum.photos/seed/Porto196/480/320"
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "title": "Moradia em Braga",
+    "typology": "Moradia",
+    "area": 93,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "price": 236155,
+    "location": {
+      "city": "Braga"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Braga197/1200/800",
+        "thumb": "https://picsum.photos/seed/Braga197/480/320"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "title": "Moradia em Coimbra",
+    "typology": "Moradia",
+    "area": 290,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "price": 817264,
+    "location": {
+      "city": "Coimbra"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Coimbra198/1200/800",
+        "thumb": "https://picsum.photos/seed/Coimbra198/480/320"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "title": "T1 em Évora",
+    "typology": "T1",
+    "area": 156,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "price": 274923,
+    "location": {
+      "city": "Évora"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Évora199/1200/800",
+        "thumb": "https://picsum.photos/seed/Évora199/480/320"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "title": "T3 em Faro",
+    "typology": "T3",
+    "area": 99,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "price": 282880,
+    "location": {
+      "city": "Faro"
+    },
+    "media": [
+      {
+        "url": "https://picsum.photos/seed/Faro200/1200/800",
+        "thumb": "https://picsum.photos/seed/Faro200/480/320"
       }
     ]
   }

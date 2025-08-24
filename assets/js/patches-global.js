@@ -1,1 +1,1 @@
-// patches-global placeholder
+(function(){const of=window.fetch.bind(window);window.fetch=function(inp,init){try{let url=typeof inp==='string'?inp:(inp&&inp.url)||'';if(typeof url==='string'){if(url.includes('docs/data/properties.json')) inp=url.replace('docs/data/properties.json','data/properties.json');if(/data\/properties\.json(\?.*)?$/i.test(inp)){inp+=(inp.includes('?')?'&':'?')+'v='+Date.now();}}}catch(e){}return of(inp,init);};})();
